@@ -92,7 +92,7 @@ A list of recent papers about GNN methods applied in NLP areas. Contributed by Y
 
 
 
-## Coference
+## According to Conference
 
 ***NAACL 2019***
 

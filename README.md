@@ -1,6 +1,6 @@
 # GNN4NLP-Papers
 
-A list of recent papers about GNN methods applied in NLP areas. Contributed by Yuqiang Xie, *National Engineering Laboratory for Information Security Technologies, IIE, CAS*.
+A list of recent papers about GNN methods applied in NLP areas.
 
 
 

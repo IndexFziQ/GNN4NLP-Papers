@@ -1,4 +1,5 @@
 # GNN4NLP-Papers
+
 A list of recent papers about GNN methods applied in NLP areas. Contributed by Yuqiang Xie, *National Engineering Laboratory for Information Security Technologies, IIE, CAS*.
 
 
@@ -39,7 +40,9 @@ A list of recent papers about GNN methods applied in NLP areas. Contributed by Y
 
 7. **DialogueGCN A Graph Convolutional Neural Network for Emotion Recognition in Conversation**. *Deepanway Ghosal, Navonil Majumder, Soujanya Poria, Niyati Chhaya and Alexander Gelbukh.* ***EMNLP 2019*** [[pdf](https://arxiv.org/abs/1908.11540)]
 
-   
+8. **GEAR: Graph-based Evidence Aggregating and Reasoning for Fact Verification.** *Jie Zhou, Xu Han, Cheng Yang, Zhiyuan Liu, Lifeng Wang, Changcheng Li and Maosong Sun.*  ***ACL 2019*** [[pdf](https://www.aclweb.org/anthology/P19-1085)] [[code](https://github.com/thunlp/GEAR)]
+
+    
 
 ### Information Extraction
 
@@ -94,7 +97,7 @@ A list of recent papers about GNN methods applied in NLP areas. Contributed by Y
 
 ## According to Conference
 
-***NAACL 2019***
+***NAACL-HLT 2019***
 
 1. **BAG: Bi-directional Attention Entity Graph Convolutional Network for Multi-hop Reasoning Question Answering.** *Yu Cao, Meng Fang and Dacheng Tao.* ***NAACL-HLT 2019***. [[pdf](https://www.aclweb.org/anthology/N19-1032.pdf)] [[code](https://github.com/caoyu1991/BAG)]
 
@@ -132,15 +135,16 @@ A list of recent papers about GNN methods applied in NLP areas. Contributed by Y
 ***ACL 2019***
 
 1. **Attention Guided Graph Convolutional Networks for Relation Extraction**. *Zhijiang Guo, Yan Zhang and Wei Lu.* ***ACL 2019*** [[pdf](http://www.statnlp.org/paper/2019/attention-guided-graph-convolutional-networks-relation-extraction.html)] [[code](https://github.com/Cartus/AGGCN_TACRED)]
-2. **Cognitive Graph for Multi-Hop Reading Comprehension at Scale**. *Ming Ding, Chang Zhou, Qibin Chen, Hongxia Yang and Jie Tang.* ***ACL 2019*** [[pdf](https://arxiv.org/abs/1905.05460)] [[code](https://github.com/THUDM/CogQA)]
-3. **Coherent Comment Generation for Chinese Articles with a Graph-to-Sequence Model**. *Wei Li, Jingjing Xu, Yancheng He, Shengli Yan, Yunfang Wu and Xu sun.* ***ACL 2019*** [[pdf](https://arxiv.org/abs/1906.01231)] [[code](https://github.com/lancopku/Graph-to-seq-comment-generation)]
-4. **Dynamically Fused Graph Network for Multi-hop Reasoning**. *Yunxuan Xiao, Yanru Qu, Lin Qiu, Hao Zhou, Lei Li, Weinan Zhang and Yong Yu.* ***ACL 2019*** [[pdf](https://arxiv.org/abs/1905.06933)]
-5. **Encoding Social Information with Graph Convolutional Networks for Political Perspective Detection in News Media**. *Chang Li and Dan Goldwasser*. ***ACL 2019*** [[pdf](https://www.cs.purdue.edu/homes/dgoldwas//downloads/papers/LiG_acl_2019.pdf)]
-6. **Graph Neural Networks with Generated Parameters for Relation Extraction**. *Hao Zhu, Yankai Lin, Zhiyuan Liu, Jie Fu, Tat-seng Chua and Maosong Sun.* ***ACL 2019*** [[pdf](https://arxiv.org/abs/1902.00756)]
-7. **Incorporating Syntactic and Semantic Information in Word Embeddings using Graph Convolutional Networks**. *Shikhar Vashishth, Manik Bhandari, Prateek Yadav, Piyush Rai, Chiranjib Bhattacharyya and Partha Talukdar*. ***ACL 2019*** [[pdf](https://arxiv.org/abs/1809.04283)] [[code](http://github.com/malllabiisc/WordGCN)]
-8. **GraphRel: Modeling Text as Relational Graphs for Joint Entity and Relation Extraction**. *Tsu-Jui Fu, Peng-Hsuan Li and Wei-Yun Ma*. ***ACL 2019*** [[pdf](https://tsujuifu.github.io/projs/acl19_graph-rel.html)] [[code](https://github.com/tsujuifu/pytorch_graph-rel)]
-9. **Multi-hop Reading Comprehension across Multiple Documents by Reasoning over Heterogeneous Graphs**. *Ming Tu, Guangtao Wang, Jing Huang, Yun Tang, Xiaodong He and Bowen Zhou.* ***ACL 2019*** [[pdf](https://arxiv.org/abs/1905.07374)]
-10. **Textbook Question Answering with Multi-modal Context Graph Understanding and Self-supervised Open-set Comprehension**. *Daesik Kim, Seonhoon Kim and Nojun Kwak.* ***ACL 2019*** [[pdf](https://arxiv.org/abs/1811.00232)]
+2. **GEAR: Graph-based Evidence Aggregating and Reasoning for Fact Verification.** *Jie Zhou, Xu Han, Cheng Yang, Zhiyuan Liu, Lifeng Wang, Changcheng Li and Maosong Sun.* ***ACL 2019*** [[pdf](https://www.aclweb.org/anthology/P19-1085)] [[code](https://github.com/thunlp/GEAR)]
+3. **Cognitive Graph for Multi-Hop Reading Comprehension at Scale**. *Ming Ding, Chang Zhou, Qibin Chen, Hongxia Yang and Jie Tang.* ***ACL 2019*** [[pdf](https://arxiv.org/abs/1905.05460)] [[code](https://github.com/THUDM/CogQA)]
+4. **Coherent Comment Generation for Chinese Articles with a Graph-to-Sequence Model**. *Wei Li, Jingjing Xu, Yancheng He, Shengli Yan, Yunfang Wu and Xu sun.* ***ACL 2019*** [[pdf](https://arxiv.org/abs/1906.01231)] [[code](https://github.com/lancopku/Graph-to-seq-comment-generation)]
+5. **Dynamically Fused Graph Network for Multi-hop Reasoning**. *Yunxuan Xiao, Yanru Qu, Lin Qiu, Hao Zhou, Lei Li, Weinan Zhang and Yong Yu.* ***ACL 2019*** [[pdf](https://arxiv.org/abs/1905.06933)]
+6. **Encoding Social Information with Graph Convolutional Networks for Political Perspective Detection in News Media**. *Chang Li and Dan Goldwasser*. ***ACL 2019*** [[pdf](https://www.cs.purdue.edu/homes/dgoldwas//downloads/papers/LiG_acl_2019.pdf)]
+7. **Graph Neural Networks with Generated Parameters for Relation Extraction**. *Hao Zhu, Yankai Lin, Zhiyuan Liu, Jie Fu, Tat-seng Chua and Maosong Sun.* ***ACL 2019*** [[pdf](https://arxiv.org/abs/1902.00756)]
+8. **Incorporating Syntactic and Semantic Information in Word Embeddings using Graph Convolutional Networks**. *Shikhar Vashishth, Manik Bhandari, Prateek Yadav, Piyush Rai, Chiranjib Bhattacharyya and Partha Talukdar*. ***ACL 2019*** [[pdf](https://arxiv.org/abs/1809.04283)] [[code](http://github.com/malllabiisc/WordGCN)]
+9. **GraphRel: Modeling Text as Relational Graphs for Joint Entity and Relation Extraction**. *Tsu-Jui Fu, Peng-Hsuan Li and Wei-Yun Ma*. ***ACL 2019*** [[pdf](https://tsujuifu.github.io/projs/acl19_graph-rel.html)] [[code](https://github.com/tsujuifu/pytorch_graph-rel)]
+10. **Multi-hop Reading Comprehension across Multiple Documents by Reasoning over Heterogeneous Graphs**. *Ming Tu, Guangtao Wang, Jing Huang, Yun Tang, Xiaodong He and Bowen Zhou.* ***ACL 2019*** [[pdf](https://arxiv.org/abs/1905.07374)]
+11. **Textbook Question Answering with Multi-modal Context Graph Understanding and Self-supervised Open-set Comprehension**. *Daesik Kim, Seonhoon Kim and Nojun Kwak.* ***ACL 2019*** [[pdf](https://arxiv.org/abs/1811.00232)]
 
 
 
@@ -162,3 +166,11 @@ A list of recent papers about GNN methods applied in NLP areas. Contributed by Y
 3. **Reasoning-Aware Graph Convolutional Network for Visual Question Answering**. [[pdf](https://openreview.net/pdf?id=SkgPvlSYwS)]
 4. **GraphFlow: Exploiting Conversation Flow with Graph Neural Networks for Conversational Machine Comprehension**. [[pdf](https://openreview.net/pdf?id=rkgi6JSYvB)]
 5. **MEMORY-BASED GRAPH NETWORKS**. [[pdf](https://openreview.net/pdf?id=r1laNeBYPB)]
+
+
+
+## Comprehensive GNN Paperlist
+
+[thunlp/GNNPapers](https://github.com/thunlp/GNNPapers)
+
+[nnzhan/Awesome-Graph-Neural-Networks](https://github.com/nnzhan/Awesome-Graph-Neural-Networks)

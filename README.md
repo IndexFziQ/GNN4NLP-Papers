@@ -60,7 +60,7 @@ A list of recent papers about GNN methods applied in NLP areas. Contributed by Y
 
 1. **Text Generation from Knowledge Graphs with Graph Transformers**. *Rik Koncel-Kedziorski, Dhanush Bekal, Yi Luan, Mirella Lapata and Hannaneh Hajishirzi*. ***NAACL-HLT 2019***. [[pdf](https://www.aclweb.org/anthology/N19-1238.pdf)] [[code](https://github.com/rikdz/GraphWriter)]
 
-2. **Coherent Comment Generation for Chinese Articles with a Graph-to-Sequence Model**. *Wei Li, Jingjing Xu, Yancheng He, Shengli Yan, Yunfang Wu and Xu sun.* ***ACL 2019*** [[pdf](https://arxiv.org/abs/1906.01231)] [[code](https://github.com/lancopku/Graph-to-seq-comment-generation)]
+2. **Coherent Comment Generation for Chinese Articles with a Graph-to-Sequence Model**. *Wei Li, Jingjing Xu, Yancheng He, Shengli Yan, Yunfang Wu and Xu Sun.* ***ACL 2019*** [[pdf](https://arxiv.org/abs/1906.01231)] [[code](https://github.com/lancopku/Graph-to-seq-comment-generation)]
 
 3. **Enhancing AMR-to-Text Generation with Dual Graph Representations**. *Leonardo F. R. Ribeiro, Claire Gardent and Iryna Gurevych.* ***EMNLP 2019*** [[pdf](https://arxiv.org/abs/1909.00352)]
 
@@ -82,7 +82,7 @@ A list of recent papers about GNN methods applied in NLP areas. Contributed by Y
 
 ### Visual Question Answering
 
-1. **Relation-Aware Graph Attention Network for Visual Question Answering**. *Linjie Li, Zhe Gan, Yu Cheng and Jingjing Liu.* [[pdf](https://arxiv.org/abs/1903.12314)]
+1. **Relation-Aware Graph Attention Network for Visual Question Answering**. *Linjie Li, Zhe Gan, Yu Cheng and Jingjing Liu.* ***ICCV 2019*** [[pdf](https://arxiv.org/abs/1903.12314)]
 
 2. **Language-Conditioned Graph Networks for Relational Reasoning**. *Ronghang Hu, Anna Rohrbach, Trevor Darrell and Kate Saenko.* ***ICCV 2019*** [[pdf](https://arxiv.org/abs/1905.04405)] [[code](http://ronghanghu.com/lcgn)]
 
@@ -127,7 +127,7 @@ A list of recent papers about GNN methods applied in NLP areas. Contributed by Y
 
 ***ICCV 2019***
 
-1. **Relation-Aware Graph Attention Network for Visual Question Answering**. *Linjie Li, Zhe Gan, Yu Cheng and Jingjing Liu.* [[pdf](https://arxiv.org/abs/1903.12314)]
+1. **Relation-Aware Graph Attention Network for Visual Question Answering**. *Linjie Li, Zhe Gan, Yu Cheng and Jingjing Liu.* ***ICCV 2019*** [[pdf](https://arxiv.org/abs/1903.12314)]
 2. **Language-Conditioned Graph Networks for Relational Reasoning**. *Ronghang Hu, Anna Rohrbach, Trevor Darrell and Kate Saenko.* ***ICCV 2019*** [[pdf](https://arxiv.org/abs/1905.04405)] [[code](http://ronghanghu.com/lcgn)]
 
 
@@ -137,7 +137,7 @@ A list of recent papers about GNN methods applied in NLP areas. Contributed by Y
 1. **Attention Guided Graph Convolutional Networks for Relation Extraction**. *Zhijiang Guo, Yan Zhang and Wei Lu.* ***ACL 2019*** [[pdf](http://www.statnlp.org/paper/2019/attention-guided-graph-convolutional-networks-relation-extraction.html)] [[code](https://github.com/Cartus/AGGCN_TACRED)]
 2. **GEAR: Graph-based Evidence Aggregating and Reasoning for Fact Verification.** *Jie Zhou, Xu Han, Cheng Yang, Zhiyuan Liu, Lifeng Wang, Changcheng Li and Maosong Sun.* ***ACL 2019*** [[pdf](https://www.aclweb.org/anthology/P19-1085)] [[code](https://github.com/thunlp/GEAR)]
 3. **Cognitive Graph for Multi-Hop Reading Comprehension at Scale**. *Ming Ding, Chang Zhou, Qibin Chen, Hongxia Yang and Jie Tang.* ***ACL 2019*** [[pdf](https://arxiv.org/abs/1905.05460)] [[code](https://github.com/THUDM/CogQA)]
-4. **Coherent Comment Generation for Chinese Articles with a Graph-to-Sequence Model**. *Wei Li, Jingjing Xu, Yancheng He, Shengli Yan, Yunfang Wu and Xu sun.* ***ACL 2019*** [[pdf](https://arxiv.org/abs/1906.01231)] [[code](https://github.com/lancopku/Graph-to-seq-comment-generation)]
+4. **Coherent Comment Generation for Chinese Articles with a Graph-to-Sequence Model**. *Wei Li, Jingjing Xu, Yancheng He, Shengli Yan, Yunfang Wu and Xu Sun.* ***ACL 2019*** [[pdf](https://arxiv.org/abs/1906.01231)] [[code](https://github.com/lancopku/Graph-to-seq-comment-generation)]
 5. **Dynamically Fused Graph Network for Multi-hop Reasoning**. *Yunxuan Xiao, Yanru Qu, Lin Qiu, Hao Zhou, Lei Li, Weinan Zhang and Yong Yu.* ***ACL 2019*** [[pdf](https://arxiv.org/abs/1905.06933)]
 6. **Encoding Social Information with Graph Convolutional Networks for Political Perspective Detection in News Media**. *Chang Li and Dan Goldwasser*. ***ACL 2019*** [[pdf](https://www.cs.purdue.edu/homes/dgoldwas//downloads/papers/LiG_acl_2019.pdf)]
 7. **Graph Neural Networks with Generated Parameters for Relation Extraction**. *Hao Zhu, Yankai Lin, Zhiyuan Liu, Jie Fu, Tat-seng Chua and Maosong Sun.* ***ACL 2019*** [[pdf](https://arxiv.org/abs/1902.00756)]

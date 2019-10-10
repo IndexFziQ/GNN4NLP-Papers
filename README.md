@@ -5,7 +5,7 @@ A list of recent papers about GNN methods applied in NLP areas. Contributed by Y
 
 ## Taxonomy
 
-#### Fundamental NLP Tasks
+### Fundamental NLP Tasks
 
 1. **Incorporating Syntactic and Semantic Information in Word Embeddings using Graph Convolutional Networks**. *Shikhar Vashishth, Manik Bhandari, Prateek Yadav, Piyush Rai, Chiranjib Bhattacharyya and Partha Talukdar*. ***ACL 2019*** [[pdf](https://arxiv.org/abs/1809.04283)] [[code](http://github.com/malllabiisc/WordGCN)]
 
@@ -13,7 +13,7 @@ A list of recent papers about GNN methods applied in NLP areas. Contributed by Y
 
    
 
-#### Text Classification
+### Text Classification
 
 1. **Aspect-based Sentiment Classification with Aspect-specific Graph Convolutional Networks**. *Chen Zhang, Qiuchi Li and Dawei Song.* ***EMNLP 2019*** [[pdf](https://arxiv.org/abs/1909.03477)]
 
@@ -23,7 +23,7 @@ A list of recent papers about GNN methods applied in NLP areas. Contributed by Y
 
    
 
-#### Question Answering
+### Question Answering
 
 1. **BAG: Bi-directional Attention Entity Graph Convolutional Network for Multi-hop Reasoning Question Answering.** *Yu Cao, Meng Fang and Dacheng Tao.* ***NAACL-HLT 2019***. [[pdf](https://www.aclweb.org/anthology/N19-1032.pdf)] [[code](https://github.com/caoyu1991/BAG)]
 
@@ -41,7 +41,7 @@ A list of recent papers about GNN methods applied in NLP areas. Contributed by Y
 
    
 
-#### Information Extraction
+### Information Extraction
 
 1. **Long-tail Relation Extraction via Knowledge Graph Embeddings and Graph Convolution Networks**. *Ningyu Zhang, Shumin Deng, Zhanlin Sun, Guanying Wang, Xi Chen, Wei Zhang and Huajun Chen*. ***NAACL-HLT 2019***. [[pdf](https://www.aclweb.org/anthology/N19-1306.pdf)]
 
@@ -53,7 +53,7 @@ A list of recent papers about GNN methods applied in NLP areas. Contributed by Y
 
    
 
-#### Text Generation
+### Text Generation
 
 1. **Text Generation from Knowledge Graphs with Graph Transformers**. *Rik Koncel-Kedziorski, Dhanush Bekal, Yi Luan, Mirella Lapata and Hannaneh Hajishirzi*. ***NAACL-HLT 2019***. [[pdf](https://www.aclweb.org/anthology/N19-1238.pdf)] [[code](https://github.com/rikdz/GraphWriter)]
 
@@ -63,13 +63,13 @@ A list of recent papers about GNN methods applied in NLP areas. Contributed by Y
 
    
 
-#### Knowledge Graph
+### Knowledge Graph
 
 1. **Estimating Node Importance in Knowledge Graphs Using Graph Neural Networks**. *Namyong Park, Andrey Kan, Xin Luna Dong, Tong Zhao and Christos Faloutsos.* ***KDD 2019*** [[pdf](https://www.kdd.org/kdd2019/accepted-papers/view/estimating-node-importance-in-knowledge-graphs-using-graph-neural-networks)]
 
    
 
-#### Social Network
+### Social Network
 
 1. **Abusive Language Detection with Graph Convolutional Networks**. *Pushkar Mishra, Marco Del Tredici, Helen Yannakoudakis and Ekaterina Shutova*. ***NAACL-HLT 2019***. [[pdf](https://www.aclweb.org/anthology/N19-1221.pdf)]
 
@@ -77,7 +77,7 @@ A list of recent papers about GNN methods applied in NLP areas. Contributed by Y
 
    
 
-#### Visual Question Answering
+### Visual Question Answering
 
 1. **Relation-Aware Graph Attention Network for Visual Question Answering**. *Linjie Li, Zhe Gan, Yu Cheng and Jingjing Liu.* [[pdf](https://arxiv.org/abs/1903.12314)]
 
@@ -85,7 +85,7 @@ A list of recent papers about GNN methods applied in NLP areas. Contributed by Y
 
    
 
-#### Theory
+### Theory
 
 1. **HetGNN: Heterogeneous Graph Neural Network**. *Chuxu Zhang, Dongjin Song, Chao Huang, Ananthram Swami and Nitesh V. Chawla.* ***KDD 2019*** [[pdf](https://www.kdd.org/kdd2019/accepted-papers/view/hetgnn-heterogeneous-graph-neural-network)]
 2. **GMNN: Graph Markov Neural Networks**. *Meng Qu, Yoshua Bengio and  Jian Tang.* ***ICML 2019*** [[pdf](https://arxiv.org/pdf/1905.06214.pdf)] [[code](https://github.com/DeepGraphLearning/GMNN)]

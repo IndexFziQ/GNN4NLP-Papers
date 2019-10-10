@@ -72,7 +72,7 @@ A list of recent papers about GNN methods applied in NLP areas. Contributed by Y
 
    
 
-### Social Network
+### Abnormal Text Detection
 
 1. **Abusive Language Detection with Graph Convolutional Networks**. *Pushkar Mishra, Marco Del Tredici, Helen Yannakoudakis and Ekaterina Shutova*. ***NAACL-HLT 2019***. [[pdf](https://www.aclweb.org/anthology/N19-1221.pdf)]
 

@@ -7,36 +7,79 @@ A list of recent papers about GNN methods applied in NLP areas. Every example fo
 
 - Application Area
 
+- Question Answering
+  - entity graph from raw text
+  - knowledge graph
+- Information Extraction
+- Text Generation
+- Knowledge Graph
+- Visual Question Answering
+- Theory
+
 ## Taxonomy:
 
 **NAACL 2019**
 
-1. **BAG: Bi-directional Attention Entity Graph Convolutional Network for Multi-hop Reasoning Question Answering.** [Yu Cao](https://aclweb.org/anthology/people/y/yu-cao/), [Meng Fang](https://aclweb.org/anthology/people/m/meng-fang/), [Dacheng Tao](https://aclweb.org/anthology/people/d/dacheng-tao/). [[pdf](https://www.aclweb.org/anthology/N19-1032.pdf)]
+1. **BAG: Bi-directional Attention Entity Graph Convolutional Network for Multi-hop Reasoning Question Answering.** *Yu Cao, Meng Fang and Dacheng Tao.* ***NAACL-HLT 2019***. [[pdf](https://www.aclweb.org/anthology/N19-1032.pdf)] [[code](https://github.com/caoyu1991/BAG)]
    - entity graph from raw text
    - QA, Multi-Hop Reasoning
-2. **Abusive Language Detection with Graph Convolutional Networks**. Pushkar Mishra](https://aclweb.org/anthology/people/p/pushkar-mishra/), [Marco Del Tredici](https://aclweb.org/anthology/people/m/marco-del-tredici/), [Helen Yannakoudakis](https://aclweb.org/anthology/people/h/helen-yannakoudakis/), [Ekaterina Shutova](https://aclweb.org/anthology/people/e/ekaterina-shutova/). [[pdf](https://www.aclweb.org/anthology/N19-1221.pdf)]
+2. **Abusive Language Detection with Graph Convolutional Networks**. *Pushkar Mishra, Marco Del Tredici, Helen Yannakoudakis and Ekaterina Shutova*. ***NAACL-HLT 2019***. [[pdf](https://www.aclweb.org/anthology/N19-1221.pdf)]
    - community structure, linguistic behavior of authors
    - Abusive Language Detection
-3. **Text Generation from Knowledge Graphs with Graph Transformers**. [Rik Koncel-Kedziorski](https://aclweb.org/anthology/people/r/rik-koncel-kedziorski/), [Dhanush Bekal](https://aclweb.org/anthology/people/d/dhanush-bekal/), [Yi Luan](https://aclweb.org/anthology/people/y/yi-luan/), [Mirella Lapata](https://aclweb.org/anthology/people/m/mirella-lapata/), [Hannaneh Hajishirzi](https://aclweb.org/anthology/people/h/hannaneh-hajishirzi/). [[pdf](https://www.aclweb.org/anthology/N19-1238.pdf)]
+3. **Text Generation from Knowledge Graphs with Graph Transformers**. *Rik Koncel-Kedziorski, Dhanush Bekal, Yi Luan, Mirella Lapata and Hannaneh Hajishirzi*. ***NAACL-HLT 2019***. [[pdf](https://www.aclweb.org/anthology/N19-1238.pdf)] [[code](https://github.com/rikdz/GraphWriter)]
    - Knowledge Graph
    - Text Generation
-4. **Question Answering by Reasoning Across Documents with Graph Convolutional Networks**. [Nicola De Cao](https://aclweb.org/anthology/people/n/nicola-de-cao/), [Wilker Aziz](https://aclweb.org/anthology/people/w/wilker-aziz/), [Ivan Titov](https://aclweb.org/anthology/people/i/ivan-titov/). [[pdf](https://www.aclweb.org/anthology/N19-1240.pdf)]
+4. **Question Answering by Reasoning Across Documents with Graph Convolutional Networks**. *Nicola De Cao, Wilker Aziz and Ivan Titov.* ***NAACL-HLT 2019***. [[pdf](https://www.aclweb.org/anthology/N19-1240.pdf)]
    - entity graph from raw text
    - QA, Multi-Hop Reasoning
-5. **Long-tail Relation Extraction via Knowledge Graph Embeddings and Graph Convolution Networks**. [Ningyu Zhang](https://aclweb.org/anthology/people/n/ningyu-zhang/), [Shumin Deng](https://aclweb.org/anthology/people/s/shumin-deng/), [Zhanlin Sun](https://aclweb.org/anthology/people/z/zhanlin-sun/), [Guanying Wang](https://aclweb.org/anthology/people/g/guanying-wang/), [Xi Chen](https://aclweb.org/anthology/people/x/xi-chen/), [Wei Zhang](https://aclweb.org/anthology/people/w/wei-zhang/), [Huajun Chen](https://aclweb.org/anthology/people/h/huajun-chen/). [[pdf](https://www.aclweb.org/anthology/N19-1306.pdf)]
+5. **Long-tail Relation Extraction via Knowledge Graph Embeddings and Graph Convolution Networks**. *Ningyu Zhang, Shumin Deng, Zhanlin Sun, Guanying Wang, Xi Chen, Wei Zhang and Huajun Chen*. ***NAACL-HLT 2019***. [[pdf](https://www.aclweb.org/anthology/N19-1306.pdf)]
    - Relation Graph
    - Relation Extraction
 
+***KDD 2019***
+
+1. **Estimating Node Importance in Knowledge Graphs Using Graph Neural Networks**. *Namyong Park, Andrey Kan, Xin Luna Dong, Tong Zhao and Christos Faloutsos.* ***KDD 2019*** [[pdf](https://www.kdd.org/kdd2019/accepted-papers/view/estimating-node-importance-in-knowledge-graphs-using-graph-neural-networks)]
+2. **HetGNN: Heterogeneous Graph Neural Network**. *Chuxu Zhang, Dongjin Song, Chao Huang, Ananthram Swami and Nitesh V. Chawla.* ***KDD 2019*** [[pdf](https://www.kdd.org/kdd2019/accepted-papers/view/hetgnn-heterogeneous-graph-neural-network)]
+
+***ICML 2019***
+
+1. **GMNN: Graph Markov Neural Networks**. *Meng Qu, Yoshua Bengio and  Jian Tang.* ***ICML 2019*** [[pdf](https://arxiv.org/pdf/1905.06214.pdf)] [[code](https://github.com/DeepGraphLearning/GMNN)]
+
+***ICCV 2019***
+
+1. **Relation-Aware Graph Attention Network for Visual Question Answering**. *Linjie Li, Zhe Gan, Yu Cheng and Jingjing Liu.* [[pdf](https://arxiv.org/abs/1903.12314)]
+2. **Language-Conditioned Graph Networks for Relational Reasoning**. *Ronghang Hu, Anna Rohrbach, Trevor Darrell and Kate Saenko.* ***ICCV 2019*** [[pdf](https://arxiv.org/abs/1905.04405)] [[code](http://ronghanghu.com/lcgn)]
+
+***ACL 2019***
+
+1. **Attention Guided Graph Convolutional Networks for Relation Extraction**. *Zhijiang Guo, Yan Zhang and Wei Lu.* ***ACL 2019*** [[pdf](http://www.statnlp.org/paper/2019/attention-guided-graph-convolutional-networks-relation-extraction.html)] [[code](https://github.com/Cartus/AGGCN_TACRED)]
+2. **Cognitive Graph for Multi-Hop Reading Comprehension at Scale**. *Ming Ding, Chang Zhou, Qibin Chen, Hongxia Yang and Jie Tang.* ***ACL 2019*** [[pdf](https://arxiv.org/abs/1905.05460)] [[code](https://github.com/THUDM/CogQA)]
+3. **Coherent Comment Generation for Chinese Articles with a Graph-to-Sequence Model**. *Wei Li, Jingjing Xu, Yancheng He, Shengli Yan, Yunfang Wu and Xu sun.* ***ACL 2019*** [[pdf](https://arxiv.org/abs/1906.01231)] [[code](https://github.com/lancopku/Graph-to-seq-comment-generation)]
+4. **Dynamically Fused Graph Network for Multi-hop Reasoning**. *Yunxuan Xiao, Yanru Qu, Lin Qiu, Hao Zhou, Lei Li, Weinan Zhang and Yong Yu.* ***ACL 2019*** [[pdf](https://arxiv.org/abs/1905.06933)]
+5. **Encoding Social Information with Graph Convolutional Networks for Political Perspective Detection in News Media**. *Chang Li and Dan Goldwasser*. ***ACL 2019*** [[pdf](https://www.cs.purdue.edu/homes/dgoldwas//downloads/papers/LiG_acl_2019.pdf)]
+6. **Graph Neural Networks with Generated Parameters for Relation Extraction**. *Hao Zhu, Yankai Lin, Zhiyuan Liu, Jie Fu, Tat-seng Chua and Maosong Sun.* ***ACL 2019*** [[pdf](https://arxiv.org/abs/1902.00756)]
+7. **Incorporating Syntactic and Semantic Information in Word Embeddings using Graph Convolutional Networks**. *Shikhar Vashishth, Manik Bhandari, Prateek Yadav, Piyush Rai, Chiranjib Bhattacharyya and Partha Talukdar*. ***ACL 2019*** [[pdf](https://arxiv.org/abs/1809.04283)] [[code](http://github.com/malllabiisc/WordGCN)]
+8. **GraphRel: Modeling Text as Relational Graphs for Joint Entity and Relation Extraction**. *Tsu-Jui Fu, Peng-Hsuan Li and Wei-Yun Ma*. ***ACL 2019*** [[pdf](https://tsujuifu.github.io/projs/acl19_graph-rel.html)] [[code](https://github.com/tsujuifu/pytorch_graph-rel)]
+9. **Multi-hop Reading Comprehension across Multiple Documents by Reasoning over Heterogeneous Graphs**. *Ming Tu, Guangtao Wang, Jing Huang, Yun Tang, Xiaodong He and Bowen Zhou.* ***ACL 2019*** [[pdf](https://arxiv.org/abs/1905.07374)]
+10. **Textbook Question Answering with Multi-modal Context Graph Understanding and Self-supervised Open-set Comprehension**. *Daesik Kim, Seonhoon Kim and Nojun Kwak.* ***ACL 2019*** [[pdf](https://arxiv.org/abs/1811.00232)]
 
 
-**IJCAI 2019**
 
-**ICML 2019**
+***EMNLP 2019***
 
-**ACL 2019**
+1. **A Lexicon-Based Graph Neural Network for Chinese NE**. *Tao Gui, Yicheng Zou and Qi Zhang.* ***EMNLP 2019*** [[pdf](http://qizhang.info/paper/emnlp-2019.ner.pdf)]
+2. **Aspect-based Sentiment Classification with Aspect-specific Graph Convolutional Networks**. *Chen Zhang, Qiuchi Li and Dawei Song.* ***EMNLP 2019*** [[pdf](https://arxiv.org/abs/1909.03477)]
+3. **DialogueGCN A Graph Convolutional Neural Network for Emotion Recognition in Conversation**. *Deepanway Ghosal, Navonil Majumder, Soujanya Poria, Niyati Chhaya and Alexander Gelbukh.* ***EMNLP 2019*** [[pdf](https://arxiv.org/abs/1908.11540)]
+4. **Enhancing AMR-to-Text Generation with Dual Graph Representations**. *Leonardo F. R. Ribeiro, Claire Gardent and Iryna Gurevych.* ***EMNLP 2019*** [[pdf](https://arxiv.org/abs/1909.00352)]
+5. **Heterogeneous Graph Attention Networks for Semi-supervised Short Text Classification**. *Linmei Hu, Tianchi Yang, Chuan Shi, Houye Ji, Xiaoli Li.* ***EMNLP 2019*** [[pdf](http://shichuan.org/doc/74.pdf)]
+6. **Syntax-Aware Aspect Level Sentiment Classification with Graph Attention Networks**. *Binxuan Huang and Kathleen M. Carley.* ***EMNLP 2019*** [[pdf](https://arxiv.org/abs/1909.02606)]
 
-**NIPS 2019**
 
-**EMNLP 2019**
 
-**ICLR 2019**
+**ICLR 2020 under review**
+
+1. **Dynamically Pruned Message Passing Networks for Large-scale Knowledge Graph Reasoning**. [[pdf](https://link.zhihu.com/?target=https%3A//openreview.net/pdf%3Fid%3DrkeuAhVKvB)]
+2. **Reinforcement Learning Based Graph-to-Sequence Model for Natural Question Generation**. [[pdf](Reinforcement Learning Based Graph-to-Sequence Model for Natural Question Generation)]
+3. **Reasoning-Aware Graph Convolutional Network for Visual Question Answering**. [[pdf](https://openreview.net/pdf?id=SkgPvlSYwS)]
+4. **GraphFlow: Exploiting Conversation Flow with Graph Neural Networks for Conversational Machine Comprehension**. [[pdf](https://openreview.net/pdf?id=rkgi6JSYvB)]
+5. **MEMORY-BASED GRAPH NETWORKS**. [[pdf](https://openreview.net/pdf?id=r1laNeBYPB)]

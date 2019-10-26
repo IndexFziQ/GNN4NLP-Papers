@@ -10,7 +10,7 @@ A list of recent papers about GNN methods applied in NLP areas.
 
 1. **Incorporating Syntactic and Semantic Information in Word Embeddings using Graph Convolutional Networks**. *Shikhar Vashishth, Manik Bhandari, Prateek Yadav, Piyush Rai, Chiranjib Bhattacharyya and Partha Talukdar*. ***ACL 2019*** [[pdf](https://arxiv.org/abs/1809.04283)] [[code](http://github.com/malllabiisc/WordGCN)]
 
-2. **A Lexicon-Based Graph Neural Network for Chinese NE**. *Tao Gui, Yicheng Zou and Qi Zhang.* ***EMNLP 2019*** [[pdf](http://qizhang.info/paper/emnlp-2019.ner.pdf)]
+2. **A Lexicon-Based Graph Neural Network for Chinese NER**. *Tao Gui, Yicheng Zou and Qi Zhang.* ***EMNLP 2019*** [[pdf](http://qizhang.info/paper/emnlp-2019.ner.pdf)]
 
    
 
@@ -41,6 +41,10 @@ A list of recent papers about GNN methods applied in NLP areas.
 7. **DialogueGCN A Graph Convolutional Neural Network for Emotion Recognition in Conversation**. *Deepanway Ghosal, Navonil Majumder, Soujanya Poria, Niyati Chhaya and Alexander Gelbukh.* ***EMNLP 2019*** [[pdf](https://arxiv.org/abs/1908.11540)]
 
 8. **GEAR: Graph-based Evidence Aggregating and Reasoning for Fact Verification.** *Jie Zhou, Xu Han, Cheng Yang, Zhiyuan Liu, Lifeng Wang, Changcheng Li and Maosong Sun.*  ***ACL 2019*** [[pdf](https://www.aclweb.org/anthology/P19-1085)] [[code](https://github.com/thunlp/GEAR)]
+
+9. **GEAR: Graph-based Evidence Aggregating and Reasoning for Fact Verification.** *Zhenghao Liu, Chenyan Xiong and Maosong Sun 1 ∗*  ***Arxiv 2019*** [[pdf](https://arxiv.org/pdf/1910.09796.pdf)] [[code](https://github.com/thunlp/KernelGAT)]
+
+10. **Reasoning Over Semantic-Level Graph for Fact Checking.** *Wanjun Zhong, Jingjing Xu, Duyu Tang, Zenan Xu, Nan Duan, Ming Zhou, Jiahai Wang and Jian Yin.*  ***Arxiv 2019*** [[pdf](https://arxiv.org/abs/1909.03745)]
 
     
 
@@ -91,6 +95,7 @@ A list of recent papers about GNN methods applied in NLP areas.
 ### Theory
 
 1. **HetGNN: Heterogeneous Graph Neural Network**. *Chuxu Zhang, Dongjin Song, Chao Huang, Ananthram Swami and Nitesh V. Chawla.* ***KDD 2019*** [[pdf](https://www.kdd.org/kdd2019/accepted-papers/view/hetgnn-heterogeneous-graph-neural-network)]
+
 2. **GMNN: Graph Markov Neural Networks**. *Meng Qu, Yoshua Bengio and  Jian Tang.* ***ICML 2019*** [[pdf](https://arxiv.org/pdf/1905.06214.pdf)] [[code](https://github.com/DeepGraphLearning/GMNN)]
 
 
@@ -100,13 +105,9 @@ A list of recent papers about GNN methods applied in NLP areas.
 ***NAACL-HLT 2019***
 
 1. **BAG: Bi-directional Attention Entity Graph Convolutional Network for Multi-hop Reasoning Question Answering.** *Yu Cao, Meng Fang and Dacheng Tao.* ***NAACL-HLT 2019***. [[pdf](https://www.aclweb.org/anthology/N19-1032.pdf)] [[code](https://github.com/caoyu1991/BAG)]
-
 2. **Abusive Language Detection with Graph Convolutional Networks**. *Pushkar Mishra, Marco Del Tredici, Helen Yannakoudakis and Ekaterina Shutova*. ***NAACL-HLT 2019***. [[pdf](https://www.aclweb.org/anthology/N19-1221.pdf)]
-
 3. **Text Generation from Knowledge Graphs with Graph Transformers**. *Rik Koncel-Kedziorski, Dhanush Bekal, Yi Luan, Mirella Lapata and Hannaneh Hajishirzi*. ***NAACL-HLT 2019***. [[pdf](https://www.aclweb.org/anthology/N19-1238.pdf)] [[code](https://github.com/rikdz/GraphWriter)]
-
 4. **Question Answering by Reasoning Across Documents with Graph Convolutional Networks**. *Nicola De Cao, Wilker Aziz and Ivan Titov.* ***NAACL-HLT 2019***. [[pdf](https://www.aclweb.org/anthology/N19-1240.pdf)]
-
 5. **Long-tail Relation Extraction via Knowledge Graph Embeddings and Graph Convolution Networks**. *Ningyu Zhang, Shumin Deng, Zhanlin Sun, Guanying Wang, Xi Chen, Wei Zhang and Huajun Chen*. ***NAACL-HLT 2019***. [[pdf](https://www.aclweb.org/anthology/N19-1306.pdf)]
 
    
@@ -114,7 +115,6 @@ A list of recent papers about GNN methods applied in NLP areas.
 ***KDD 2019***
 
 1. **Estimating Node Importance in Knowledge Graphs Using Graph Neural Networks**. *Namyong Park, Andrey Kan, Xin Luna Dong, Tong Zhao and Christos Faloutsos.* ***KDD 2019*** [[pdf](https://www.kdd.org/kdd2019/accepted-papers/view/estimating-node-importance-in-knowledge-graphs-using-graph-neural-networks)]
-
 2. **HetGNN: Heterogeneous Graph Neural Network**. *Chuxu Zhang, Dongjin Song, Chao Huang, Ananthram Swami and Nitesh V. Chawla.* ***KDD 2019*** [[pdf](https://www.kdd.org/kdd2019/accepted-papers/view/hetgnn-heterogeneous-graph-neural-network)]
 
    

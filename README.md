@@ -42,7 +42,7 @@ A list of recent papers about GNN methods applied in NLP areas.
 
 8. **GEAR: Graph-based Evidence Aggregating and Reasoning for Fact Verification.** *Jie Zhou, Xu Han, Cheng Yang, Zhiyuan Liu, Lifeng Wang, Changcheng Li and Maosong Sun.*  ***ACL 2019*** [[pdf](https://www.aclweb.org/anthology/P19-1085)] [[code](https://github.com/thunlp/GEAR)]
 
-9. **GEAR: Graph-based Evidence Aggregating and Reasoning for Fact Verification.** *Zhenghao Liu, Chenyan Xiong and Maosong Sun 1 ∗*  ***Arxiv 2019*** [[pdf](https://arxiv.org/pdf/1910.09796.pdf)] [[code](https://github.com/thunlp/KernelGAT)]
+9. **GEAR: Graph-based Evidence Aggregating and Reasoning for Fact Verification.** *Zhenghao Liu, Chenyan Xiong and Maosong Sun.*  ***Arxiv 2019*** [[pdf](https://arxiv.org/pdf/1910.09796.pdf)] [[code](https://github.com/thunlp/KernelGAT)]
 
 10. **Reasoning Over Semantic-Level Graph for Fact Checking.** *Wanjun Zhong, Jingjing Xu, Duyu Tang, Zenan Xu, Nan Duan, Ming Zhou, Jiahai Wang and Jian Yin.*  ***Arxiv 2019*** [[pdf](https://arxiv.org/abs/1909.03745)]
 

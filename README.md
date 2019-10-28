@@ -36,15 +36,13 @@ A list of recent papers about GNN methods applied in NLP areas.
 
 5. **Multi-hop Reading Comprehension across Multiple Documents by Reasoning over Heterogeneous Graphs**. *Ming Tu, Guangtao Wang, Jing Huang, Yun Tang, Xiaodong He and Bowen Zhou.* ***ACL 2019*** [[pdf](https://arxiv.org/abs/1905.07374)]
 
-6. **Textbook Question Answering with Multi-modal Context Graph Understanding and Self-supervised Open-set Comprehension**. *Daesik Kim, Seonhoon Kim and Nojun Kwak.* ***ACL 2019*** [[pdf](https://arxiv.org/abs/1811.00232)]
+6. **DialogueGCN A Graph Convolutional Neural Network for Emotion Recognition in Conversation**. *Deepanway Ghosal, Navonil Majumder, Soujanya Poria, Niyati Chhaya and Alexander Gelbukh.* ***EMNLP 2019*** [[pdf](https://arxiv.org/abs/1908.11540)]
 
-7. **DialogueGCN A Graph Convolutional Neural Network for Emotion Recognition in Conversation**. *Deepanway Ghosal, Navonil Majumder, Soujanya Poria, Niyati Chhaya and Alexander Gelbukh.* ***EMNLP 2019*** [[pdf](https://arxiv.org/abs/1908.11540)]
+7. **GEAR: Graph-based Evidence Aggregating and Reasoning for Fact Verification.** *Jie Zhou, Xu Han, Cheng Yang, Zhiyuan Liu, Lifeng Wang, Changcheng Li and Maosong Sun.*  ***ACL 2019*** [[pdf](https://www.aclweb.org/anthology/P19-1085)] [[code](https://github.com/thunlp/GEAR)]
 
-8. **GEAR: Graph-based Evidence Aggregating and Reasoning for Fact Verification.** *Jie Zhou, Xu Han, Cheng Yang, Zhiyuan Liu, Lifeng Wang, Changcheng Li and Maosong Sun.*  ***ACL 2019*** [[pdf](https://www.aclweb.org/anthology/P19-1085)] [[code](https://github.com/thunlp/GEAR)]
+8. **Kernel Graph Attention Network for Fact Verification.** *Zhenghao Liu, Chenyan Xiong and Maosong Sun.*  ***Arxiv 2019*** [[pdf](https://arxiv.org/pdf/1910.09796.pdf)] [[code](https://github.com/thunlp/KernelGAT)]
 
-9. **Kernel Graph Attention Network for Fact Verification.** *Zhenghao Liu, Chenyan Xiong and Maosong Sun.*  ***Arxiv 2019*** [[pdf](https://arxiv.org/pdf/1910.09796.pdf)] [[code](https://github.com/thunlp/KernelGAT)]
-
-10. **Reasoning Over Semantic-Level Graph for Fact Checking.** *Wanjun Zhong, Jingjing Xu, Duyu Tang, Zenan Xu, Nan Duan, Ming Zhou, Jiahai Wang and Jian Yin.*  ***Arxiv 2019*** [[pdf](https://arxiv.org/abs/1909.03745)]
+9. **Reasoning Over Semantic-Level Graph for Fact Checking.** *Wanjun Zhong, Jingjing Xu, Duyu Tang, Zenan Xu, Nan Duan, Ming Zhou, Jiahai Wang and Jian Yin.*  ***Arxiv 2019*** [[pdf](https://arxiv.org/abs/1909.03745)]
 
     
 
@@ -89,6 +87,8 @@ A list of recent papers about GNN methods applied in NLP areas.
 1. **Relation-Aware Graph Attention Network for Visual Question Answering**. *Linjie Li, Zhe Gan, Yu Cheng and Jingjing Liu.* ***ICCV 2019*** [[pdf](https://arxiv.org/abs/1903.12314)]
 
 2. **Language-Conditioned Graph Networks for Relational Reasoning**. *Ronghang Hu, Anna Rohrbach, Trevor Darrell and Kate Saenko.* ***ICCV 2019*** [[pdf](https://arxiv.org/abs/1905.04405)] [[code](http://ronghanghu.com/lcgn)]
+
+3. **Textbook Question Answering with Multi-modal Context Graph Understanding and Self-supervised Open-set Comprehension**. *Daesik Kim, Seonhoon Kim and Nojun Kwak.* ***ACL 2019*** [[pdf](https://arxiv.org/abs/1811.00232)]
 
    
 

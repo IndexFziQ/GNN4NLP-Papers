@@ -16,7 +16,7 @@ A list of recent papers about GNN methods applied in NLP areas.
 
 ### Text Classification
 
-1. **Aspect-based Sentiment Classification with Aspect-specific Graph Convolutional Networks**. *Chen Zhang, Qiuchi Li and Dawei Song.* ***EMNLP 2019*** [[pdf](https://arxiv.org/abs/1909.03477)]
+1. **Aspect-based Sentiment Classification with Aspect-specific Graph Convolutional Networks**. *Chen Zhang, Qiuchi Li and Dawei Song.* ***EMNLP 2019*** [[pdf](https://arxiv.org/abs/1909.03477)] [[code](https://github.com/GeneZC/ASGCN)]
 
 2. **Heterogeneous Graph Attention Networks for Semi-supervised Short Text Classification**. *Linmei Hu, Tianchi Yang, Chuan Shi, Houye Ji, Xiaoli Li.* ***EMNLP 2019*** [[pdf](http://shichuan.org/doc/74.pdf)]
 

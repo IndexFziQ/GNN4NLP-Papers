@@ -174,3 +174,7 @@ A list of recent papers about GNN methods applied in NLP areas.
 [thunlp/GNNPapers](https://github.com/thunlp/GNNPapers)
 
 [nnzhan/Awesome-Graph-Neural-Networks](https://github.com/nnzhan/Awesome-Graph-Neural-Networks)
+
+## Tutorials
+
+[EMNLP 2019 GNNs-for-NLP](https://github.com/svjan5/GNNs-for-NLP)

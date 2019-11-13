@@ -173,6 +173,8 @@ A list of recent papers about GNN methods applied in NLP areas.
 
 [thunlp/GNNPapers](https://github.com/thunlp/GNNPapers)
 
+[naganandy/graph-based-deep-learning-literature](https://github.com/naganandy/graph-based-deep-learning-literature)
+
 [nnzhan/Awesome-Graph-Neural-Networks](https://github.com/nnzhan/Awesome-Graph-Neural-Networks)
 
 ## Tutorials

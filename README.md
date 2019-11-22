@@ -148,7 +148,7 @@ A list of recent papers about GNN methods applied in NLP areas.
 
 
 
-***EMNLP 2019***
+***EMNLP-IJCNLP 2019***
 
 1. **A Lexicon-Based Graph Neural Network for Chinese NER**. *Tao Gui, Yicheng Zou and Qi Zhang.* ***EMNLP 2019*** [[pdf](http://qizhang.info/paper/emnlp-2019.ner.pdf)]
 2. **Aspect-based Sentiment Classification with Aspect-specific Graph Convolutional Networks**. *Chen Zhang, Qiuchi Li and Dawei Song.* ***EMNLP 2019*** [[pdf](https://arxiv.org/abs/1909.03477)]
@@ -157,7 +157,7 @@ A list of recent papers about GNN methods applied in NLP areas.
 5. **Heterogeneous Graph Attention Networks for Semi-supervised Short Text Classification**. *Linmei Hu, Tianchi Yang, Chuan Shi, Houye Ji, Xiaoli Li.* ***EMNLP 2019*** [[pdf](http://shichuan.org/doc/74.pdf)]
 6. **Syntax-Aware Aspect Level Sentiment Classification with Graph Attention Networks**. *Binxuan Huang and Kathleen M. Carley.* ***EMNLP 2019*** [[pdf](https://arxiv.org/abs/1909.02606)]
 
-
+***CIKM 2019***
 
 ***ICLR 2020 under review***
 

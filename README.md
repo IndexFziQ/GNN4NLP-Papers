@@ -46,7 +46,7 @@ A list of recent papers about GNN methods applied in NLP areas.
 
 10. **Message Passing for Complex Question Answering over Knowledge Graphs**. *Svitlana Vakulenko, Javier David Fernandez Garcia, Axel Polleres, Maarten de Rijke, Michael Cochez.*  ***CIKM 2019*** [[pdf](https://arxiv.org/abs/1908.06917?context=cs.CL)]
 
-11. **Knowledge-aware Textual Entailment with Graph Atention Network**. *Daoyuan Chen , Yaliang Li , Min Yang , Hai-Tao Zheng , Ying Shen.*  ***CIKM 2019*** [[pdf]([http://delivery.acm.org/10.1145/3360000/3358071/p2145-chen.pdf?ip=159.226.95.66&id=3358071&acc=ACTIVE%20SERVICE&key=33E289E220520BFB%2E99E4F0382D256DD3%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35&__acm__=1576036779_2b238efdd5d57425c9ca88e5b2f7fab3](http://delivery.acm.org/10.1145/3360000/3358071/p2145-chen.pdf?ip=159.226.95.66&id=3358071&acc=ACTIVE SERVICE&key=33E289E220520BFB.99E4F0382D256DD3.4D4702B0C3E38B35.4D4702B0C3E38B35&__acm__=1576036779_2b238efdd5d57425c9ca88e5b2f7fab3))]
+11. **Knowledge-aware Textual Entailment with Graph Atention Network**. *Daoyuan Chen , Yaliang Li , Min Yang , Hai-Tao Zheng , Ying Shen.*  ***CIKM 2019*** [[pdf]()]
 
       
 
@@ -174,13 +174,13 @@ A list of recent papers about GNN methods applied in NLP areas.
 1. **Spam Review Detection with Graph Convolutional Networks**. *Ao Li, Zhou Qin, Runshi Liu, Yiqun Yang, Dong Li.*  ***CIKM 2019*** [[pdf](https://arxiv.org/abs/1908.10679v1)]
 2. **Fi-GNN: Modeling Feature Interactions via Graph Neural Networks for CTR Prediction**. *Zekun Li, Zeyu Cui, Shu Wu, Xiaoyu Zhang, Liang Wang.*  ***CIKM 2019*** [[pdf](https://arxiv.org/abs/1910.05552)] [[code](https://github.com/CRIPAC-DIG/Fi_GNNs)]
 3. **Message Passing for Complex Question Answering over Knowledge Graphs**. *Svitlana Vakulenko, Javier David Fernandez Garcia, Axel Polleres, Maarten de Rijke, Michael Cochez.*  ***CIKM 2019*** [[pdf](https://arxiv.org/abs/1908.06917?context=cs.CL)]
-4. **Knowledge-aware Textual Entailment with Graph Atention Network**. *Daoyuan Chen , Yaliang Li , Min Yang , Hai-Tao Zheng , Ying Shen.*  ***CIKM 2019*** [[pdf]([http://delivery.acm.org/10.1145/3360000/3358071/p2145-chen.pdf?ip=159.226.95.66&id=3358071&acc=ACTIVE%20SERVICE&key=33E289E220520BFB%2E99E4F0382D256DD3%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35&__acm__=1576036779_2b238efdd5d57425c9ca88e5b2f7fab3](http://delivery.acm.org/10.1145/3360000/3358071/p2145-chen.pdf?ip=159.226.95.66&id=3358071&acc=ACTIVE SERVICE&key=33E289E220520BFB.99E4F0382D256DD3.4D4702B0C3E38B35.4D4702B0C3E38B35&__acm__=1576036779_2b238efdd5d57425c9ca88e5b2f7fab3))]
+4. **Knowledge-aware Textual Entailment with Graph Atention Network**. *Daoyuan Chen , Yaliang Li , Min Yang , Hai-Tao Zheng , Ying Shen.*  ***CIKM 2019*** [[pdf]()]
 5. **Look before you Hop: Conversational Question Answering over Knowledge Graphs Using Judicious Context Expansion**. *Philipp Christmann, Rishiraj Saha Roy, Abdalghani Abujabal, Jyotsna Singh, Gerhard Weikum.*  ***CIKM 2019*** [[pdf](https://arxiv.org/abs/1910.03262v1)]
 6. **Cross-domain Aspect Category Transfer and Detection via Traceable Heterogeneous Graph Representation Learning**. *Zhuoren Jiang, Jian Wang, Lujun Zhao, Changlong Sun, Yao Lu, Xiaozhong Liu.*  ***CIKM 2019*** [[pdf](https://arxiv.org/abs/1908.11610)]
 7. **Relation-Aware Graph Convolutional Networks for Agent-Initiated Social E-Commerce Recommendation**. *Fengli Xu , Jianxun Lian , Zhenyu Han , Yong Li , Yujian Xu , Xing Xie.*  ***CIKM 2019*** [[pdf](https://www.microsoft.com/en-us/research/uploads/prod/2019/09/CIKM19-recogcn.pdf)]
 8. ***Hashing Graph Convolution for Node Classification***. *Wenting Zhao, Zhen Cui, Chunyan Xu, Chengzheng Li, Tong Zhang，Jian Yang.*  ***CIKM 2019*** [[pdf](https://easychair.org/publications/preprint/lhT3)]
 9. ***Gravity-Inspired Graph Autoencoders for Directed Link Prediction***. *Guillaume Salha, Stratis Limnios, Romain Hennequin, Viet Anh Tran, Michalis Vazirgiannis.*  ***CIKM 2019*** [[pdf](https://arxiv.org/abs/1905.09570)]
-10. ***Multiple Rumor Source Detection with Graph Convolutional Networks***. *Ming Dong, Bolong Zheng, Nguyen Quoc Viet Hung, Han Su, Guohui Li.*  ***CIKM 2019*** [[pdf]([http://delivery.acm.org/10.1145/3360000/3357994/p569-dong.pdf?ip=159.226.95.66&id=3357994&acc=ACTIVE%20SERVICE&key=33E289E220520BFB%2E99E4F0382D256DD3%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35&__acm__=1576046124_28b90de8718ba1ea002413b23e83152a](http://delivery.acm.org/10.1145/3360000/3357994/p569-dong.pdf?ip=159.226.95.66&id=3357994&acc=ACTIVE SERVICE&key=33E289E220520BFB.99E4F0382D256DD3.4D4702B0C3E38B35.4D4702B0C3E38B35&__acm__=1576046124_28b90de8718ba1ea002413b23e83152a))]
+10. ***Multiple Rumor Source Detection with Graph Convolutional Networks***. *Ming Dong, Bolong Zheng, Nguyen Quoc Viet Hung, Han Su, Guohui Li.*  ***CIKM 2019*** [[pdf]()]
 
 
 

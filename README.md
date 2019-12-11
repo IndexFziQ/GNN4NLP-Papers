@@ -44,7 +44,11 @@ A list of recent papers about GNN methods applied in NLP areas.
 
 9. **Reasoning Over Semantic-Level Graph for Fact Checking.** *Wanjun Zhong, Jingjing Xu, Duyu Tang, Zenan Xu, Nan Duan, Ming Zhou, Jiahai Wang and Jian Yin.*  ***Arxiv 2019*** [[pdf](https://arxiv.org/abs/1909.03745)]
 
-    
+10. **Message Passing for Complex Question Answering over Knowledge Graphs**. *Svitlana Vakulenko, Javier David Fernandez Garcia, Axel Polleres, Maarten de Rijke, Michael Cochez.*  ***CIKM 2019*** [[pdf](https://arxiv.org/abs/1908.06917?context=cs.CL)]
+
+11. **Knowledge-aware Textual Entailment with Graph Atention Network**. *Daoyuan Chen , Yaliang Li , Min Yang , Hai-Tao Zheng , Ying Shen.*  ***CIKM 2019*** [[pdf]([http://delivery.acm.org/10.1145/3360000/3358071/p2145-chen.pdf?ip=159.226.95.66&id=3358071&acc=ACTIVE%20SERVICE&key=33E289E220520BFB%2E99E4F0382D256DD3%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35&__acm__=1576036779_2b238efdd5d57425c9ca88e5b2f7fab3](http://delivery.acm.org/10.1145/3360000/3358071/p2145-chen.pdf?ip=159.226.95.66&id=3358071&acc=ACTIVE SERVICE&key=33E289E220520BFB.99E4F0382D256DD3.4D4702B0C3E38B35.4D4702B0C3E38B35&__acm__=1576036779_2b238efdd5d57425c9ca88e5b2f7fab3))]
+
+      
 
 ### Information Extraction
 
@@ -80,7 +84,11 @@ A list of recent papers about GNN methods applied in NLP areas.
 
 2. **Encoding Social Information with Graph Convolutional Networks for Political Perspective Detection in News Media**. *Chang Li and Dan Goldwasser*. ***ACL 2019*** [[pdf](https://www.cs.purdue.edu/homes/dgoldwas//downloads/papers/LiG_acl_2019.pdf)]
 
-   
+3. **Spam Review Detection with Graph Convolutional Networks**. *Ao Li, Zhou Qin, Runshi Liu, Yiqun Yang, Dong Li.*  ***CIKM 2019*** [[pdf](https://arxiv.org/abs/1908.10679v1)]
+
+4. **Look before you Hop: Conversational Question Answering over Knowledge Graphs Using Judicious Context Expansion**. *Philipp Christmann, Rishiraj Saha Roy, Abdalghani Abujabal, Jyotsna Singh, Gerhard Weikum.*  ***CIKM 2019*** [[pdf](https://arxiv.org/abs/1910.03262v1)]
+
+    
 
 ### Visual Question Answering
 
@@ -157,7 +165,18 @@ A list of recent papers about GNN methods applied in NLP areas.
 5. **Heterogeneous Graph Attention Networks for Semi-supervised Short Text Classification**. *Linmei Hu, Tianchi Yang, Chuan Shi, Houye Ji, Xiaoli Li.* ***EMNLP 2019*** [[pdf](http://shichuan.org/doc/74.pdf)]
 6. **Syntax-Aware Aspect Level Sentiment Classification with Graph Attention Networks**. *Binxuan Huang and Kathleen M. Carley.* ***EMNLP 2019*** [[pdf](https://arxiv.org/abs/1909.02606)]
 
+
+
 ***CIKM 2019***
+
+1. **Spam Review Detection with Graph Convolutional Networks**. *Ao Li, Zhou Qin, Runshi Liu, Yiqun Yang, Dong Li.*  ***CIKM 2019*** [[pdf](https://arxiv.org/abs/1908.10679v1)]
+2. **Fi-GNN: Modeling Feature Interactions via Graph Neural Networks for CTR Prediction**. *Zekun Li, Zeyu Cui, Shu Wu, Xiaoyu Zhang, Liang Wang.*  ***CIKM 2019*** [[pdf](https://arxiv.org/abs/1910.05552)] [[code](https://github.com/CRIPAC-DIG/Fi_GNNs)]
+3. **Message Passing for Complex Question Answering over Knowledge Graphs**. *Svitlana Vakulenko, Javier David Fernandez Garcia, Axel Polleres, Maarten de Rijke, Michael Cochez.*  ***CIKM 2019*** [[pdf](https://arxiv.org/abs/1908.06917?context=cs.CL)]
+4. **Knowledge-aware Textual Entailment with Graph Atention Network**. *Daoyuan Chen , Yaliang Li , Min Yang , Hai-Tao Zheng , Ying Shen.*  ***CIKM 2019*** [[pdf]([http://delivery.acm.org/10.1145/3360000/3358071/p2145-chen.pdf?ip=159.226.95.66&id=3358071&acc=ACTIVE%20SERVICE&key=33E289E220520BFB%2E99E4F0382D256DD3%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35&__acm__=1576036779_2b238efdd5d57425c9ca88e5b2f7fab3](http://delivery.acm.org/10.1145/3360000/3358071/p2145-chen.pdf?ip=159.226.95.66&id=3358071&acc=ACTIVE SERVICE&key=33E289E220520BFB.99E4F0382D256DD3.4D4702B0C3E38B35.4D4702B0C3E38B35&__acm__=1576036779_2b238efdd5d57425c9ca88e5b2f7fab3))]
+5. **Look before you Hop: Conversational Question Answering over Knowledge Graphs Using Judicious Context Expansion**. *Philipp Christmann, Rishiraj Saha Roy, Abdalghani Abujabal, Jyotsna Singh, Gerhard Weikum.*  ***CIKM 2019*** [[pdf](https://arxiv.org/abs/1910.03262v1)]
+6. **Cross-domain Aspect Category Transfer and Detection via Traceable Heterogeneous Graph Representation Learning**. *Zhuoren Jiang, Jian Wang, Lujun Zhao, Changlong Sun, Yao Lu, Xiaozhong Liu.*  ***CIKM 2019*** [[pdf](https://arxiv.org/abs/1908.11610)]
+
+
 
 ***ICLR 2020 under review***
 

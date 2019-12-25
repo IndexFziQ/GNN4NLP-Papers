@@ -184,7 +184,7 @@ A list of recent papers about GNN methods applied in NLP areas.
 
 
 
-***ICLR 2020 under review***
+***ICLR 2020***
 
 1. **MEMORY-BASED GRAPH NETWORKS**. *Amir hosein Khasahmadi, Kaveh Hassani, Parsa Moradi, Leo Lee, Quaid Morris*. ***ICLR 2020*** [[pdf](https://openreview.net/pdf?id=r1laNeBYPB)]
 2. **InfoGraph: Unsupervised and Semi-supervised Graph-Level Representation Learning via Mutual Information Maximization**. *Fan-Yun Sun, Jordan Hoffman, Vikas Verma, Jian Tang*. ***ICLR 2020*** [[pdf](https://openreview.net/forum?id=r1lfF2NYvH&noteId=r1lfF2NYvH)]

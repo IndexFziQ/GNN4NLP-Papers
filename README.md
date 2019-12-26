@@ -48,7 +48,7 @@ A list of recent papers about GNN methods applied in NLP areas.
 
 11. **Knowledge-aware Textual Entailment with Graph Atention Network**. *Daoyuan Chen , Yaliang Li , Min Yang , Hai-Tao Zheng , Ying Shen.*  ***CIKM 2019*** [[pdf]()]
 
-  ​    
+   
 
 ### Information Extraction
 

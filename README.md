@@ -212,3 +212,5 @@ A list of recent papers about GNN methods applied in NLP areas.
 ## Tutorials
 
 [EMNLP 2019 GNNs-for-NLP](https://github.com/svjan5/GNNs-for-NLP)
+
+[CS224W: Machine Learning with Graphs](http://web.stanford.edu/class/cs224w/index.html#content)

@@ -48,7 +48,7 @@ A list of recent papers about GNN methods applied in NLP areas.
 
 10. **Knowledge-aware Textual Entailment with Graph Atention Network**. *Daoyuan Chen , Yaliang Li , Min Yang , Hai-Tao Zheng , Ying Shen.*  ***CIKM 2019*** [[pdf]()]
 
-11. **Fine-grained Fact Verification with Kernel Graph Attention Networ**. *Zhenghao Liu, Chenyan Xiong, Maosong Sun, Zhiyuan Liu*. ***ACL 2020*** [[pdf](https://arxiv.org/pdf/1910.09796.pdf)] [[code](https://github.com/thunlp/KernelGAT)]
+11. **Fine-grained Fact Verification with Kernel Graph Attention Network**. *Zhenghao Liu, Chenyan Xiong, Maosong Sun, Zhiyuan Liu*. ***ACL 2020*** [[pdf](https://arxiv.org/pdf/1910.09796.pdf)] [[code](https://github.com/thunlp/KernelGAT)]
 
    
 
@@ -214,7 +214,7 @@ A list of recent papers about GNN methods applied in NLP areas.
 
 ***ACL 2020***
 
-1. **Fine-grained Fact Verification with Kernel Graph Attention Networ**. *Zhenghao Liu, Chenyan Xiong, Maosong Sun, Zhiyuan Liu*. ***ACL 2020*** [[pdf](https://arxiv.org/pdf/1910.09796.pdf)]
+1. **Fine-grained Fact Verification with Kernel Graph Attention Network**. *Zhenghao Liu, Chenyan Xiong, Maosong Sun, Zhiyuan Liu*. ***ACL 2020*** [[pdf](https://arxiv.org/pdf/1910.09796.pdf)] [[code](https://github.com/thunlp/KernelGAT)]
 2. **GCAN: Graph-aware Co-Attention Networks for Explainable Fake News Detection on Social Media**. *Yi-Ju Lu, Cheng-Te Li*. ***ACL 2020*** [[pdf](https://arxiv.org/pdf/2004.11648.pdf)]
 3. **Heterogeneous Graph Neural Networks for Extractive Document Summarization**. *Danqing Wang, Pengfei Liu, Yining Zheng, Xipeng Qiu, Xuanjing Huang*. ***ACL 2020*** [[pdf](https://arxiv.org/pdf/2004.12393.pdf)] [[code](https://github.com/brxx122/HeterSUMGraph)] 
 4. **Relational Graph Attention Network for Aspect-based Sentiment Analysis**. *Kai Wang, Weizhou Shen, Yunyi Yang, Xiaojun Quan, Rui Wang*. ***ACL 2020*** [[pdf](https://arxiv.org/pdf/2004.12362.pdf)]  

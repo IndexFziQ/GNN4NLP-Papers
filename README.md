@@ -80,7 +80,7 @@ A list of recent papers about GNN methods applied in NLP areas.
 
 1. **Estimating Node Importance in Knowledge Graphs Using Graph Neural Networks**. *Namyong Park, Andrey Kan, Xin Luna Dong, Tong Zhao and Christos Faloutsos.* ***KDD 2019*** [[pdf](https://www.kdd.org/kdd2019/accepted-papers/view/estimating-node-importance-in-knowledge-graphs-using-graph-neural-networks)]
 
-2. ***Hashing Graph Convolution for Node Classification***. *Wenting Zhao, Zhen Cui, Chunyan Xu, Chengzheng Li, Tong Zhang，Jian Yang.*  ***CIKM 2019*** [[pdf](https://easychair.org/publications/preprint/lhT3)]
+2. **Hashing Graph Convolution for Node Classification**. *Wenting Zhao, Zhen Cui, Chunyan Xu, Chengzheng Li, Tong Zhang，Jian Yang.*  ***CIKM 2019*** [[pdf](https://easychair.org/publications/preprint/lhT3)]
 
     
 
@@ -192,7 +192,7 @@ A list of recent papers about GNN methods applied in NLP areas.
 
 ***ICLR 2020***
 
-1. **MEMORY-BASED GRAPH NETWORKS**. *Amir hosein Khasahmadi, Kaveh Hassani, Parsa Moradi, Leo Lee, Quaid Morris*. ***ICLR 2020*** [[pdf](https://openreview.net/pdf?id=r1laNeBYPB)]
+1. **Memory-based Graph Networks**. *Amir hosein Khasahmadi, Kaveh Hassani, Parsa Moradi, Leo Lee, Quaid Morris*. ***ICLR 2020*** [[pdf](https://openreview.net/pdf?id=r1laNeBYPB)]
 2. **InfoGraph: Unsupervised and Semi-supervised Graph-Level Representation Learning via Mutual Information Maximization**. *Fan-Yun Sun, Jordan Hoffman, Vikas Verma, Jian Tang*. ***ICLR 2020*** [[pdf](https://openreview.net/forum?id=r1lfF2NYvH&noteId=r1lfF2NYvH)]
 3. **The Logical Expressiveness of Graph Neural Networks**. *Pablo Barceló, Egor V. Kostylev, Mikael Monet, Jorge Pérez, Juan Reutter, Juan Pablo Silva*. ***ICLR 2020*** [[pdf](https://openreview.net/forum?id=r1lZ7AEKvB&noteId=r1lZ7AEKvB)]
 4. **Contrastive Learning of Structured World Models**. *Thomas Kipf, Elise van der Pol, Max Welling*. ***ICLR 2020*** [[pdf](https://arxiv.org/abs/1911.12247)] [[code](https://github.com/tkipf/c-swm)]

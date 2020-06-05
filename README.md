@@ -219,6 +219,8 @@ A list of recent papers about GNN methods applied in NLP areas.
 3. **Heterogeneous Graph Neural Networks for Extractive Document Summarization**. *Danqing Wang, Pengfei Liu, Yining Zheng, Xipeng Qiu, Xuanjing Huang*. ***ACL 2020*** [[pdf](https://arxiv.org/pdf/2004.12393.pdf)] [[code](https://github.com/brxx122/HeterSUMGraph)] 
 4. **Relational Graph Attention Network for Aspect-based Sentiment Analysis**. *Kai Wang, Weizhou Shen, Yunyi Yang, Xiaojun Quan, Rui Wang*. ***ACL 2020*** [[pdf](https://arxiv.org/pdf/2004.12362.pdf)]  
 
+***KDD 2020***
+
 ## Comprehensive GNN Paperlist
 
 [thunlp/GNNPapers](https://github.com/thunlp/GNNPapers)

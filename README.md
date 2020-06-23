@@ -261,7 +261,7 @@ A list of recent papers about GNN methods applied in NLP areas.
 
 [CS224W: Machine Learning with Graphs](http://web.stanford.edu/class/cs224w/index.html#content)
 
-##Tools
+## Tools
 
 [Deep Graph Library (DGL)](https://github.com/dmlc/dgl)
 

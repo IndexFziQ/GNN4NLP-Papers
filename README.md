@@ -106,7 +106,11 @@ A list of recent papers about GNN methods applied in NLP areas.
 
 3. **Textbook Question Answering with Multi-modal Context Graph Understanding and Self-supervised Open-set Comprehension**. *Daesik Kim, Seonhoon Kim and Nojun Kwak.* ***ACL 2019*** [[pdf](https://arxiv.org/abs/1811.00232)]
 
-   
+4. **Aligned Dual Channel Graph Convolutional Network for Visual Question Answering**. *Qingbao Huang, Jielong Wei, Yi Cai, Changmeng Zheng, Junying Chen, Ho-fung Leung, Qing Li*. ***ACL 2020*** [[pdf](https://www.aclweb.org/anthology/2020.acl-main.642.pdf)] 
+
+5. **Multimodal Neural Graph Memory Networks for Visual Question Answering**. *Mahmoud Khademi*. ***ACL 2020*** [[pdf](https://www.aclweb.org/anthology/2020.acl-main.643.pdf)] 
+
+    
 
 ### Theory
 
@@ -206,11 +210,14 @@ A list of recent papers about GNN methods applied in NLP areas.
 12. **Efficient Probabilistic Logic Reasoning with Graph Neural Networks**. *Yuyu Zhang, Xinshi Chen, Yuan Yang, Arun Ramamurthy, Bo Li, Yuan Qi, Le Song*. ***ICLR 2020*** [[pdf](https://openreview.net/forum?id=rJg76kStwH)]
 
 
+
 ***WWW 2020***
 
 1. **TaxoExpan: Self-supervised Taxonomy Expansion with Position-Enhanced Graph Neural Network**. *Jiaming Shen, Zhihong Shen, Chenyan Xiong, Chi Wang, Kuansan Wang, Jiawei Han*. ***WWW 2020*** [[pdf](https://arxiv.org/abs/2001.09522)]
 2. **Collective Multi-type Entity Alignment Between Knowledge Graphs**. *Qi Zhu, Hao Wei, Bunyamin Sisman, Da Zheng, Christos Faloutsos, Xin Luna Dong and Jiawei Han*. ***WWW 2020*** [[pdf](https://dl.acm.org/doi/abs/10.1145/3366423.3380289)]
 3. **Complex Factoid Question Answering with a Free-Text Knowledge Graph**. *Chen Zhao, Chenyan Xiong, Xin Qian and Jordan Boyd-Graber*. ***WWW 2020*** [[pdf](https://dl.acm.org/doi/abs/10.1145/3366423.3380197)]
+
+
 
 ***ACL 2020***
 
@@ -218,8 +225,28 @@ A list of recent papers about GNN methods applied in NLP areas.
 2. **GCAN: Graph-aware Co-Attention Networks for Explainable Fake News Detection on Social Media**. *Yi-Ju Lu, Cheng-Te Li*. ***ACL 2020*** [[pdf](https://arxiv.org/pdf/2004.11648.pdf)]
 3. **Heterogeneous Graph Neural Networks for Extractive Document Summarization**. *Danqing Wang, Pengfei Liu, Yining Zheng, Xipeng Qiu, Xuanjing Huang*. ***ACL 2020*** [[pdf](https://arxiv.org/pdf/2004.12393.pdf)] [[code](https://github.com/brxx122/HeterSUMGraph)] 
 4. **Relational Graph Attention Network for Aspect-based Sentiment Analysis**. *Kai Wang, Weizhou Shen, Yunyi Yang, Xiaojun Quan, Rui Wang*. ***ACL 2020*** [[pdf](https://arxiv.org/pdf/2004.12362.pdf)]  
+5. **Every Document Owns Its Structure: Inductive Text Classification via Graph Neural Networks**. *Yufeng Zhang∗ , Xueli Yu∗ , Zeyu Cui , Shu Wu , Zhongzhen Wen and Liang Wang*. ***ACL 2020*** [[pdf](https://www.aclweb.org/anthology/2020.acl-main.31.pdf)] [[code](https://github.com/CRIPAC-DIG/TextING)]
+6. **Integrating Semantic and Structural Information with Graph Convolutional Network for Controversy Detection**. *Lei Zhong, Juan Cao, Qiang Sheng, Junbo Guo, Ziang Wang*. ***ACL 2020*** [[pdf](https://www.aclweb.org/anthology/2020.acl-main.49.pdf)] [[code](http://mcg.ict.ac.cn/controversy-detection-dataset.html)]
+7. **Line Graph Enhanced AMR-to-Text Generation with Mix-Order Graph Attention Networks**. *Yanbin Zhao, Lu Chen, Zhi Chen, Ruisheng Cao, Su Zhu, Kai Yu*. ***ACL 2020*** [[pdf](https://www.aclweb.org/anthology/2020.acl-main.67.pdf)] [[code](https://github.com/ybz79/AMR2text)]
+8. **Query Graph Generation for Answering Multi-hop Complex Questions from Knowledge Bases**. *Yunshi Lan, Jing Jiang*. ***ACL 2020*** [[pdf](https://www.aclweb.org/anthology/2020.acl-main.91.pdf)] [[code](https://github.com/lanyunshi/Multi-hopComplexKBQA)]
+9. **Semantic Graphs for Generating Deep Questions**. *Liangming Pan, Yuxi Xie, Yansong Feng, Tat-Seng Chua, Min-Yen Kan*. ***ACL 2020*** [[pdf](https://www.aclweb.org/anthology/2020.acl-main.135.pdf)] [[code](https://github.com/WING-NUS/SG-Deep-Question-Generation)]
+10. **Conversational Graph Grounded Policy Learning for Open-Domain Conversation Generation**. *Jun Xu, Haifeng Wang, Zheng-Yu Niu, Hua Wu, Wanxiang Che , Ting Liu*. ***ACL 2020*** [[pdf](https://www.aclweb.org/anthology/2020.acl-main.166.pdf)] 
+11. **Grounded Conversation Generation as Guided Traverses in Commonsense Knowledge Graphs**. *Houyu Zhang, Zhenghao Liu, Chenyan Xiong, Zhiyuan Liu*. ***ACL 2020*** [[pdf](https://www.aclweb.org/anthology/2020.acl-main.184.pdf)] [[code](https://github.com/thunlp/ConceptFlow)]
+12. **A Novel Graph-based Multi-modal Fusion Encoder for Neural Machine Translation**. *Yongjing Yin, Fandong Meng, Jinsong Su, Chulun Zhou, Zhengyuan Yang, Jie Zhou, Jiebo Luo*. ***ACL 2020*** [[pdf](https://www.aclweb.org/anthology/2020.acl-main.273.pdf)] [[code](https://github.com/ DeepLearnXMU/GMNMT)]
+13. **Relational Graph Attention Network for Aspect-based Sentiment Analysis**. *Kai Wang, Weizhou Shen, Yunyi Yang, Xiaojun Quan, Rui Wang*. ***ACL 2020*** [[pdf](https://www.aclweb.org/anthology/2020.acl-main.295.pdf)] [[code](https://github.com/shenwzh3/RGAT-ABSA)]
+14. **Syntax-Aware Opinion Role Labeling with Dependency Graph Convolutional Networks**. *Bo Zhang , Yue Zhang , Rui Wang , Zhenghua Li , Min Zhang*. ***ACL 2020*** [[pdf](https://www.aclweb.org/anthology/2020.acl-main.297.pdf)] 
+15. **A Graph-based Coarse-to-fine Method for Unsupervised Bilingual Lexicon Induction**. *Shuo Ren, Shujie Liu, Ming Zhou, Shuai Ma*. ***ACL 2020*** [[pdf](https://www.aclweb.org/anthology/2020.acl-main.318.pdf)] 
+16. **Graph Neural News Recommendation with Unsupervised Preference Disentanglement**. *Linmei Hu, Siyong Xu , Chen Li , Cheng Yang , Chuan Shi, Nan Duan, Xing Xie, Ming Zhou*. ***ACL 2020*** [[pdf](https://www.aclweb.org/anthology/2020.acl-main.392.pdf)] 
+17. **Knowledge Graph-Augmented Abstractive Summarization with Semantic-Driven Cloze Reward**. *Luyang Huang, Lingfei Wu and Lu Wang*. ***ACL 2020*** [[pdf](https://www.aclweb.org/anthology/2020.acl-main.457.pdf)] [[code](https://github.com/luyang-huang96/GraphAugmentedSum)]
+18. **Entity-Aware Dependency-Based Deep Graph Attention Network for Comparative Preference Classification**. *Nianzu Ma, Sahisnu Mazumder, Hao Wang, Bing Liu*. ***ACL 2020*** [[pdf](https://www.aclweb.org/anthology/2020.acl-main.512.pdf)]
+19. **LogicalFactChecker: Leveraging Logical Operations for Fact Checking with Graph Module Network**. *Wanjun Zhong , Duyu Tang, Zhangyin Feng , Nan Duan, Ming Zhou, Ming Gong, Linjun Shou, Daxin Jiang, Jiahai Wang and Jian Yin*. ***ACL 2020*** [[pdf](https://www.aclweb.org/anthology/2020.acl-main.539.pdf)] [[code](https://github.com/thunlp/KernelGAT)]
+20. **Reasoning Over Semantic-Level Graph for Fact Checking**. *Wanjun Zhong , Jingjing Xu, Duyu Tang, Zenan Xu, Nan Duan, Ming Zhou, Jiahai Wang and Jian Yin*. ***ACL 2020*** [[pdf](https://www.aclweb.org/anthology/2020.acl-main.549.pdf)] 
+21. **Document Modeling with Graph Attention Networks for Multi-grained Machine Reading Comprehension**. *Bo Zheng, Haoyang Wen , Yaobo Liang, Nan Duan , Wanxiang Che, Daxin Jiang , Ming Zhou, Ting Liu*. ***ACL 2020*** [[pdf](https://www.aclweb.org/anthology/2020.acl-main.599.pdf)] [[code](https://github.com/DancingSoul/NQ_BERT-DM)]
+22. **Heterogeneous Graph Transformer for Graph-to-Sequence Learning**. *Shaowei Yao, Tianming Wang, Xiaojun Wan*. ***ACL 2020*** [[pdf](https://www.aclweb.org/anthology/2020.acl-main.640.pdf)] [[code](https://github.com/QAQ-v/HetGT)]
+23. **Aligned Dual Channel Graph Convolutional Network for Visual Question Answering**. *Qingbao Huang, Jielong Wei, Yi Cai, Changmeng Zheng, Junying Chen, Ho-fung Leung, Qing Li*. ***ACL 2020*** [[pdf](https://www.aclweb.org/anthology/2020.acl-main.642.pdf)] 
+24. **Multimodal Neural Graph Memory Networks for Visual Question Answering**. *Mahmoud Khademi*. ***ACL 2020*** [[pdf](https://www.aclweb.org/anthology/2020.acl-main.643.pdf)] 
 
-***KDD 2020***
+
 
 ## Comprehensive GNN Paperlist
 
@@ -234,6 +261,10 @@ A list of recent papers about GNN methods applied in NLP areas.
 [EMNLP 2019 GNNs-for-NLP](https://github.com/svjan5/GNNs-for-NLP)
 
 [CS224W: Machine Learning with Graphs](http://web.stanford.edu/class/cs224w/index.html#content)
+
+##Tools
+
+[Deep Graph Library (DGL)](https://github.com/dmlc/dgl)
 
 ## Thesis
 

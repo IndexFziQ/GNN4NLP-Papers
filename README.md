@@ -265,6 +265,8 @@ A list of recent papers about GNN methods applied in NLP areas.
 
 [Deep Graph Library (DGL)](https://github.com/dmlc/dgl)
 
+[PyTorch Geometric (PyG)](https://github.com/rusty1s/pytorch_geometric)
+
 ## Thesis
 
 [Deep learning with graph-structured representations](https://pure.uva.nl/ws/files/46900201/Thesis.pdf)

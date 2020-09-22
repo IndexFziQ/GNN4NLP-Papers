@@ -269,8 +269,12 @@ A list of recent papers about GNN methods applied in NLP areas.
 
 ## Thesis
 
-[Deep learning with graph-structured representations](https://pure.uva.nl/ws/files/46900201/Thesis.pdf)
+[Natural Language Processing and Text Mining with Graph-Structured Representations](https://sites.ualberta.ca/~bang3/files/PhD-Thesis.pdf), Bang Liu, University of Alberta.
 
-[Neural Graph Embedding Methods for Natural Language Processing](https://arxiv.org/abs/1911.03042)
+[Deep learning with graph-structured representations](https://pure.uva.nl/ws/files/46900201/Thesis.pdf), Thomas Norbert Kipf, University of Amsterdam.
 
-[The resurgence of structure in deep neural networks](https://www.repository.cam.ac.uk/handle/1810/292230)
+[Neural Graph Embedding Methods for Natural Language Processing](https://arxiv.org/abs/1911.03042), Shikhar Vashishth, Indian Institute of Science.
+
+[The resurgence of structure in deep neural networks](https://www.repository.cam.ac.uk/handle/1810/292230), Petar Veliˇckovi´c, University of Cambridge.
+
+

@@ -1,7 +1,7 @@
 # GNN4NLP-Papers
 ![](https://img.shields.io/static/v1?label=Latest-Commit&message=2020/12/01&color=important) ![](https://img.shields.io/static/v1?label=Newest&message=EMNLP2020&color=green)
 
-A list of recent papers about GNN methods applied in NLP areas. Now, the repository includes ACL, EMNLP, NAACL-HLT, ICLR, WWW, ICML, KDD, CIKM, ICCV.
+A list of recent papers about GNN methods applied in NLP areas. Now, the repository includes papers published at ACL, EMNLP, NAACL-HLT, ICLR, WWW, ICML, KDD, and so on.
 
 - Dec 01, 2020:  Add EMNLP-2020
 

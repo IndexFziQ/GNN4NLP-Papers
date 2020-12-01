@@ -3,8 +3,9 @@
 
 A list of recent papers about GNN methods applied in NLP areas. Now, the repository includes ACL, EMNLP, NAACL-HLT, ICLR, WWW, ICML, KDD, CIKM, ICCV.
 
-Dec 01, 2020:  Add EMNLP-2020
-Jun 24, 2020:  Add ACL-2020, GNN tools, and Ph.D. thesis.
+- Dec 01, 2020:  Add EMNLP-2020
+
+- Jun 24, 2020:  Add ACL-2020, GNN tools, and Ph.D. thesis.
 
 
 ## Taxonomy

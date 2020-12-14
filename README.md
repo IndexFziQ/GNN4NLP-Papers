@@ -1,7 +1,9 @@
 # GNN4NLP-Papers
-![](https://img.shields.io/static/v1?label=Latest-Commit&message=2020/12/01&color=important) ![](https://img.shields.io/static/v1?label=Newest&message=EMNLP2020&color=green)
+![](https://img.shields.io/static/v1?label=Latest-Commit&message=2020/12/14&color=important) ![](https://img.shields.io/static/v1?label=Newest&message=COLING2020&color=green)
 
-A list of recent papers about GNN methods applied in NLP areas. Now, the repository includes papers published at ACL, EMNLP, NAACL-HLT, ICLR, WWW, ICML, KDD, and so on.
+A list of recent papers about GNN methods applied in NLP areas. Now, the repository includes papers published at ACL, EMNLP, NAACL-HLT, COLING, ICLR, WWW, ICML, KDD, and so on.
+
+- Dec 14, 2020:  Add COLING-2020
 
 - Dec 01, 2020:  Add EMNLP-2020
 
@@ -280,7 +282,43 @@ A list of recent papers about GNN methods applied in NLP areas. Now, the reposit
 27. **Hierarchical Graph Network for Multi-hop Question Answering**. *Yuwei Fang, et al.* ***EMNLP 2020*** [[pdf](https://www.aclweb.org/anthology/2020.emnlp-main.710.pdf)]
 28. **Exploiting Structured Knowledge in Text via Graph-Guided Representation Learning**. *Tao Shen, et al.* ***EMNLP 2020*** [[pdf](https://www.aclweb.org/anthology/2020.emnlp-main.722.pdf)]
 
+***COLING 2020***
 
+1. **A Graph Representation of Semi-structured Data for Web Question Answering**. *Xingyao Zhang, et al.* ***COLING 2020*** [[pdf](https://www.aclweb.org/anthology/2020.coling-main.5.pdf)]
+2. **Jointly Learning Aspect-Focused and Inter-Aspect Relations with Graph Convolutional Networks for Aspect Sentiment Analysis**. *Bin Liang, et al.* ***COLING 2020*** [[pdf](https://www.aclweb.org/anthology/2020.coling-main.13.pdf)]
+3. **End-to-End Emotion-Cause Pair Extraction with Graph Convolutional Network**. *Ying Chen, et al.* ***COLING 2020*** [[pdf](https://www.aclweb.org/anthology/2020.coling-main.17.pdf)]
+4. **Joint Aspect Extraction and Sentiment Analysis with Directional Graph Convolutional Networks**. *Guimin Chen, et al.* ***COLING 2020*** [[pdf](https://www.aclweb.org/anthology/2020.coling-main.24.pdf)]
+5. **Heterogeneous Graph Neural Networks to Predict What Happen Next**. *Jianming Zheng, et al.* ***COLING 2020*** [[pdf](https://www.aclweb.org/anthology/2020.coling-main.29.pdf)]
+6. **Improving Abstractive Dialogue Summarization with Graph Structures and Topic Words**. *Lulu Zhao, et al.* ***COLING 2020*** [[pdf](https://www.aclweb.org/anthology/2020.coling-main.39.pdf)]
+7. **Knowledge Graph Embeddings in Geometric Algebras**. *Chengjin Xu, et al.* ***COLING 2020*** [[pdf](https://www.aclweb.org/anthology/2020.coling-main.46.pdf)]
+8. **Exploiting Node Content for Multiview Graph Convolutional Network and Adversarial Regularization**. *Qiuhao Lu, et al.* ***COLING 2020*** [[pdf](https://www.aclweb.org/anthology/2020.coling-main.47.pdf)]
+9. **Syntax-Aware Graph Attention Network for Aspect-Level Sentiment Classification**. *Lianzhe Huang, et al.* ***COLING 2020*** [[pdf](https://www.aclweb.org/anthology/2020.coling-main.69.pdf)]
+10. **Aspect-Category based Sentiment Analysis with Hierarchical Graph Convolutional Network**. *Hongjie Cai, et al.* ***COLING 2020*** [[pdf](https://www.aclweb.org/anthology/2020.coling-main.72.pdf)]
+11. **A High Precision Pipeline for Financial Knowledge Graph Construction**. *Sarah Elhammadi, et al.* ***COLING 2020*** [[pdf](https://www.aclweb.org/anthology/2020.coling-main.84.pdf)]
+12. **Knowledge Graph Embedding with Atrous Convolution and Residual Learning**. *Feiliang Ren, et al.* ***COLING 2020*** [[pdf](https://www.aclweb.org/anthology/2020.coling-main.134.pdf)]
+13. **Graph Enhanced Dual Attention Network for Document-Level Relation Extraction**. *Bo Li, et al.* ***COLING 2020*** [[pdf](https://www.aclweb.org/anthology/2020.coling-main.136.pdf)]
+14. **Document-level Relation Extraction with Dual-tier Heterogeneous Graph**. *Zhenyu Zhang, et al.* ***COLING 2020*** [[pdf](https://www.aclweb.org/anthology/2020.coling-main.143.pdf)]
+15. **Unsupervised Fact Checking by Counter-Weighted Positive and Negative Evidential Paths in A Knowledge Graph**. *Jiseong Kim, et al.* ***COLING 2020*** [[pdf](https://www.aclweb.org/anthology/2020.coling-main.147.pdf)]
+16. **Multi-Task Learning for Knowledge Graph Completion with Pre-trained Language Models**. *Bosung Kim, et al.* ***COLING 2020*** [[pdf](https://www.aclweb.org/anthology/2020.coling-main.153.pdf)]
+17. **Visual-Textual Alignment for Graph Inference in Visual Dialog**. *Tianling Jiang, et al.* ***COLING 2020*** [[pdf](https://www.aclweb.org/anthology/2020.coling-main.170.pdf)]
+18. **Graph-Based Knowledge Integration for Question Answering over Dialogue**. *Jian Liu, et al.* ***COLING 2020*** [[pdf](https://www.aclweb.org/anthology/2020.coling-main.219.pdf)]
+19. **Improving Commonsense Question Answering by Graph-based Iterative Retrieval over Multiple Knowledge Sources**. *Qianglong Chen, et al.* ***COLING 2020*** [[pdf](https://www.aclweb.org/anthology/2020.coling-main.232.pdf)]
+20. **Automated Graph Generation at Sentence Level for Reading Comprehension Based on Conceptual Graphs**. *Wan-Hsuan Lin, et al.* ***COLING 2020*** [[pdf](https://www.aclweb.org/anthology/2020.coling-main.240.pdf)]
+21. **Syntactic Graph Convolutional Network for Spoken Language Understanding**. *Keqing He, et al.* ***COLING 2020*** [[pdf](https://www.aclweb.org/anthology/2020.coling-main.246.pdf)]
+22. **Normalizing Compositional Structures Across Graphbanks**. *Lucia Donatelli, et al.* ***COLING 2020*** [[pdf](https://www.aclweb.org/anthology/2020.coling-main.267.pdf)]
+23. **Specializing Word Vectors by Spectral Decomposition on Heterogeneously Twisted Graphs**. *Yuanhang Ren, et al.* ***COLING 2020*** [[pdf](https://www.aclweb.org/anthology/2020.coling-main.321.pdf)]
+24. **Summarize before Aggregate: A Global-to-local Heterogeneous Graph Inference Network for Conversational Emotion Recognition**. *Dongming Sheng, et al.* ***COLING 2020*** [[pdf](https://www.aclweb.org/anthology/2020.coling-main.367.pdf)]
+25. **Suggest me a movie for tonight: Leveraging Knowledge Graphs for Conversational Recommendation**. *Rajdeep Sarkar, et al.* ***COLING 2020*** [[pdf](https://www.aclweb.org/anthology/2020.coling-main.369.pdf)]
+26. **Integrating User History into Heterogeneous Graph for Dialogue Act Recognition**. *Dong Wang, et al.* ***COLING 2020*** [[pdf](https://www.aclweb.org/anthology/2020.coling-main.372.pdf)]
+27. **Knowledge Graph Enhanced Neural Machine Translation via Multi-task Learning on Sub-entity Granularity**. *Yang Zhao, et al.* ***COLING 2020*** [[pdf](https://www.aclweb.org/anthology/2020.coling-main.397.pdf)]
+28. **Global Context-enhanced Graph Convolutional Networks for Document-level Relation Extraction**. *Huiwei Zhou, et al.* ***COLING 2020*** [[pdf](https://www.aclweb.org/anthology/2020.coling-main.461.pdf)]
+29. **Enhancing Extractive Text Summarization with Topic-Aware Graph Neural Networks**. *Peng Cui, et al.* ***COLING 2020*** [[pdf](https://www.aclweb.org/anthology/2020.coling-main.468.pdf)]
+30. **Few-Shot Text Classification with Edge-Labeling Graph Neural Network-Based Prototypical Network**. *Chen Lyu, et al.* ***COLING 2020*** [[pdf](https://www.aclweb.org/anthology/2020.coling-main.485.pdf)]
+31. **Fact-level Extractive Summarization with Hierarchical Graph Mask on **. *Ruifeng Yuan, et al.* ***COLING 2020*** [[pdf](https://www.aclweb.org/anthology/2020.coling-main.493.pdf)]
+32. **A Contextual Alignment Enhanced Cross Graph Attention Network for Cross-lingual Entity Alignment**. *Zhiwen Xie, et al.* ***COLING 2020*** [[pdf](https://www.aclweb.org/anthology/2020.coling-main.520.pdf)]
+33. **Graph Convolution over Multiple Dependency Sub-graphs for Relation Extraction**. *Angrosh Mandya, et al.* ***COLING 2020*** [[pdf](https://www.aclweb.org/anthology/2020.coling-main.565.pdf)]
+34. **Knowledge-Enhanced Natural Language Inference Based on Knowledge Graphs**. *Zikang Wang, et al.* ***COLING 2020*** [[pdf](https://www.aclweb.org/anthology/2020.coling-main.571.pdf)]
+35. **Regularized Graph Convolutional Networks for Short Text Classification**. *Kshitij Tayal, et al.* ***COLING 2020*** [[pdf](https://www.aclweb.org/anthology/2020.coling-industry.22.pdf)]
 
 
 

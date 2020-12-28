@@ -1,5 +1,5 @@
 # GNN4NLP-Papers
-![](https://img.shields.io/static/v1?label=Latest-Commit&message=2020/12/14&color=important) ![](https://img.shields.io/static/v1?label=Newest&message=COLING2020&color=green)
+![](https://img.shields.io/static/v1?label=Latest-Commit&message=2020/12/14&color=important) ![](https://img.shields.io/static/v1?label=Newest&message=COLING2020&color=blue)
 
 A list of recent papers about GNN methods applied in NLP areas. Now, the repository includes papers published at ACL, EMNLP, NAACL-HLT, COLING, ICLR, WWW, ICML, KDD, and so on.
 

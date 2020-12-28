@@ -314,7 +314,7 @@ A list of recent papers about GNN methods applied in NLP areas. Now, the reposit
 28. **Global Context-enhanced Graph Convolutional Networks for Document-level Relation Extraction**. *Huiwei Zhou, et al.* ***COLING 2020*** [[pdf](https://www.aclweb.org/anthology/2020.coling-main.461.pdf)]
 29. **Enhancing Extractive Text Summarization with Topic-Aware Graph Neural Networks**. *Peng Cui, et al.* ***COLING 2020*** [[pdf](https://www.aclweb.org/anthology/2020.coling-main.468.pdf)]
 30. **Few-Shot Text Classification with Edge-Labeling Graph Neural Network-Based Prototypical Network**. *Chen Lyu, et al.* ***COLING 2020*** [[pdf](https://www.aclweb.org/anthology/2020.coling-main.485.pdf)]
-31. **Fact-level Extractive Summarization with Hierarchical Graph Mask on **. *Ruifeng Yuan, et al.* ***COLING 2020*** [[pdf](https://www.aclweb.org/anthology/2020.coling-main.493.pdf)]
+31. **Fact-level Extractive Summarization with Hierarchical Graph Mask on BERT**. *Ruifeng Yuan, et al.* ***COLING 2020*** [[pdf](https://www.aclweb.org/anthology/2020.coling-main.493.pdf)]
 32. **A Contextual Alignment Enhanced Cross Graph Attention Network for Cross-lingual Entity Alignment**. *Zhiwen Xie, et al.* ***COLING 2020*** [[pdf](https://www.aclweb.org/anthology/2020.coling-main.520.pdf)]
 33. **Graph Convolution over Multiple Dependency Sub-graphs for Relation Extraction**. *Angrosh Mandya, et al.* ***COLING 2020*** [[pdf](https://www.aclweb.org/anthology/2020.coling-main.565.pdf)]
 34. **Knowledge-Enhanced Natural Language Inference Based on Knowledge Graphs**. *Zikang Wang, et al.* ***COLING 2020*** [[pdf](https://www.aclweb.org/anthology/2020.coling-main.571.pdf)]

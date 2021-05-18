@@ -17,6 +17,8 @@ A list of recent papers about GNN methods applied in NLP areas. Now, the reposit
 
 2. **A Lexicon-Based Graph Neural Network for Chinese NER**. *Tao Gui, Yicheng Zou and Qi Zhang.* ***EMNLP 2019*** [[pdf](http://qizhang.info/paper/emnlp-2019.ner.pdf)]
 
+3. **Look Again at the Syntax: Relational Graph Convolutional Network for Gendered Ambiguous Pronoun Resolution**. *Yinchuan Xu, Junlin Yang.* ***GBNLP@ACL 2019*** [[pdf](https://www.aclweb.org/anthology/W19-3814.pdf)] [[code](https://github.com/ianycxu/RGCN-with-BERT)]
+
    
 
 ### Text Classification
@@ -51,7 +53,7 @@ A list of recent papers about GNN methods applied in NLP areas. Now, the reposit
 
 9. **Message Passing for Complex Question Answering over Knowledge Graphs**. *Svitlana Vakulenko, Javier David Fernandez Garcia, Axel Polleres, Maarten de Rijke, Michael Cochez.*  ***CIKM 2019*** [[pdf](https://arxiv.org/abs/1908.06917?context=cs.CL)]
 
-10. **Knowledge-aware Textual Entailment with Graph Atention Network**. *Daoyuan Chen , Yaliang Li , Min Yang , Hai-Tao Zheng , Ying Shen.*  ***CIKM 2019*** [[pdf]()]
+10. **Knowledge-aware Textual Entailment with Graph Atention Network**. *Daoyuan Chen , Yaliang Li , Min Yang , Hai-Tao Zheng , Ying Shen.*  ***CIKM 2019*** [[pdf](https://dl.acm.org/doi/10.1145/3357384.3358071)]
 
 11. **Fine-grained Fact Verification with Kernel Graph Attention Network**. *Zhenghao Liu, Chenyan Xiong, Maosong Sun, Zhiyuan Liu*. ***ACL 2020*** [[pdf](https://arxiv.org/pdf/1910.09796.pdf)] [[code](https://github.com/thunlp/KernelGAT)]
 
@@ -170,6 +172,7 @@ A list of recent papers about GNN methods applied in NLP areas. Now, the reposit
 9. **GraphRel: Modeling Text as Relational Graphs for Joint Entity and Relation Extraction**. *Tsu-Jui Fu, Peng-Hsuan Li and Wei-Yun Ma*. ***ACL 2019*** [[pdf](https://tsujuifu.github.io/projs/acl19_graph-rel.html)] [[code](https://github.com/tsujuifu/pytorch_graph-rel)]
 10. **Multi-hop Reading Comprehension across Multiple Documents by Reasoning over Heterogeneous Graphs**. *Ming Tu, Guangtao Wang, Jing Huang, Yun Tang, Xiaodong He and Bowen Zhou.* ***ACL 2019*** [[pdf](https://arxiv.org/abs/1905.07374)]
 11. **Textbook Question Answering with Multi-modal Context Graph Understanding and Self-supervised Open-set Comprehension**. *Daesik Kim, Seonhoon Kim and Nojun Kwak.* ***ACL 2019*** [[pdf](https://arxiv.org/abs/1811.00232)]
+12. **Look Again at the Syntax: Relational Graph Convolutional Network for Gendered Ambiguous Pronoun Resolution**. *Yinchuan Xu, Junlin Yang.* ***GBNLP@ACL 2019*** [[pdf](https://www.aclweb.org/anthology/W19-3814.pdf)] [[code](https://github.com/ianycxu/RGCN-with-BERT)]
 
 
 

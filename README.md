@@ -1,15 +1,17 @@
 # GNN4NLP-Papers
-![](https://img.shields.io/static/v1?label=Latest-Commit&message=2021/05/24&color=important) ![](https://img.shields.io/static/v1?label=Newest&message=NAACL2021&color=blue)
+![](https://img.shields.io/static/v1?label=Latest-Commit&message=2021/07/28&color=important) ![](https://img.shields.io/static/v1?label=Newest&message=ACL2021&color=blue)
 
 A list of recent papers about GNN methods applied in NLP areas. Now, the repository includes papers published at ACL, EMNLP, NAACL-HLT, COLING, ICLR, WWW, ICML, KDD, and so on.
 
-- May 24, 2021:  Add NAACL-2021
+- Jul. 28, 2021:  Add ACL-2021
 
-- Dec 14, 2020:  Add COLING-2020
+- May. 24, 2021:  Add NAACL-2021
 
-- Dec 01, 2020:  Add EMNLP-2020
+- Dec. 14, 2020:  Add COLING-2020
 
-- Jun 24, 2020:  Add ACL-2020, GNN tools, and Ph.D. thesis.
+- Dec. 01, 2020:  Add EMNLP-2020
+
+- Jun. 24, 2020:  Add ACL-2020, GNN tools, and Ph.D. thesis.
 
 ## Taxonomy
 
@@ -367,6 +369,41 @@ A list of recent papers about GNN methods applied in NLP areas. Now, the reposit
 24. **Breadth First Reasoning Graph for Multi-hop Question Answering**. *Yongjie Huang and Meng Yang*. ***NAACL 2021*** [[pdf](https://www.aclweb.org/anthology/2021.naacl-main.464.pdf)]
 25. **Improving Zero-Shot Cross-lingual Transfer for Multilingual Question Answering over Knowledge Graph**. *Yucheng Zhou, Xiubo Geng, Tao Shen, Wenqiang Zhang and Daxin Jiang*. ***NAACL 2021*** [[pdf](https://www.aclweb.org/anthology/2021.naacl-main.465.pdf)]
 26. **DAGN: Discourse-Aware Graph Network for Logical Reasoning**. *Yinya Huang, Meng Fang, Yu Cao, Liwei Wang and Xiaodan Liang*. ***NAACL 2021*** [[pdf](https://www.aclweb.org/anthology/2021.naacl-main.467.pdf)]
+
+***ACL 2021***
+
+1. **Multimodal Sentiment Detection Based on Multi-channel Graph Neural Networks**. *Xiaocui Yang, Shi Feng, Yifei Zhang and Daling Wang*. ***ACL 2021*** [[pdf](https://www.aclweb.org/anthology/2021.acl-long.28.pdf)]
+2. **SocAoG: Incremental Graph Parsing for Social Relation Inference in Dialogues**. *Liang Qiu, Yuan Liang, Yizhou Zhao, Pan Lu, Baolin Peng, Zhou Yu, Ying Nian Wu and Song-Chun Zhu*. ***ACL 2021*** [[pdf](https://www.aclweb.org/anthology/2021.acl-long.54.pdf)]
+3. **CitationIE: Leveraging the Citation Graph for Scientific Information Extraction**. *Vijay Viswanathan, Graham Neubig and Pengfei Liu*. ***ACL 2021*** [[pdf](https://www.aclweb.org/anthology/2021.acl-long.59.pdf)]
+4. **Compare to The Knowledge: Graph Neural Fake News Detection with External Knowledge**. *Linmei Hu, Tianchi Yang, Luhao Zhang, Wanjun Zhong, Duyu Tang, Chuan Shi, Nan Duan and Ming Zhou*. ***ACL 2021*** [[pdf](https://www.aclweb.org/anthology/2021.acl-long.62.pdf)]
+6. **Directed Acyclic Graph Network for Conversational Emotion Recognition**. *Weizhou Shen, Siyue Wu, Yunyi Yang and Xiaojun Quan*. ***ACL 2021*** [[pdf](https://www.aclweb.org/anthology/2021.acl-long.123.pdf)]
+7. **Discovering Dialog Structure Graph for Coherent Dialog Generation**. *Jun Xu, Zeyang Lei, Haifeng Wang, Zheng-Yu Niu, Hua Wu and Wanxiang Che*. ***ACL 2021*** [[pdf](https://www.aclweb.org/anthology/2021.acl-long.136.pdf)]
+8. **Bird’s Eye: Probing for Linguistic Graph Structures with a Simple Information-Theoretic Approach**. *Yifan Hou and Mrinmaya Sachan*. ***ACL 2021*** [[pdf](https://www.aclweb.org/anthology/2021.acl-long.145.pdf)]
+9. **Poisoning Knowledge Graph Embeddings via Relation Inference Patterns**. *Peru Bhardwaj, John Kelleher, Luca Costabello and Declan O’Sullivan*. ***ACL 2021*** [[pdf](https://www.aclweb.org/anthology/2021.acl-long.147.pdf)]
+10. **ExCAR: Event Graph Knowledge Enhanced Explainable Causal Reasoning**. *Li Du, Xiao Ding, Kai Xiong, Ting Liu and Bing Qin*. ***ACL 2021*** [[pdf](https://www.aclweb.org/anthology/2021.acl-long.183.pdf)]
+11. **LGESQL: Line Graph Enhanced Text-to-SQL Model with Mixed Local and Non-Local Relations**. *Ruisheng Cao, Lu Chen, Zhi Chen, Yanbin Zhao, Su Zhu and Kai Yu*. ***ACL 2021*** [[pdf](https://www.aclweb.org/anthology/2021.acl-long.198.pdf)]
+12. **Learning Syntactic Dense Embedding with Correlation Graph for Automatic Readability Assessment**. *Xinying Qiu, Yuan Chen, Hanwu Chen, Jian-Yun Nie, Yuming Shen and Dawei Lu*. ***ACL 2021*** [[pdf](https://www.aclweb.org/anthology/2021.acl-long.235.pdf)]
+13. **Position Bias Mitigation: A Knowledge-Aware Graph Model for Emotion Cause Extraction**. *Hanqi Yan, Lin Gui, Gabriele Pergola and Yulan He*. ***ACL 2021*** [[pdf](https://www.aclweb.org/anthology/2021.acl-long.261.pdf)]
+14. **Structured Sentiment Analysis as Dependency Graph Parsing**. *Jeremy Barnes, Robin Kurtz, Stephan Oepen, Lilja Øvrelid and Erik Velldal*. ***ACL 2021*** [[pdf](https://www.aclweb.org/anthology/2021.acl-long.263.pdf)]
+15. **Towards Propagation Uncertainty: Edge-enhanced Bayesian Graph Convolutional Networks for Rumor Detection**. *Lingwei Wei, Dou Hu, Wei Zhou, Zhaojuan Yue and Songlin Hu*. ***ACL 2021*** [[pdf](https://www.aclweb.org/anthology/2021.acl-long.297.pdf)]
+16. **Label-Specific Dual Graph Neural Network for Multi-Label Text Classification**. *Qianwen Ma, Chunyuan Yuan, Wei Zhou and Songlin Hu*. ***ACL 2021*** [[pdf](https://www.aclweb.org/anthology/2021.acl-long.298.pdf)]
+17. **ABCD: A Graph Framework to Convert Complex Sentences to a Covering Set of Simple Sentences**. *Yanjun Gao, Ting-Hao Huang and Rebecca J. Passonneau*. ***ACL 2021*** [[pdf](https://www.aclweb.org/anthology/2021.acl-long.303.pdf)]
+18. **Psycholinguistic Tripartite Graph Network for Personality Detection**. *Tao Yang, Feifan Yang, Haolan Ouyang and Xiaojun Quan*. ***ACL 2021*** [[pdf](https://www.aclweb.org/anthology/2021.acl-long.326.pdf)]
+19. **PairRE: Knowledge Graph Embeddings via Paired Relation Vectors**. *Linlin Chao, Jianshan He, Taifeng Wang and Wei Chu*. ***ACL 2021*** [[pdf](https://www.aclweb.org/anthology/2021.acl-long.336.pdf)]
+20. **Dependency-driven Relation Extraction with Attentive Graph Convolutional Networks**. *Yuanhe Tian, Guimin Chen, Yan Song and Xiang Wan*. ***ACL 2021*** [[pdf](https://www.aclweb.org/anthology/2021.acl-long.344.pdf)]
+21. **How Knowledge Graph and Attention Help? A Qualitative Analysis into Bag-level Relation Extraction**. *Zikun Hu, Yixin Cao, Lifu Huang and Tat-Seng Chua*. ***ACL 2021*** [[pdf](https://www.aclweb.org/anthology/2021.acl-long.359.pdf)]
+22. **Reasoning over Entity-Action-Location Graph for Procedural Text Understanding**. *Hao Huang, Xiubo Geng, Jian Pei, Guodong Long and Daxin Jiang*. ***ACL 2021*** [[pdf](https://www.aclweb.org/anthology/2021.acl-long.396.pdf)]
+23. **Learning Event Graph Knowledge for Abductive Reasoning**. *Li Du, Xiao Ding, Ting Liu and Bing Qin*. ***ACL 2021*** [[pdf](https://www.aclweb.org/anthology/2021.acl-long.403.pdf)]
+24. **Unified Interpretation of Softmax Cross-Entropy and Negative Sampling: With Case Study for Knowledge Graph Embedding**. *Hidetaka Kamigaito and Katsuhiko Hayashi*. ***ACL 2021*** [[pdf](https://www.aclweb.org/anthology/2021.acl-long.429.pdf)]
+25. **MMGCN: Multimodal Fusion via Deep Graph Convolution Network for Emotion Recognition in Conversation**. *Jingwen Hu, Yuchen Liu, Jinming Zhao and Qin Jin*. ***ACL 2021*** [[pdf](https://www.aclweb.org/anthology/2021.acl-long.440.pdf)]
+26. **BASS: Boosting Abstractive Summarization with Unified Semantic Graph**. *Wenhao Wu, Wei Li, Xinyan Xiao, Jiachen Liu, Ziqiang Cao, Sujian Li, Hua Wu and Haifeng Wang*. ***ACL 2021*** [[pdf](https://www.aclweb.org/anthology/2021.acl-long.472.pdf)]
+27. **Dual Graph Convolutional Networks for Aspect-based Sentiment Analysis**. *Ruifan Li, Hao Chen, Fangxiang Feng, Zhanyu Ma, Xiaojie Wang and Eduard Hovy*. ***ACL 2021*** [[pdf](https://www.aclweb.org/anthology/2021.acl-long.494.pdf)]
+28. **Multi-hop Graph Convolutional Network with High-order Chebyshev Approximation for Text Reasoning**. *Shuoran Jiang, Qingcai Chen, Xin Liu, Baotian Hu and Lisai Zhang*. ***ACL 2021*** [[pdf](https://www.aclweb.org/anthology/2021.acl-long.513.pdf)]
+30. **Space Efficient Context Encoding for Non-Task-Oriented Dialogue Generation with Graph Attention Transformer**. *Fabian Galetzka, Jewgeni Rose, David Schlangen and Jens Lehmann*. ***ACL 2021*** [[pdf](https://www.aclweb.org/anthology/2021.acl-long.546.pdf)]
+31. **Cross-lingual Text Classification with Heterogeneous Graph Neural Network**. *Ziyun Wang, Xuan Liu, Peiji Yang, Shixing Liu and Zhisheng Wang*. ***ACL 2021*** [[pdf](https://www.aclweb.org/anthology/2021.acl-short.78.pdf)]
+32. **Efficient Text-based Reinforcement Learning by Jointly Leveraging State and Commonsense Graph Representations**. *Keerthiram Murugesan, Mattia Atzeni, Pavan Kapanipathi, Kartik Talamadupula, Mrinmaya Sachan and Murray Campbell*. ***ACL 2021*** [[pdf](https://www.aclweb.org/anthology/2021.acl-short.91.pdf)]
+33. **Explicitly Capturing Relations between Entity Mentions via Graph Neural Networks for Domain-specific Named Entity Recognition**. *Pei Chen, Haibo Ding, Jun Araki and Ruihong Huang*. ***ACL 2021*** [[pdf](https://www.aclweb.org/anthology/2021.acl-short.93.pdf)]
+34. **Unsupervised Cross-Domain Prerequisite Chain Learning using Variational Graph Autoencoders**. *Irene Li, Vanessa Yan, Tianxiao Li, Rihao Qu and Dragomir Radev*. ***ACL 2021*** [[pdf](https://www.aclweb.org/anthology/2021.acl-short.127.pdf)]
 
 
 

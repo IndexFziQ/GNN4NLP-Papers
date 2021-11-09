@@ -1,7 +1,9 @@
 # GNN4NLP-Papers
-![](https://img.shields.io/static/v1?label=Latest-Commit&message=2021/07/28&color=important) ![](https://img.shields.io/static/v1?label=Newest&message=ACL2021&color=blue)
+![](https://img.shields.io/static/v1?label=Latest-Commit&message=2021/11/09&color=important) ![](https://img.shields.io/static/v1?label=Newest&message=EMNLP2021&color=blue)
 
 A list of recent papers about GNN methods applied in NLP areas. Now, the repository includes papers published at ACL, EMNLP, NAACL-HLT, COLING, ICLR, WWW, ICML, KDD, and so on.
+
+- Nov. 9, 2021:  Add EMNLP-2021
 
 - Jul. 28, 2021:  Add ACL-2021
 
@@ -404,6 +406,32 @@ A list of recent papers about GNN methods applied in NLP areas. Now, the reposit
 32. **Efficient Text-based Reinforcement Learning by Jointly Leveraging State and Commonsense Graph Representations**. *Keerthiram Murugesan, Mattia Atzeni, Pavan Kapanipathi, Kartik Talamadupula, Mrinmaya Sachan and Murray Campbell*. ***ACL 2021*** [[pdf](https://www.aclweb.org/anthology/2021.acl-short.91.pdf)]
 33. **Explicitly Capturing Relations between Entity Mentions via Graph Neural Networks for Domain-specific Named Entity Recognition**. *Pei Chen, Haibo Ding, Jun Araki and Ruihong Huang*. ***ACL 2021*** [[pdf](https://www.aclweb.org/anthology/2021.acl-short.93.pdf)]
 34. **Unsupervised Cross-Domain Prerequisite Chain Learning using Variational Graph Autoencoders**. *Irene Li, Vanessa Yan, Tianxiao Li, Rihao Qu and Dragomir Radev*. ***ACL 2021*** [[pdf](https://www.aclweb.org/anthology/2021.acl-short.127.pdf)]
+
+***EMNLP 2021***
+
+1. **Multiplex Graph Neural Network for Extractive Text Summarization**. *Baoyu Jing, Zeyu You, Tao Yang, Wei Fan and Hanghang Tong*. ***EMNLP 2021*** [[pdf](https://www.aclweb.org/anthology/2021.emnlp-main.11.pdf)]
+2. **Beta Distribution Guided Aspect-aware Graph for Aspect Category Sentiment Analysis with Affective Knowledge**. *Bin Liang, Hang Su, Rongdi Yin, Lin Gui, Min Yang, Qin Zhao, Xiaoqi Yu and Ruifeng Xu*. ***EMNLP 2021*** [[pdf](https://www.aclweb.org/anthology/2021.emnlp-main.19.pdf)]
+3. **Graph Based Network with Contextualized Representations of Turns in Dialogue**. *Bongseok Lee and Yong Suk Choi*. ***EMNLP 2021*** [[pdf](https://www.aclweb.org/anthology/2021.emnlp-main.36.pdf)]
+4. **Extend, don’t rebuild: Phrasing conditional graph modification as autoregressive sequence labelling**. *Leon Weber, Jannes Münchmeyer, Samuele Garda and Ulf Leser*. ***EMNLP 2021*** [[pdf](https://www.aclweb.org/anthology/2021.emnlp-main.93.pdf)]
+5. **CR-Walker: Tree-Structured Graph Reasoning and Dialog Acts for Conversational Recommendation**. *Wenchang Ma, Ryuichi Takanobu and Minlie Huang*. ***EMNLP 2021*** [[pdf](https://www.aclweb.org/anthology/2021.emnlp-main.139.pdf)]
+6. **CSAGN: Conversational Structure Aware Graph Network for Conversational Semantic Role Labeling**. *Han Wu, Kun Xu and Linqi Song*. ***EMNLP 2021*** [[pdf](https://www.aclweb.org/anthology/2021.emnlp-main.177.pdf)]
+7. **Building the Directed Semantic Graph for Coherent Long Text Generation**. *Ziao Wang, Xiaofeng Zhang and Hongwei Du*. ***EMNLP 2021*** [[pdf](https://www.aclweb.org/anthology/2021.emnlp-main.200.pdf)]
+8. **Heterogeneous Graph Neural Networks for Keyphrase Generation**. *Jiacheng Ye, Ruijian Cai, Tao Gui and Qi Zhang*. ***EMNLP 2021*** [[pdf](https://www.aclweb.org/anthology/2021.emnlp-main.213.pdf)]
+9. **Weakly-supervised Text Classification Based on Keyword Graph**. *Lu Zhang, Jiandong Ding, Yi Xu, Yingyao Liu and Shuigeng Zhou*. ***EMNLP 2021*** [[pdf](https://www.aclweb.org/anthology/2021.emnlp-main.222.pdf)]
+10. **Hierarchical Heterogeneous Graph Representation Learning for Short Text Classification**. *Yaqing Wang, Song Wang, Quanming Yao and Dejing Dou*. ***EMNLP 2021*** [[pdf](https://www.aclweb.org/anthology/2021.emnlp-main.247.pdf)]
+11. **GraphMR: Graph Neural Network for Mathematical Reasoning**. *Weijie Feng, Binbin Liu, Dongpeng Xu, Qilong Zheng and Yun Xu*. ***EMNLP 2021*** [[pdf](https://www.aclweb.org/anthology/2021.emnlp-main.273.pdf)]
+12. **Argument Pair Extraction with Mutual Guidance and Inter-sentence Relation Graph**. *Jianzhu Bao, Bin Liang, Jingyi Sun, Yice Zhang, Min Yang and Ruifeng Xu*. ***EMNLP 2021*** [[pdf](https://www.aclweb.org/anthology/2021.emnlp-main.319.pdf)]
+13. **Event Graph based Sentence Fusion**. *Ruifeng Yuan, Zili Wang and Wenjie Li*. ***EMNLP 2021*** [[pdf](https://www.aclweb.org/anthology/2021.emnlp-main.334.pdf)]
+14. **TransferNet: An Effective and Transparent Framework for Multi-hop Question Answering over Relation Graph**. *Jiaxin Shi, Shulin Cao, Lei Hou, Juanzi Li and Hanwang Zhang*. ***EMNLP 2021*** [[pdf](https://www.aclweb.org/anthology/2021.emnlp-main.341.pdf)]
+17. **The Future is not One-dimensional: Complex Event Schema Induction by Graph Modeling for Event Prediction**. *Manling Li, Sha Li, Zhenhailong Wang, Lifu Huang, Kyunghyun Cho, Heng Ji, Jiawei Han and Clare Voss*. ***EMNLP 2021*** [[pdf](https://www.aclweb.org/anthology/2021.emnlp-main.422.pdf)]
+20. **Timeline Summarization based on Event Graph Compression via Time-Aware Optimal Transport**. *Manling Li, Tengfei Ma, Mo Yu, Lingfei Wu, Tian Gao, Heng Ji and Kathleen McKeown*. ***EMNLP 2021*** [[pdf](https://www.aclweb.org/anthology/2021.emnlp-main.519.pdf)]
+21. **ExplaGraphs: An Explanation Graph Generation Task for Structured Commonsense Reasoning**. *Swarnadeep Saha, Prateek Yadav, Lisa Bauer and Mohit Bansal*. ***EMNLP 2021*** [[pdf](https://www.aclweb.org/anthology/2021.emnlp-main.609.pdf)]
+24. **Efficient Mind-Map Generation via Sequence-to-Graph and Reinforced Graph Refinement**. *Mengting Hu, Honglei Guo, Shiwan Zhao, Hang Gao and Zhong Su*. ***EMNLP 2021*** [[pdf](https://www.aclweb.org/anthology/2021.emnlp-main.641.pdf)]
+25. **Deep Attention Diffusion Graph Neural Networks for Text Classification**. *Yonghao Liu, Renchu Guan, Fausto Giunchiglia, Yanchun Liang and Xiaoyue Feng*. ***EMNLP 2021*** [[pdf](https://www.aclweb.org/anthology/2021.emnlp-main.642.pdf)]
+28. **Document Graph for Neural Machine Translation**. *Mingzhou Xu, Liangyou Li, Derek F. Wong, Qun Liu and Lidia S. Chao*. ***EMNLP 2021*** [[pdf](https://www.aclweb.org/anthology/2021.emnlp-main.663.pdf)]
+29. **Graph Algorithms for Multiparallel Word Alignment**. *Ayyoob ImaniGooghari, Masoud Jalili Sabet, Lutfi Kerem Senel, Philipp Dufter, François Yvon and Hinrich Schütze*. ***EMNLP 2021*** [[pdf](https://www.aclweb.org/anthology/2021.emnlp-main.665.pdf)]
+31. **A Differentiable Relaxation of Graph Segmentation and Alignment for AMR Parsing**. *Chunchuan Lyu, Shay B. Cohen and Ivan Titov*. ***EMNLP 2021*** [[pdf](https://www.aclweb.org/anthology/2021.emnlp-main.714.pdf)]
+34. **Rumor Detection on Twitter with Claim-Guided Hierarchical Graph Attention Networks**. *Hongzhan Lin, Jing Ma, Mingfei Cheng, Zhiwei Yang, Liangliang Chen and Guang Chen*. ***EMNLP 2021*** [[pdf](https://www.aclweb.org/anthology/2021.emnlp-main.786.pdf)]
 
 
 

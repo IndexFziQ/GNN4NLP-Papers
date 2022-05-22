@@ -3,6 +3,8 @@
 
 A list of recent papers about GNN methods applied in NLP areas. Now, the repository includes papers published at ACL, EMNLP, NAACL-HLT, COLING, ICLR, WWW, ICML, KDD, and so on.
 
+- May. 23, 2022:  Add ACL-2022
+
 - Nov. 9, 2021:  Add EMNLP-2021
 
 - Jul. 28, 2021:  Add ACL-2021
@@ -433,6 +435,38 @@ A list of recent papers about GNN methods applied in NLP areas. Now, the reposit
 31. **A Differentiable Relaxation of Graph Segmentation and Alignment for AMR Parsing**. *Chunchuan Lyu, Shay B. Cohen and Ivan Titov*. ***EMNLP 2021*** [[pdf](https://www.aclweb.org/anthology/2021.emnlp-main.714.pdf)]
 34. **Rumor Detection on Twitter with Claim-Guided Hierarchical Graph Attention Networks**. *Hongzhan Lin, Jing Ma, Mingfei Cheng, Zhiwei Yang, Liangliang Chen and Guang Chen*. ***EMNLP 2021*** [[pdf](https://www.aclweb.org/anthology/2021.emnlp-main.786.pdf)]
 
+
+***ACL 2022***
+
+1. **Dynamic Schema Graph Fusion Network for Multi-Domain Dialogue State Tracking**. *Yue Feng, Aldo Lipani, Fanghua Ye, Qiang Zhang and Emine Yilmaz*. ***ACL 2022*** [[pdf](https://www.aclweb.org/anthology/2022.acl-long.10.pdf)]
+2. **Multilingual Knowledge Graph Completion with Self-Supervised Adaptive Graph Alignment**. *Zijie Huang, Zheng Li, Haoming Jiang, Tianyu Cao, Hanqing Lu, Bing Yin, Karthik Subbian, Yizhou Sun and Wei Wang*. ***ACL 2022*** [[pdf](https://www.aclweb.org/anthology/2022.acl-long.36.pdf)]
+3. **Multilingual Knowledge Graph Completion with Self-Supervised Adaptive Graph Alignment**. *Zijie Huang, Zheng Li, Haoming Jiang, Tianyu Cao, Hanqing Lu, Bing Yin, Karthik Subbian, Yizhou Sun and Wei Wang*. ***ACL 2022*** [[pdf](https://www.aclweb.org/anthology/2022.acl-long.36.pdf)]
+4. **Modeling Temporal-Modal Entity Graph for Procedural Multimodal Machine Comprehension**. *Huibin Zhang, Zhengkun Zhang, Yao Zhang, Jun Wang, Yufan Li, Ning Jiang, Xin Wei and Zhenglu Yang*. ***ACL 2022*** [[pdf](https://www.aclweb.org/anthology/2022.acl-long.84.pdf)]
+5. **Explanation Graph Generation via Pre-trained Language Models: An Empirical Study with Contrastive Learning**. *Swarnadeep Saha, Prateek Yadav and Mohit Bansal*. ***ACL 2022*** [[pdf](https://www.aclweb.org/anthology/2022.acl-long.85.pdf)]
+6. **Tackling Fake News Detection by Continually Improving Social Context Representations using Graph Neural Networks**. *Nikhil Mehta, Maria Pacheco and Dan Goldwasser*. ***ACL 2022*** [[pdf](https://www.aclweb.org/anthology/2022.acl-long.97.pdf)]
+7. **Multi-Modal Sarcasm Detection via Cross-Modal Graph Convolutional Network**. *Bin Liang, Chenwei Lou, Xiang Li, Min Yang, Lin Gui, Yulan He, Wenjie Pei and Ruifeng Xu*. ***ACL 2022*** [[pdf](https://www.aclweb.org/anthology/2022.acl-long.124.pdf)]
+8. **Enhancing Chinese Pre-trained Language Model via Heterogeneous Linguistics Graph**. *Yanzeng Li, Jiangxia Cao, Xin Cong, Zhenyu Zhang, Bowen Yu, Hongsong Zhu and Tingwen Liu*. ***ACL 2022*** [[pdf](https://www.aclweb.org/anthology/2022.acl-long.140.pdf)]
+9. **Learning from Sibling Mentions with Scalable Graph Inference in Fine-Grained Entity Typing**. *Yi Chen, Jiayang Cheng, Haiyun Jiang, Lemao Liu, Haisong Zhang, Shuming Shi and Ruifeng Xu*. ***ACL 2022*** [[pdf](https://www.aclweb.org/anthology/2022.acl-long.147.pdf)]
+10. **Efficient Hyper-parameter Search for Knowledge Graph Embedding**. *Yongqi Zhang, Zhanke Zhou, Quanming Yao and Yong Li*. ***ACL 2022*** [[pdf](https://www.aclweb.org/anthology/2022.acl-long.194.pdf)]
+11. **Variational Graph Autoencoding as Cheap Supervision for AMR Coreference Resolution**. *Irene Li, Linfeng Song, Kun Xu and Dong Yu*. ***ACL 2022*** [[pdf](https://www.aclweb.org/anthology/2022.acl-long.199.pdf)]
+12. **Sequence-to-Sequence Knowledge Graph Completion and Question Answering**. *Apoorv Saxena, Adrian Kochsiek and Rainer Gemulla*. ***ACL 2022*** [[pdf](https://www.aclweb.org/anthology/2022.acl-long.201.pdf)]
+13. **CAKE: A Scalable Commonsense-Aware Framework For Multi-View Knowledge Graph Completion**. *Guanglin Niu, Bo Li, Yongfei Zhang and Shiliang Pu*. ***ACL 2022*** [[pdf](https://www.aclweb.org/anthology/2022.acl-long.205.pdf)]
+14. **Enhanced Multi-Channel Graph Convolutional Network for Aspect Sentiment Triplet Extraction**. *Hao Chen, Zepeng Zhai, Fangxiang Feng, Ruifan Li and Xiaojie Wang*. ***ACL 2022*** [[pdf](https://www.aclweb.org/anthology/2022.acl-long.212.pdf)]
+15. **Bag-of-Words vs. Graph vs. Sequence in Text Classification: Questioning the Necessity of Text-Graphs and the Surprising Strength of a Wide MLP**. *Lukas Galke and Ansgar Scherp*. ***ACL 2022*** [[pdf](https://www.aclweb.org/anthology/2022.acl-long.279.pdf)]
+16. **Effective Token Graph Modeling using a Novel Labeling Strategy for Structured Sentiment Analysis**. *Wenxuan Shi, Fei Li, Jingye Li, Hao Fei and Donghong Ji*. ***ACL 2022*** [[pdf](https://www.aclweb.org/anthology/2022.acl-long.291.pdf)]
+17. **SimKGC: Simple Contrastive Knowledge Graph Completion with Pre-trained Language Models**. *Liang Wang, Wei Zhao, Zhuoyu Wei and Jingming Liu*. ***ACL 2022*** [[pdf](https://www.aclweb.org/anthology/2022.acl-long.295.pdf)]
+18. **Graph Enhanced Contrastive Learning for Radiology Findings Summarization**. *Jinpeng Hu, Zhuo Li, Zhihong Chen, Zhen Li, Xiang Wan and Tsung-Hui Chang*. ***ACL 2022*** [[pdf](https://www.aclweb.org/anthology/2022.acl-long.320.pdf)]
+19. **Unsupervised Dependency Graph Network**. *Yikang Shen, Shawn Tan, Alessandro Sordoni, Peng Li, Jie Zhou and Aaron Courville*. ***ACL 2022*** [[pdf](https://www.aclweb.org/anthology/2022.acl-long.327.pdf)]
+20. **KG-FiD: Infusing Knowledge Graph in Fusion-in-Decoder for Open-Domain Question Answering**. *Donghan Yu, Chenguang Zhu, Yuwei Fang, Wenhao Yu, Shuohang Wang, Yichong Xu, Xiang Ren, Yiming Yang and Michael Zeng*. ***ACL 2022*** [[pdf](https://www.aclweb.org/anthology/2022.acl-long.340.pdf)]
+21. **HeterMPC: A Heterogeneous Graph Neural Network for Response Generation in Multi-Party Conversations**. *Jia-Chen Gu, Chao-Hong Tan, Chongyang Tao, Zhen-Hua Ling, Huang Hu, Xiubo Geng and Daxin Jiang*. ***ACL 2022*** [[pdf](https://www.aclweb.org/anthology/2022.acl-long.349.pdf)]
+22. **RotateQVS: Representing Temporal Information as Rotations in Quaternion Vector Space for Temporal Knowledge Graph Completion**. *Kai Chen, Ye Wang, Yitong Li and Aiping Li*. ***ACL 2022*** [[pdf](https://www.aclweb.org/anthology/2022.acl-long.402.pdf)]
+23. **Entailment Graph Learning with Textual Entailment and Soft Transitivity**. *Zhibin Chen, Yansong Feng and Dongyan Zhao*. ***ACL 2022*** [[pdf](https://www.aclweb.org/anthology/2022.acl-long.406.pdf)]
+24. **Graph Pre-training for AMR Parsing and Generation**. *Xuefeng Bai, Yulong Chen and Yue Zhang*. ***ACL 2022*** [[pdf](https://www.aclweb.org/anthology/2022.acl-long.415.pdf)]
+25. **AdaLoGN: Adaptive Logic Graph Network for Reasoning-Based Machine Reading Comprehension**. *Xiao Li, Gong Cheng, Ziheng Chen, Yawei Sun and Yuzhong Qu*. ***ACL 2022*** [[pdf](https://www.aclweb.org/anthology/2022.acl-long.494.pdf)]
+26. **Using Context-to-Vector with Graph Retrofitting to Improve Word Embeddings**. *Jiangbin Zheng, Yile Wang, Ge Wang, Jun Xia, Yufei Huang, Guojiang Zhao, Yue Zhang and Stan Li*. ***ACL 2022*** [[pdf](https://www.aclweb.org/anthology/2022.acl-long.561.pdf)]
+27. **Complex Evolutional Pattern Learning for Temporal Knowledge Graph Reasoning**. *Zixuan Li, Saiping Guan, Xiaolong Jin, Weihua Peng, Yajuan Lyu, Yong Zhu, Long Bai, Wei Li, Jiafeng Guo and Xueqi Cheng*. ***ACL 2022*** [[pdf](https://www.aclweb.org/anthology/2022.acl-short.32.pdf)]
+28. **CogKGE: A Knowledge Graph Embedding Toolkit and Benchmark for Representing Multi-source and Heterogeneous Knowledge**. *Zhuoran Jin, Tianyi Men, Hongbang Yuan, Zhitao He, Dianbo Sui, Chenhao Wang, Zhipeng Xue, Yubo Chen and Jun Zhao*. ***ACL Demo 2022*** [[pdf](https://www.aclweb.org/anthology/2022.acl-demo.16.pdf)]
+29. **MMEKG: Multi-modal Event Knowledge Graph towards Universal Representation across Modalities**. *Yubo Ma, Zehao Wang, Mukai Li, Yixin Cao, Meiqi Chen, Xinze Li, Wenqi Sun, Kunquan Deng, Kun Wang, Aixin Sun and Jing Shao*. ***ACL Demo 2022*** [[pdf](https://www.aclweb.org/anthology/2022.acl-demo.23.pdf)]
 
 
 

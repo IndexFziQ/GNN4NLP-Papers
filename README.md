@@ -3,7 +3,7 @@
 
 A list of recent papers about GNN methods applied in NLP areas. Now, the repository includes papers published at ACL, EMNLP, NAACL-HLT, COLING, ICLR, WWW, ICML, KDD, and so on.
 
-- May. 23, 2022:  Add ACL-2022
+- **New! May. 23, 2022:  Add ACL-2022**
 
 - Nov. 9, 2021:  Add EMNLP-2021
 

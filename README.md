@@ -1,5 +1,5 @@
 # GNN4NLP-Papers
-![](https://img.shields.io/static/v1?label=Latest-Commit&message=2021/11/09&color=important) ![](https://img.shields.io/static/v1?label=Newest&message=EMNLP2021&color=blue)
+![](https://img.shields.io/static/v1?label=Latest-Commit&message=2022/05/23&color=important) ![](https://img.shields.io/static/v1?label=Newest&message=ACL2022&color=blue)
 
 A list of recent papers about GNN methods applied in NLP areas. Now, the repository includes papers published at ACL, EMNLP, NAACL-HLT, COLING, ICLR, WWW, ICML, KDD, and so on.
 
@@ -517,7 +517,6 @@ A list of recent papers about GNN methods applied in NLP areas. Now, the reposit
 
 1. **Dynamic Schema Graph Fusion Network for Multi-Domain Dialogue State Tracking**. *Yue Feng, Aldo Lipani, Fanghua Ye, Qiang Zhang and Emine Yilmaz*. ***ACL 2022*** [[pdf](https://www.aclweb.org/anthology/2022.acl-long.10.pdf)]
 2. **Multilingual Knowledge Graph Completion with Self-Supervised Adaptive Graph Alignment**. *Zijie Huang, Zheng Li, Haoming Jiang, Tianyu Cao, Hanqing Lu, Bing Yin, Karthik Subbian, Yizhou Sun and Wei Wang*. ***ACL 2022*** [[pdf](https://www.aclweb.org/anthology/2022.acl-long.36.pdf)]
-3. **Multilingual Knowledge Graph Completion with Self-Supervised Adaptive Graph Alignment**. *Zijie Huang, Zheng Li, Haoming Jiang, Tianyu Cao, Hanqing Lu, Bing Yin, Karthik Subbian, Yizhou Sun and Wei Wang*. ***ACL 2022*** [[pdf](https://www.aclweb.org/anthology/2022.acl-long.36.pdf)]
 4. **Modeling Temporal-Modal Entity Graph for Procedural Multimodal Machine Comprehension**. *Huibin Zhang, Zhengkun Zhang, Yao Zhang, Jun Wang, Yufan Li, Ning Jiang, Xin Wei and Zhenglu Yang*. ***ACL 2022*** [[pdf](https://www.aclweb.org/anthology/2022.acl-long.84.pdf)]
 5. **Explanation Graph Generation via Pre-trained Language Models: An Empirical Study with Contrastive Learning**. *Swarnadeep Saha, Prateek Yadav and Mohit Bansal*. ***ACL 2022*** [[pdf](https://www.aclweb.org/anthology/2022.acl-long.85.pdf)]
 6. **Tackling Fake News Detection by Continually Improving Social Context Representations using Graph Neural Networks**. *Nikhil Mehta, Maria Pacheco and Dan Goldwasser*. ***ACL 2022*** [[pdf](https://www.aclweb.org/anthology/2022.acl-long.97.pdf)]

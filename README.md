@@ -27,19 +27,60 @@ A list of recent papers about GNN methods applied in NLP areas. Now, the reposit
 
 3. **Look Again at the Syntax: Relational Graph Convolutional Network for Gendered Ambiguous Pronoun Resolution**. *Yinchuan Xu, Junlin Yang.* ***GBNLP@ACL 2019*** [[pdf](https://www.aclweb.org/anthology/W19-3814.pdf)] [[code](https://github.com/ianycxu/RGCN-with-BERT)]
 
+4. **Enhancing Chinese Pre-trained Language Model via Heterogeneous Linguistics Graph**. *Yanzeng Li, Jiangxia Cao, Xin Cong, Zhenyu Zhang, Bowen Yu, Hongsong Zhu and Tingwen Liu*. ***ACL 2022*** [[pdf](https://www.aclweb.org/anthology/2022.acl-long.140.pdf)]
+
+5. **Learning from Sibling Mentions with Scalable Graph Inference in Fine-Grained Entity Typing**. *Yi Chen, Jiayang Cheng, Haiyun Jiang, Lemao Liu, Haisong Zhang, Shuming Shi and Ruifeng Xu*. ***ACL 2022*** [[pdf](https://www.aclweb.org/anthology/2022.acl-long.147.pdf)]
+
+6. **Variational Graph Autoencoding as Cheap Supervision for AMR Coreference Resolution**. *Irene Li, Linfeng Song, Kun Xu and Dong Yu*. ***ACL 2022*** [[pdf](https://www.aclweb.org/anthology/2022.acl-long.199.pdf)]
+
+7. **Graph Pre-training for AMR Parsing and Generation**. *Xuefeng Bai, Yulong Chen and Yue Zhang*. ***ACL 2022*** [[pdf](https://www.aclweb.org/anthology/2022.acl-long.415.pdf)]
+
+8. **Using Context-to-Vector with Graph Retrofitting to Improve Word Embeddings**. *Jiangbin Zheng, Yile Wang, Ge Wang, Jun Xia, Yufei Huang, Guojiang Zhao, Yue Zhang and Stan Li*. ***ACL 2022*** [[pdf](https://www.aclweb.org/anthology/2022.acl-long.561.pdf)]
+
    
 
 ### Text Classification
 
+1. **Heterogeneous Graph Attention Networks for Semi-supervised Short Text Classification**. *Linmei Hu, Tianchi Yang, Chuan Shi, Houye Ji, Xiaoli Li.* ***EMNLP 2019*** [[pdf](http://shichuan.org/doc/74.pdf)]
+
+2. **Improving Out-of-Scope Detection in Intent Classification by Using Embeddings of the Word Graph Space of the Classes**. *Paulo Cavalin, Victor Henrique Alves Ribeiro, Ana Appel and Claudio Pinhanez*. ***EMNLP 2020*** [[pdf](https://www.aclweb.org/anthology/2020.emnlp-main.324.pdf)]
+
+3. **Text Graph Transformer for Document Classification**. *Haopeng Zhang and Jiawei Zhang*. ***EMNLP 2020*** [[pdf](https://www.aclweb.org/anthology/2020.emnlp-main.668.pdf)]
+
+4. **Few-Shot Text Classification with Edge-Labeling Graph Neural Network-Based Prototypical Network**. *Chen Lyu, Weijie Liu and Ping Wang*. ***COLING 2020*** [[pdf](https://www.aclweb.org/anthology/2020.coling-main.485.pdf)]
+
+5. **Inductive Topic Variational Graph Auto-Encoder for Text Classification**. *Qianqian Xie, Jimin Huang, Pan Du, Min Peng and Jian-Yun Nie*. ***NAACL 2021*** [[pdf](https://www.aclweb.org/anthology/2021.naacl-main.333.pdf)]
+
+6. **Label-Specific Dual Graph Neural Network for Multi-Label Text Classification**. *Qianwen Ma, Chunyuan Yuan, Wei Zhou and Songlin Hu*. ***ACL 2021*** [[pdf](https://www.aclweb.org/anthology/2021.acl-long.298.pdf)]
+
+7. **Cross-lingual Text Classification with Heterogeneous Graph Neural Network**. *Ziyun Wang, Xuan Liu, Peiji Yang, Shixing Liu and Zhisheng Wang*. ***ACL 2021*** [[pdf](https://www.aclweb.org/anthology/2021.acl-short.78.pdf)]
+
+8. **Weakly-supervised Text Classification Based on Keyword Graph**. *Lu Zhang, Jiandong Ding, Yi Xu, Yingyao Liu and Shuigeng Zhou*. ***EMNLP 2021*** [[pdf](https://www.aclweb.org/anthology/2021.emnlp-main.222.pdf)]
+
+9. **Hierarchical Heterogeneous Graph Representation Learning for Short Text Classification**. *Yaqing Wang, Song Wang, Quanming Yao and Dejing Dou*. ***EMNLP 2021*** [[pdf](https://www.aclweb.org/anthology/2021.emnlp-main.247.pdf)]
+
+10. **Deep Attention Diffusion Graph Neural Networks for Text Classification**. *Yonghao Liu, Renchu Guan, Fausto Giunchiglia, Yanchun Liang and Xiaoyue Feng*. ***EMNLP 2021*** [[pdf](https://www.aclweb.org/anthology/2021.emnlp-main.642.pdf)]
+
+11. **Bag-of-Words vs. Graph vs. Sequence in Text Classification: Questioning the Necessity of Text-Graphs and the Surprising Strength of a Wide MLP**. *Lukas Galke and Ansgar Scherp*. ***ACL 2022*** [[pdf](https://www.aclweb.org/anthology/2022.acl-long.279.pdf)]
+
+12. **Entailment Graph Learning with Textual Entailment and Soft Transitivity**. *Zhibin Chen, Yansong Feng and Dongyan Zhao*. ***ACL 2022*** [[pdf](https://www.aclweb.org/anthology/2022.acl-long.406.pdf)]
+
+
+### Sentiment Analysis
+
 1. **Aspect-based Sentiment Classification with Aspect-specific Graph Convolutional Networks**. *Chen Zhang, Qiuchi Li and Dawei Song.* ***EMNLP 2019*** [[pdf](https://arxiv.org/abs/1909.03477)] [[code](https://github.com/GeneZC/ASGCN)]
 
-2. **Heterogeneous Graph Attention Networks for Semi-supervised Short Text Classification**. *Linmei Hu, Tianchi Yang, Chuan Shi, Houye Ji, Xiaoli Li.* ***EMNLP 2019*** [[pdf](http://shichuan.org/doc/74.pdf)]
+2. **Effective Token Graph Modeling using a Novel Labeling Strategy for Structured Sentiment Analysis**. *Wenxuan Shi, Fei Li, Jingye Li, Hao Fei and Donghong Ji*. ***ACL 2022*** [[pdf](https://www.aclweb.org/anthology/2022.acl-long.291.pdf)]
 
 3. **Syntax-Aware Aspect Level Sentiment Classification with Graph Attention Networks**. *Binxuan Huang and Kathleen M. Carley.* ***EMNLP 2019*** [[pdf](https://arxiv.org/abs/1909.02606)]
 
 4. **Relational Graph Attention Network for Aspect-based Sentiment Analysis**. *Kai Wang, Weizhou Shen, Yunyi Yang, Xiaojun Quan, Rui Wang*. ***ACL 2020*** [[pdf](https://arxiv.org/pdf/2004.12362.pdf)] 
 
-   
+5. **Syntax-Aware Graph Attention Network for Aspect-Level Sentiment Classification**. *Lianzhe Huang, Xin Sun, Sujian Li, Linhao Zhang and Houfeng Wang*. ***COLING 2020*** [[pdf](https://www.aclweb.org/anthology/2020.coling-main.69.pdf)]
+
+6. **Graph Ensemble Learning over Multiple Dependency Trees for Aspect-level Sentiment Classification**. *Xiaochen Hou, Peng Qi, Guangtao Wang, Rex Ying, Jing Huang, Xiaodong He and Bowen Zhou*. ***NAACL 2021*** [[pdf](https://www.aclweb.org/anthology/2021.naacl-main.229.pdf)]
+
+
 
 ### Question Answering
 
@@ -65,6 +106,12 @@ A list of recent papers about GNN methods applied in NLP areas. Now, the reposit
 
 11. **Fine-grained Fact Verification with Kernel Graph Attention Network**. *Zhenghao Liu, Chenyan Xiong, Maosong Sun, Zhiyuan Liu*. ***ACL 2020*** [[pdf](https://arxiv.org/pdf/1910.09796.pdf)] [[code](https://github.com/thunlp/KernelGAT)]
 
+12. **Sequence-to-Sequence Knowledge Graph Completion and Question Answering**. *Apoorv Saxena, Adrian Kochsiek and Rainer Gemulla*. ***ACL 2022*** [[pdf](https://www.aclweb.org/anthology/2022.acl-long.201.pdf)]
+
+13. **KG-FiD: Infusing Knowledge Graph in Fusion-in-Decoder for Open-Domain Question Answering**. *Donghan Yu, Chenguang Zhu, Yuwei Fang, Wenhao Yu, Shuohang Wang, Yichong Xu, Xiang Ren, Yiming Yang and Michael Zeng*. ***ACL 2022*** [[pdf](https://www.aclweb.org/anthology/2022.acl-long.340.pdf)]
+
+14. **AdaLoGN: Adaptive Logic Graph Network for Reasoning-Based Machine Reading Comprehension**. *Xiao Li, Gong Cheng, Ziheng Chen, Yawei Sun and Yuzhong Qu*. ***ACL 2022*** [[pdf](https://www.aclweb.org/anthology/2022.acl-long.494.pdf)]
+
    
 
 ### Information Extraction
@@ -76,6 +123,8 @@ A list of recent papers about GNN methods applied in NLP areas. Now, the reposit
 3. **Graph Neural Networks with Generated Parameters for Relation Extraction**. *Hao Zhu, Yankai Lin, Zhiyuan Liu, Jie Fu, Tat-seng Chua and Maosong Sun.* ***ACL 2019*** [[pdf](https://arxiv.org/abs/1902.00756)]
 
 4. **GraphRel: Modeling Text as Relational Graphs for Joint Entity and Relation Extraction**. *Tsu-Jui Fu, Peng-Hsuan Li and Wei-Yun Ma*. ***ACL 2019*** [[pdf](https://tsujuifu.github.io/projs/acl19_graph-rel.html)] [[code](https://github.com/tsujuifu/pytorch_graph-rel)]
+
+5. **Enhanced Multi-Channel Graph Convolutional Network for Aspect Sentiment Triplet Extraction**. *Hao Chen, Zepeng Zhai, Fangxiang Feng, Ruifan Li and Xiaojie Wang*. ***ACL 2022*** [[pdf](https://www.aclweb.org/anthology/2022.acl-long.212.pdf)]
 
    
 
@@ -89,6 +138,16 @@ A list of recent papers about GNN methods applied in NLP areas. Now, the reposit
 
 4. **Heterogeneous Graph Neural Networks for Extractive Document Summarization**. *Danqing Wang, Pengfei Liu, Yining Zheng, Xipeng Qiu, Xuanjing Huang*. ***ACL 2020*** [[pdf](https://arxiv.org/pdf/2004.12393.pdf)] [[code](https://github.com/brxx122/HeterSUMGraph)]
 
+5. **Explanation Graph Generation via Pre-trained Language Models: An Empirical Study with Contrastive Learning**. *Swarnadeep Saha, Prateek Yadav and Mohit Bansal*. ***ACL 2022*** [[pdf](https://www.aclweb.org/anthology/2022.acl-long.85.pdf)]
+
+6. **Graph Enhanced Contrastive Learning for Radiology Findings Summarization**. *Jinpeng Hu, Zhuo Li, Zhihong Chen, Zhen Li, Xiang Wan and Tsung-Hui Chang*. ***ACL 2022*** [[pdf](https://www.aclweb.org/anthology/2022.acl-long.320.pdf)]
+
+
+### Dialogue
+
+1. **Dynamic Schema Graph Fusion Network for Multi-Domain Dialogue State Tracking**. *Yue Feng, Aldo Lipani, Fanghua Ye, Qiang Zhang and Emine Yilmaz*. ***ACL 2022*** [[pdf](https://www.aclweb.org/anthology/2022.acl-long.10.pdf)]
+
+2. **HeterMPC: A Heterogeneous Graph Neural Network for Response Generation in Multi-Party Conversations**. *Jia-Chen Gu, Chao-Hong Tan, Chongyang Tao, Zhen-Hua Ling, Huang Hu, Xiubo Geng and Daxin Jiang*. ***ACL 2022*** [[pdf](https://www.aclweb.org/anthology/2022.acl-long.349.pdf)]
    
 
 ### Knowledge Graph
@@ -97,6 +156,17 @@ A list of recent papers about GNN methods applied in NLP areas. Now, the reposit
 
 2. **Hashing Graph Convolution for Node Classification**. *Wenting Zhao, Zhen Cui, Chunyan Xu, Chengzheng Li, Tong Zhang，Jian Yang.*  ***CIKM 2019*** [[pdf](https://easychair.org/publications/preprint/lhT3)]
 
+3. **Multilingual Knowledge Graph Completion with Self-Supervised Adaptive Graph Alignment**. *Zijie Huang, Zheng Li, Haoming Jiang, Tianyu Cao, Hanqing Lu, Bing Yin, Karthik Subbian, Yizhou Sun and Wei Wang*. ***ACL 2022*** [[pdf](https://www.aclweb.org/anthology/2022.acl-long.36.pdf)]
+
+4. **Efficient Hyper-parameter Search for Knowledge Graph Embedding**. *Yongqi Zhang, Zhanke Zhou, Quanming Yao and Yong Li*. ***ACL 2022*** [[pdf](https://www.aclweb.org/anthology/2022.acl-long.194.pdf)]
+
+5. **CAKE: A Scalable Commonsense-Aware Framework For Multi-View Knowledge Graph Completion**. *Guanglin Niu, Bo Li, Yongfei Zhang and Shiliang Pu*. ***ACL 2022*** [[pdf](https://www.aclweb.org/anthology/2022.acl-long.205.pdf)]
+
+6. **SimKGC: Simple Contrastive Knowledge Graph Completion with Pre-trained Language Models**. *Liang Wang, Wei Zhao, Zhuoyu Wei and Jingming Liu*. ***ACL 2022*** [[pdf](https://www.aclweb.org/anthology/2022.acl-long.295.pdf)]
+
+7. **RotateQVS: Representing Temporal Information as Rotations in Quaternion Vector Space for Temporal Knowledge Graph Completion**. *Kai Chen, Ye Wang, Yitong Li and Aiping Li*. ***ACL 2022*** [[pdf](https://www.aclweb.org/anthology/2022.acl-long.402.pdf)]
+
+8. **Complex Evolutional Pattern Learning for Temporal Knowledge Graph Reasoning**. *Zixuan Li, Saiping Guan, Xiaolong Jin, Weihua Peng, Yajuan Lyu, Yong Zhu, Long Bai, Wei Li, Jiafeng Guo and Xueqi Cheng*. ***ACL 2022*** [[pdf](https://www.aclweb.org/anthology/2022.acl-short.32.pdf)]
     
 
 ### Abnormal Text Detection
@@ -110,6 +180,8 @@ A list of recent papers about GNN methods applied in NLP areas. Now, the reposit
 4. **Look before you Hop: Conversational Question Answering over Knowledge Graphs Using Judicious Context Expansion**. *Philipp Christmann, Rishiraj Saha Roy, Abdalghani Abujabal, Jyotsna Singh, Gerhard Weikum.*  ***CIKM 2019*** [[pdf](https://arxiv.org/abs/1910.03262v1)]
 
 5. **GCAN: Graph-aware Co-Attention Networks for Explainable Fake News Detection on Social Media**. *Yi-Ju Lu, Cheng-Te Li*. ***ACL 2020*** [[pdf](https://arxiv.org/pdf/2004.11648.pdf)]
+
+6. **Tackling Fake News Detection by Continually Improving Social Context Representations using Graph Neural Networks**. *Nikhil Mehta, Maria Pacheco and Dan Goldwasser*. ***ACL 2022*** [[pdf](https://www.aclweb.org/anthology/2022.acl-long.97.pdf)]
 
     
 
@@ -125,6 +197,10 @@ A list of recent papers about GNN methods applied in NLP areas. Now, the reposit
 
 5. **Multimodal Neural Graph Memory Networks for Visual Question Answering**. *Mahmoud Khademi*. ***ACL 2020*** [[pdf](https://www.aclweb.org/anthology/2020.acl-main.643.pdf)] 
 
+6. **Modeling Temporal-Modal Entity Graph for Procedural Multimodal Machine Comprehension**. *Huibin Zhang, Zhengkun Zhang, Yao Zhang, Jun Wang, Yufan Li, Ning Jiang, Xin Wei and Zhenglu Yang*. ***ACL 2022*** [[pdf](https://www.aclweb.org/anthology/2022.acl-long.84.pdf)]
+
+7. **Multi-Modal Sarcasm Detection via Cross-Modal Graph Convolutional Network**. *Bin Liang, Chenwei Lou, Xiang Li, Min Yang, Lin Gui, Yulan He, Wenjie Pei and Ruifeng Xu*. ***ACL 2022*** [[pdf](https://www.aclweb.org/anthology/2022.acl-long.124.pdf)]
+
     
 
 ### Theory
@@ -132,6 +208,8 @@ A list of recent papers about GNN methods applied in NLP areas. Now, the reposit
 1. **HetGNN: Heterogeneous Graph Neural Network**. *Chuxu Zhang, Dongjin Song, Chao Huang, Ananthram Swami and Nitesh V. Chawla.* ***KDD 2019*** [[pdf](https://www.kdd.org/kdd2019/accepted-papers/view/hetgnn-heterogeneous-graph-neural-network)]
 
 2. **GMNN: Graph Markov Neural Networks**. *Meng Qu, Yoshua Bengio and  Jian Tang.* ***ICML 2019*** [[pdf](https://arxiv.org/pdf/1905.06214.pdf)] [[code](https://github.com/DeepGraphLearning/GMNN)]
+
+3. **Unsupervised Dependency Graph Network**. *Yikang Shen, Shawn Tan, Alessandro Sordoni, Peng Li, Jie Zhou and Aaron Courville*. ***ACL 2022*** [[pdf](https://www.aclweb.org/anthology/2022.acl-long.327.pdf)]
 
 
 
@@ -342,7 +420,6 @@ A list of recent papers about GNN methods applied in NLP areas. Now, the reposit
 33. **Fact-level Extractive Summarization with Hierarchical Graph Mask on BERT**. *Ruifeng Yuan, Zili Wang and Wenjie Li*. ***COLING 2020*** [[pdf](https://www.aclweb.org/anthology/2020.coling-main.493.pdf)]
 34. **A Contextual Alignment Enhanced Cross Graph Attention Network for Cross-lingual Entity Alignment**. *Zhiwen Xie, Runjie Zhu, Kunsong Zhao, Jin Liu, Guangyou Zhou and Jimmy Xiangji Huang*. ***COLING 2020*** [[pdf](https://www.aclweb.org/anthology/2020.coling-main.520.pdf)]
 35. **Graph Convolution over Multiple Dependency Sub-graphs for Relation Extraction**. *Angrosh Mandya, Danushka Bollegala and Frans Coenen*. ***COLING 2020*** [[pdf](https://www.aclweb.org/anthology/2020.coling-main.565.pdf)]
-36. **Regularized Graph Convolutional Networks for Short Text Classification**. *Kshitij Tayal, Nikhil Rao, Saurabh Agarwal, Xiaowei Jia, Karthik Subbian and Vipin Kumar*. ***COLING 2020*** [[pdf](https://www.aclweb.org/anthology/2020.coling-industry.22.pdf)]
 
 
 ***NAACL 2021***

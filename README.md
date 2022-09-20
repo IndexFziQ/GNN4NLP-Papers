@@ -1,9 +1,11 @@
 # GNN4NLP-Papers
-![](https://img.shields.io/static/v1?label=Latest-Commit&message=2022/05/23&color=important) ![](https://img.shields.io/static/v1?label=Newest&message=ACL2022&color=blue)
+![](https://img.shields.io/static/v1?label=Latest-Commit&message=2022/09/20&color=important) ![](https://img.shields.io/static/v1?label=Newest&message=NAACL2022&color=blue)
 
 A list of recent papers about GNN methods applied in NLP areas. Now, the repository includes papers published at ACL, EMNLP, NAACL-HLT, COLING, ICLR, WWW, ICML, KDD, and so on.
 
-- **New! May. 23, 2022:  Add ACL-2022**
+- **New! Sep. 20, 2022:  Add NAACL-2022**
+
+- May. 23, 2022:  Add ACL-2022
 
 - Nov. 9, 2021:  Add EMNLP-2021
 
@@ -544,6 +546,17 @@ A list of recent papers about GNN methods applied in NLP areas. Now, the reposit
 28. **CogKGE: A Knowledge Graph Embedding Toolkit and Benchmark for Representing Multi-source and Heterogeneous Knowledge**. *Zhuoran Jin, Tianyi Men, Hongbang Yuan, Zhitao He, Dianbo Sui, Chenhao Wang, Zhipeng Xue, Yubo Chen and Jun Zhao*. ***ACL Demo 2022*** [[pdf](https://www.aclweb.org/anthology/2022.acl-demo.16.pdf)]
 29. **MMEKG: Multi-modal Event Knowledge Graph towards Universal Representation across Modalities**. *Yubo Ma, Zehao Wang, Mukai Li, Yixin Cao, Meiqi Chen, Xinze Li, Wenqi Sun, Kunquan Deng, Kun Wang, Aixin Sun and Jing Shao*. ***ACL Demo 2022*** [[pdf](https://www.aclweb.org/anthology/2022.acl-demo.23.pdf)]
 
+
+***NAACL 2022***
+1. **Cross-document Misinformation Detection based on Event Graph Reasoning**. *Xueqing Wu, Kung-Hsiang Huang, Yi Fung and Heng Ji*. ***NAACL 2022*** [[pdf](https://www.aclweb.org/anthology/2022.naacl-main.40.pdf)]
+2. **DocTime: A Document-level Temporal Dependency Graph Parser**. *Puneet Mathur, Vlad Morariu, Verena Kaynig-Fittkau, Jiuxiang Gu, Franck Dernoncourt, Quan Tran, Ani Nenkova, Dinesh Manocha and Rajiv Jain*. ***NAACL 2022*** [[pdf](https://www.aclweb.org/anthology/2022.naacl-main.73.pdf)]
+3. **Multi-Relational Graph Transformer for Automatic Short Answer Grading**. *Rajat Agarwal, Varun Khurana, Karish Grover, Mukesh Mohania and Vikram Goyal*. ***NAACL 2022*** [[pdf](https://www.aclweb.org/anthology/2022.naacl-main.146.pdf)]
+4. **Event Schema Induction with Double Graph Autoencoders**. *Xiaomeng Jin, Manling Li and Heng Ji*. ***NAACL 2022*** [[pdf](https://www.aclweb.org/anthology/2022.naacl-main.147.pdf)]
+5. **Learning to Borrow– Relation Representation for Without-Mention Entity-Pairs for Knowledge Graph Completion**. *Huda Hakami, Mona Hakami, Angrosh Mandya and Danushka Bollegala*. ***NAACL 2022*** [[pdf](https://www.aclweb.org/anthology/2022.naacl-main.209.pdf)]
+6. **FactGraph: Evaluating Factuality in Summarization with Semantic Graph Representations**. *Leonardo Ribeiro, Mengwen Liu, Iryna Gurevych, Markus Dreyer and Mohit Bansal*. ***NAACL 2022*** [[pdf](https://www.aclweb.org/anthology/2022.naacl-main.236.pdf)]
+7. **Dynamic Multistep Reasoning based on Video Scene Graph for Video Question Answering**. *Jianguo Mao, Wenbin Jiang, Xiangdong Wang, Zhifan Feng, Yajuan Lyu, Hong Liu and Yong Zhu*. ***NAACL 2022*** [[pdf](https://www.aclweb.org/anthology/2022.naacl-main.286.pdf)]
+8. **Joint Learning-based Heterogeneous Graph Attention Network for Timeline Summarization**. *Jingyi You, Dongyuan Li, Hidetaka Kamigaito, Kotaro Funakoshi and Manabu Okumura*. ***NAACL 2022*** [[pdf](https://www.aclweb.org/anthology/2022.naacl-main.301.pdf)]
+9. **SSEGCN: Syntactic and Semantic Enhanced Graph Convolutional Network for Aspect-based Sentiment Analysis**. *Zheng Zhang, Zili Zhou and Yanna Wang*. ***NAACL 2022*** [[pdf](https://www.aclweb.org/anthology/2022.naacl-main.362.pdf)]
 
 
 ## Comprehensive GNN Paperlist

@@ -1,9 +1,11 @@
 # GNN4NLP-Papers
-![](https://img.shields.io/static/v1?label=Latest-Commit&message=2022/09/20&color=important) ![](https://img.shields.io/static/v1?label=Newest&message=NAACL2022&color=blue)
+![](https://img.shields.io/static/v1?label=Latest-Commit&message=2022/09/20&color=important) ![](https://img.shields.io/static/v1?label=Newest&message=COLING-2022&color=red)
 
-A list of recent papers about GNN methods applied in NLP areas. Now, the repository includes papers published at ACL, EMNLP, NAACL-HLT, COLING, ICLR, WWW, ICML, KDD, and so on.
+A list of recent papers about GNN methods applied in NLP areas. Now, the repository includes papers published at ACL, EMNLP, NAACL-HLT, COLING, ICLR, WWW, IJCAI, AAAI, NIPS, ICML, KDD, SIGIR and so on.
 
-- **New! Sep. 20, 2022:  Add NAACL-2022**
+- **New! Oct. 12, 2022:  Add COLING-2022!**
+
+- Sep. 20, 2022:  Add NAACL-2022
 
 - May. 23, 2022:  Add ACL-2022
 
@@ -557,6 +559,29 @@ A list of recent papers about GNN methods applied in NLP areas. Now, the reposit
 7. **Dynamic Multistep Reasoning based on Video Scene Graph for Video Question Answering**. *Jianguo Mao, Wenbin Jiang, Xiangdong Wang, Zhifan Feng, Yajuan Lyu, Hong Liu and Yong Zhu*. ***NAACL 2022*** [[pdf](https://www.aclweb.org/anthology/2022.naacl-main.286.pdf)]
 8. **Joint Learning-based Heterogeneous Graph Attention Network for Timeline Summarization**. *Jingyi You, Dongyuan Li, Hidetaka Kamigaito, Kotaro Funakoshi and Manabu Okumura*. ***NAACL 2022*** [[pdf](https://www.aclweb.org/anthology/2022.naacl-main.301.pdf)]
 9. **SSEGCN: Syntactic and Semantic Enhanced Graph Convolutional Network for Aspect-based Sentiment Analysis**. *Zheng Zhang, Zili Zhou and Yanna Wang*. ***NAACL 2022*** [[pdf](https://www.aclweb.org/anthology/2022.naacl-main.362.pdf)]
+
+
+***COLING 2022***
+1. **TopKG: Target-oriented Dialog via Global Planning on Knowledge Graph**. *Zhitong Yang, Bo Wang, Jinfeng Zhou, Yue Tan, Dongming Zhao, Kun Huang, Ruifang He and Yuexian Hou*. ***COLING 2022*** [[pdf](https://www.aclweb.org/anthology/2022.coling-1.62.pdf)]
+2. **Hierarchical Information Matters: Text Classification via Tree Based Graph Neural Network**. *Chong Zhang, He Zhu, Xingyu Peng, Junran Wu and Ke Xu*. ***COLING 2022*** [[pdf](https://www.aclweb.org/anthology/2022.coling-1.79.pdf)]
+3. **ConTextING: Granting Document-Wise Contextual Embeddings to Graph Neural Networks for Inductive Text Classification**. *Yen-Hao Huang, Yi-Hsin Chen and Yi-Shin Chen*. ***COLING 2022*** [[pdf](https://www.aclweb.org/anthology/2022.coling-1.100.pdf)]
+5. **Dynamic Relevance Graph Network for Knowledge-Aware Question Answering**. *Chen Zheng and Parisa Kordjamshidi*. ***COLING 2022*** [[pdf](https://www.aclweb.org/anthology/2022.coling-1.116.pdf)]
+8. **Semantic Structure Based Query Graph Prediction for Question Answering over Knowledge Graph**. *Mingchen Li and Shihao Ji*. ***COLING 2022*** [[pdf](https://www.aclweb.org/anthology/2022.coling-1.135.pdf)]
+11. **Event Detection with Dual Relational Graph Attention Networks**. *Jiaxin Mi, Po Hu and Peng Li*. ***COLING 2022*** [[pdf](https://www.aclweb.org/anthology/2022.coling-1.172.pdf)]
+13. **ERGO: Event Relational Graph Transformer for Document-level Event Causality Identification**. *Meiqi Chen, Yixin Cao, Kunquan Deng, Mukai Li, Kun Wang, Jing Shao and Yan Zhang*. ***COLING 2022*** [[pdf](https://www.aclweb.org/anthology/2022.coling-1.185.pdf)]
+18. **Doc-GCN: Heterogeneous Graph Convolutional Networks for Document Layout Analysis**. *Siwen Luo, Yihao Ding, Siqu Long, Josiah Poon and Soyeon Caren Han*. ***COLING 2022*** [[pdf](https://www.aclweb.org/anthology/2022.coling-1.256.pdf)]
+23. **Transparent Semantic Parsing with Universal Dependencies Using Graph Transformations**. *Wessel Poelman, Rik van Noord and Johan Bos*. ***COLING 2022*** [[pdf](https://www.aclweb.org/anthology/2022.coling-1.367.pdf)]
+24. **GraDA: Graph Generative Data Augmentation for Commonsense Reasoning**. *Adyasha Maharana and Mohit Bansal*. ***COLING 2022*** [[pdf](https://www.aclweb.org/anthology/2022.coling-1.397.pdf)]
+26. **Topology Imbalance and Relation Inauthenticity Aware Hierarchical Graph Attention Networks for Fake News Detection**. *Li Gao, Lingyun Song, Jie Liu, Bolin Chen and Xuequn Shang*. ***COLING 2022*** [[pdf](https://www.aclweb.org/anthology/2022.coling-1.415.pdf)]
+29. **Multi-level Community-awareness Graph Neural Networks for Neural Machine Translation**. *Binh Nguyen, Long Nguyen and Dien Dinh*. ***COLING 2022*** [[pdf](https://www.aclweb.org/anthology/2022.coling-1.444.pdf)]
+31. **Multi Graph Neural Network for Extractive Long Document Summarization**. *Xuan-Dung Doan, Le-Minh Nguyen and Khac-Hoai Nam Bui*. ***COLING 2022*** [[pdf](https://www.aclweb.org/anthology/2022.coling-1.512.pdf)]
+32. **A Survey of Automatic Text Summarization Using Graph Neural Networks**. *Marco Ferdinand Salchner and Adam Jatowt*. ***COLING 2022*** [[pdf](https://www.aclweb.org/anthology/2022.coling-1.536.pdf)]
+33. **HeterGraphLongSum: Heterogeneous Graph Neural Network with Passage Aggregation for Extractive Long Document Summarization**. *Tuan-Anh Phan, Ngoc-Dung Ngoc Nguyen and Khac-Hoai Nam Bui*. ***COLING 2022*** [[pdf](https://www.aclweb.org/anthology/2022.coling-1.545.pdf)]
+34. **GRETEL: Graph Contrastive Topic Enhanced Language Model for Long Document Extractive Summarization**. *Qianqian Xie, Jimin Huang, Tulika Saha and Sophia Ananiadou*. ***COLING 2022*** [[pdf](https://www.aclweb.org/anthology/2022.coling-1.546.pdf)]
+35. **Social Bot-Aware Graph Neural Network for Early Rumor Detection**. *Zhen Huang, Zhilong Lv, Xiaoyun Han, Binyang Li, Menglong Lu and Dongsheng Li*. ***COLING 2022*** [[pdf](https://www.aclweb.org/anthology/2022.coling-1.580.pdf)]
+36. **Composition-based Heterogeneous Graph Multi-channel Attention Network for Multi-aspect Multi-sentiment Classification**. *Hao Niu, Yun Xiong, Jian Gao, Zhongchen Miao, Xiaosu Wang, Hongrun Ren, Yao Zhang and Yangyong Zhu*. ***COLING 2022*** [[pdf](https://www.aclweb.org/anthology/2022.coling-1.594.pdf)]
+37. **Learnable Dependency-based Double Graph Structure for Aspect-based Sentiment Analysis**. *Yinglong Ma and Yunhe Pang*. ***COLING 2022*** [[pdf](https://www.aclweb.org/anthology/2022.coling-1.618.pdf)]
+38. **Modeling Intra- and Inter-Modal Relations: Hierarchical Graph Contrastive Learning for Multimodal Sentiment Analysis**. *Zijie Lin, Bin Liang, Yunfei Long, Yixue Dang, Min Yang, Min Zhang and Ruifeng Xu*. ***COLING 2022*** [[pdf](https://www.aclweb.org/anthology/2022.coling-1.622.pdf)]
 
 
 ## Comprehensive GNN Paperlist

@@ -1,0 +1,750 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GNN4NLP Papers</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            background-color: #f9f9f9;
+        }
+        .sidebar {
+            width: 250px;
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            height: 100vh;
+            overflow-y: auto;
+            position: fixed;
+        }
+        .sidebar a {
+            color: #ccc;
+            text-decoration: none;
+            display: block;
+            margin: 10px 0;
+        }
+        .sidebar a:hover {
+            color: #fff;
+        }
+        .content {
+            margin-left: 290px;
+            padding: 20px;
+            max-width: 1000px;
+            background-color: #fff;
+            min-height: 100vh;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .wordcloud {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .wordcloud img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        ul {
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <h2>Taxonomy</h2>
+        <a href="#abnormal_text_detection">Abnormal Text Detection</a>
+<a href="#dialogue">Dialogue</a>
+<a href="#fundamental_nlp_tasks">Fundamental Nlp Tasks</a>
+<a href="#information_extraction">Information Extraction</a>
+<a href="#knowledge_graph">Knowledge Graph</a>
+<a href="#llm_and_graph">LLM and Graph</a>
+<a href="#question_answering">Question Answering</a>
+<a href="#sentiment_analysis">Sentiment Analysis</a>
+<a href="#text_classification">Text Classification</a>
+<a href="#text_generation">Text Generation</a>
+<a href="#theory">Theory</a>
+<a href="#visual_question_answering">Visual Question Answering</a>
+
+        <h2>Conferences</h2>
+        <a href="#acl">ACL</a>
+<a href="#cikm">CIKM</a>
+<a href="#coling">COLING</a>
+<a href="#emnlp">EMNLP</a>
+<a href="#iccv">ICCV</a>
+<a href="#iclr">ICLR</a>
+<a href="#icml">ICML</a>
+<a href="#kdd">KDD</a>
+<a href="#naacl">NAACL</a>
+<a href="#www">WWW</a>
+
+    </div>
+    <div class="content">
+        <h1>GNN4NLP Papers</h1>
+        <p>A list of recent papers about GNN methods applied in NLP areas.</p>
+
+        <div class="wordcloud">
+            <h2>Word Cloud of Paper Titles</h2>
+            <img src="assets/wordcloud.png" alt="Word Cloud">
+        </div>
+
+        <div id="abnormal_text_detection"><h1>Abnormal Text Detection</h1>
+<ol>
+<li>
+<p><strong>Abusive Language Detection with Graph Convolutional Networks</strong>. <em>Pushkar Mishra, Marco Del Tredici, Helen Yannakoudakis and Ekaterina Shutova</em>. <strong><em>NAACL-HLT 2019</em></strong>. [<a href="https://www.aclweb.org/anthology/N19-1221.pdf">pdf</a>]</p>
+</li>
+<li>
+<p><strong>Encoding Social Information with Graph Convolutional Networks for Political Perspective Detection in News Media</strong>. <em>Chang Li and Dan Goldwasser</em>. <strong><em>ACL 2019</em></strong> [<a href="https://www.cs.purdue.edu/homes/dgoldwas//downloads/papers/LiG_acl_2019.pdf">pdf</a>]</p>
+</li>
+<li>
+<p><strong>Spam Review Detection with Graph Convolutional Networks</strong>. <em>Ao Li, Zhou Qin, Runshi Liu, Yiqun Yang, Dong Li.</em>  <strong><em>CIKM 2019</em></strong> [<a href="https://arxiv.org/abs/1908.10679v1">pdf</a>]</p>
+</li>
+<li>
+<p><strong>Look before you Hop: Conversational Question Answering over Knowledge Graphs Using Judicious Context Expansion</strong>. <em>Philipp Christmann, Rishiraj Saha Roy, Abdalghani Abujabal, Jyotsna Singh, Gerhard Weikum.</em>  <strong><em>CIKM 2019</em></strong> [<a href="https://arxiv.org/abs/1910.03262v1">pdf</a>]</p>
+</li>
+<li>
+<p><strong>GCAN: Graph-aware Co-Attention Networks for Explainable Fake News Detection on Social Media</strong>. <em>Yi-Ju Lu, Cheng-Te Li</em>. <strong><em>ACL 2020</em></strong> [<a href="https://arxiv.org/pdf/2004.11648.pdf">pdf</a>]</p>
+</li>
+<li>
+<p><strong>Tackling Fake News Detection by Continually Improving Social Context Representations using Graph Neural Networks</strong>. <em>Nikhil Mehta, Maria Pacheco and Dan Goldwasser</em>. <strong><em>ACL 2022</em></strong> [<a href="https://www.aclweb.org/anthology/2022.acl-long.97.pdf">pdf</a>]</p>
+</li>
+</ol></div><hr/>
+<div id="dialogue"><h1>Dialogue</h1>
+<ol>
+<li>
+<p><strong>Dynamic Schema Graph Fusion Network for Multi-Domain Dialogue State Tracking</strong>. <em>Yue Feng, Aldo Lipani, Fanghua Ye, Qiang Zhang and Emine Yilmaz</em>. <strong><em>ACL 2022</em></strong> [<a href="https://www.aclweb.org/anthology/2022.acl-long.10.pdf">pdf</a>]</p>
+</li>
+<li>
+<p><strong>HeterMPC: A Heterogeneous Graph Neural Network for Response Generation in Multi-Party Conversations</strong>. <em>Jia-Chen Gu, Chao-Hong Tan, Chongyang Tao, Zhen-Hua Ling, Huang Hu, Xiubo Geng and Daxin Jiang</em>. <strong><em>ACL 2022</em></strong> [<a href="https://www.aclweb.org/anthology/2022.acl-long.349.pdf">pdf</a>]</p>
+</li>
+<li>
+<p><strong>Control Globally, Understand Locally: A Global-to-Local Hierarchical Graph Network for Emotional Support Conversation</strong>. <em>Wei Peng, Yue Hu, Luxi Xing, Yuqiang Xie, Yajing Sun, Yunpeng Li</em>. <strong><em>IJCAI 2022</em></strong> [<a href="http://arxiv.org/abs/2204.12749">pdf</a>]</p>
+</li>
+</ol></div><hr/>
+<div id="fundamental_nlp_tasks"><h1>Fundamental NLP Tasks</h1>
+<ol>
+<li>
+<p><strong>Incorporating Syntactic and Semantic Information in Word Embeddings using Graph Convolutional Networks</strong>. <em>Shikhar Vashishth, Manik Bhandari, Prateek Yadav, Piyush Rai, Chiranjib Bhattacharyya and Partha Talukdar</em>. <strong><em>ACL 2019</em></strong> [<a href="https://arxiv.org/abs/1809.04283">pdf</a>] [<a href="http://github.com/malllabiisc/WordGCN">code</a>]</p>
+</li>
+<li>
+<p><strong>A Lexicon-Based Graph Neural Network for Chinese NER</strong>. <em>Tao Gui, Yicheng Zou and Qi Zhang.</em> <strong><em>EMNLP 2019</em></strong> [<a href="http://qizhang.info/paper/emnlp-2019.ner.pdf">pdf</a>]</p>
+</li>
+<li>
+<p><strong>Look Again at the Syntax: Relational Graph Convolutional Network for Gendered Ambiguous Pronoun Resolution</strong>. <em>Yinchuan Xu, Junlin Yang.</em> <strong><em>GBNLP@ACL 2019</em></strong> [<a href="https://www.aclweb.org/anthology/W19-3814.pdf">pdf</a>] [<a href="https://github.com/ianycxu/RGCN-with-BERT">code</a>]</p>
+</li>
+<li>
+<p><strong>Enhancing Chinese Pre-trained Language Model via Heterogeneous Linguistics Graph</strong>. <em>Yanzeng Li, Jiangxia Cao, Xin Cong, Zhenyu Zhang, Bowen Yu, Hongsong Zhu and Tingwen Liu</em>. <strong><em>ACL 2022</em></strong> [<a href="https://www.aclweb.org/anthology/2022.acl-long.140.pdf">pdf</a>]</p>
+</li>
+<li>
+<p><strong>Learning from Sibling Mentions with Scalable Graph Inference in Fine-Grained Entity Typing</strong>. <em>Yi Chen, Jiayang Cheng, Haiyun Jiang, Lemao Liu, Haisong Zhang, Shuming Shi and Ruifeng Xu</em>. <strong><em>ACL 2022</em></strong> [<a href="https://www.aclweb.org/anthology/2022.acl-long.147.pdf">pdf</a>]</p>
+</li>
+<li>
+<p><strong>Variational Graph Autoencoding as Cheap Supervision for AMR Coreference Resolution</strong>. <em>Irene Li, Linfeng Song, Kun Xu and Dong Yu</em>. <strong><em>ACL 2022</em></strong> [<a href="https://www.aclweb.org/anthology/2022.acl-long.199.pdf">pdf</a>]</p>
+</li>
+<li>
+<p><strong>Graph Pre-training for AMR Parsing and Generation</strong>. <em>Xuefeng Bai, Yulong Chen and Yue Zhang</em>. <strong><em>ACL 2022</em></strong> [<a href="https://www.aclweb.org/anthology/2022.acl-long.415.pdf">pdf</a>]</p>
+</li>
+<li>
+<p><strong>Using Context-to-Vector with Graph Retrofitting to Improve Word Embeddings</strong>. <em>Jiangbin Zheng, Yile Wang, Ge Wang, Jun Xia, Yufei Huang, Guojiang Zhao, Yue Zhang and Stan Li</em>. <strong><em>ACL 2022</em></strong> [<a href="https://www.aclweb.org/anthology/2022.acl-long.561.pdf">pdf</a>]</p>
+</li>
+</ol></div><hr/>
+<div id="information_extraction"><h1>Information Extraction</h1>
+<ol>
+<li>
+<p><strong>Long-tail Relation Extraction via Knowledge Graph Embeddings and Graph Convolution Networks</strong>. <em>Ningyu Zhang, Shumin Deng, Zhanlin Sun, Guanying Wang, Xi Chen, Wei Zhang and Huajun Chen</em>. <strong><em>NAACL-HLT 2019</em></strong>. [<a href="https://www.aclweb.org/anthology/N19-1306.pdf">pdf</a>]</p>
+</li>
+<li>
+<p><strong>Attention Guided Graph Convolutional Networks for Relation Extraction</strong>. <em>Zhijiang Guo, Yan Zhang and Wei Lu.</em> <strong><em>ACL 2019</em></strong> [<a href="http://www.statnlp.org/paper/2019/attention-guided-graph-convolutional-networks-relation-extraction.html">pdf</a>] [<a href="https://github.com/Cartus/AGGCN_TACRED">code</a>]</p>
+</li>
+<li>
+<p><strong>Graph Neural Networks with Generated Parameters for Relation Extraction</strong>. <em>Hao Zhu, Yankai Lin, Zhiyuan Liu, Jie Fu, Tat-seng Chua and Maosong Sun.</em> <strong><em>ACL 2019</em></strong> [<a href="https://arxiv.org/abs/1902.00756">pdf</a>]</p>
+</li>
+<li>
+<p><strong>GraphRel: Modeling Text as Relational Graphs for Joint Entity and Relation Extraction</strong>. <em>Tsu-Jui Fu, Peng-Hsuan Li and Wei-Yun Ma</em>. <strong><em>ACL 2019</em></strong> [<a href="https://tsujuifu.github.io/projs/acl19_graph-rel.html">pdf</a>] [<a href="https://github.com/tsujuifu/pytorch_graph-rel">code</a>]</p>
+</li>
+<li>
+<p><strong>Enhanced Multi-Channel Graph Convolutional Network for Aspect Sentiment Triplet Extraction</strong>. <em>Hao Chen, Zepeng Zhai, Fangxiang Feng, Ruifan Li and Xiaojie Wang</em>. <strong><em>ACL 2022</em></strong> [<a href="https://www.aclweb.org/anthology/2022.acl-long.212.pdf">pdf</a>]</p>
+</li>
+</ol></div><hr/>
+<div id="knowledge_graph"><h1>Knowledge Graph</h1>
+<ol>
+<li>
+<p><strong>Estimating Node Importance in Knowledge Graphs Using Graph Neural Networks</strong>. <em>Namyong Park, Andrey Kan, Xin Luna Dong, Tong Zhao and Christos Faloutsos.</em> <strong><em>KDD 2019</em></strong> [<a href="https://www.kdd.org/kdd2019/accepted-papers/view/estimating-node-importance-in-knowledge-graphs-using-graph-neural-networks">pdf</a>]</p>
+</li>
+<li>
+<p><strong>Hashing Graph Convolution for Node Classification</strong>. <em>Wenting Zhao, Zhen Cui, Chunyan Xu, Chengzheng Li, Tong Zhang，Jian Yang.</em>  <strong><em>CIKM 2019</em></strong> [<a href="https://easychair.org/publications/preprint/lhT3">pdf</a>]</p>
+</li>
+<li>
+<p><strong>Multilingual Knowledge Graph Completion with Self-Supervised Adaptive Graph Alignment</strong>. <em>Zijie Huang, Zheng Li, Haoming Jiang, Tianyu Cao, Hanqing Lu, Bing Yin, Karthik Subbian, Yizhou Sun and Wei Wang</em>. <strong><em>ACL 2022</em></strong> [<a href="https://www.aclweb.org/anthology/2022.acl-long.36.pdf">pdf</a>]</p>
+</li>
+<li>
+<p><strong>Efficient Hyper-parameter Search for Knowledge Graph Embedding</strong>. <em>Yongqi Zhang, Zhanke Zhou, Quanming Yao and Yong Li</em>. <strong><em>ACL 2022</em></strong> [<a href="https://www.aclweb.org/anthology/2022.acl-long.194.pdf">pdf</a>]</p>
+</li>
+<li>
+<p><strong>CAKE: A Scalable Commonsense-Aware Framework For Multi-View Knowledge Graph Completion</strong>. <em>Guanglin Niu, Bo Li, Yongfei Zhang and Shiliang Pu</em>. <strong><em>ACL 2022</em></strong> [<a href="https://www.aclweb.org/anthology/2022.acl-long.205.pdf">pdf</a>]</p>
+</li>
+<li>
+<p><strong>SimKGC: Simple Contrastive Knowledge Graph Completion with Pre-trained Language Models</strong>. <em>Liang Wang, Wei Zhao, Zhuoyu Wei and Jingming Liu</em>. <strong><em>ACL 2022</em></strong> [<a href="https://www.aclweb.org/anthology/2022.acl-long.295.pdf">pdf</a>]</p>
+</li>
+<li>
+<p><strong>RotateQVS: Representing Temporal Information as Rotations in Quaternion Vector Space for Temporal Knowledge Graph Completion</strong>. <em>Kai Chen, Ye Wang, Yitong Li and Aiping Li</em>. <strong><em>ACL 2022</em></strong> [<a href="https://www.aclweb.org/anthology/2022.acl-long.402.pdf">pdf</a>]</p>
+</li>
+<li>
+<p><strong>Complex Evolutional Pattern Learning for Temporal Knowledge Graph Reasoning</strong>. <em>Zixuan Li, Saiping Guan, Xiaolong Jin, Weihua Peng, Yajuan Lyu, Yong Zhu, Long Bai, Wei Li, Jiafeng Guo and Xueqi Cheng</em>. <strong><em>ACL 2022</em></strong> [<a href="https://www.aclweb.org/anthology/2022.acl-short.32.pdf">pdf</a>]</p>
+</li>
+</ol></div><hr/>
+<div id="llm_and_graph"><h1>LLM and Graph</h1>
+<ol>
+<li>
+<p><strong>Relation-Aware Equivariant Graph Networks for Epitope-Unknown Antibody Design and Specificity Optimization</strong>. <em>Yiduo Chen, et al</em>. <strong><em>ArXiv 2025</em></strong> [<a href="https://arxiv.org/abs/2501.00013">pdf</a>]</p>
+</li>
+<li>
+<p><strong>Reasoning on Graphs: Faithful and Interpretable Large Language Model Reasoning</strong>. <em>Linyao Yang, Hongyang Chen, Zhao Li, Xiao Ding, Xindong Wu</em>. <strong><em>AAAI 2024</em></strong> [<a href="https://arxiv.org/abs/2310.01061">pdf</a>]</p>
+</li>
+<li>
+<p><strong>GraphWiz: An Instruction-Following Language Model for Graph Problems</strong>. <em>Zhiqiang Zhu, Weiqing Wang, Zhenhua Dong, Hao Tian, Yinan Wu, Haomian Li</em>. <strong><em>ACL 2024</em></strong> [<a href="https://arxiv.org/abs/2402.16029">pdf</a>]</p>
+</li>
+<li>
+<p><strong>Mitigating Large Language Model Hallucinations via Autonomous Knowledge Graph-based Retrofitting</strong>. <em>Hao Peng, Xinyan Xiao, et al</em>. <strong><em>NAACL 2024</em></strong> [<a href="https://arxiv.org/abs/2311.13314">pdf</a>]</p>
+</li>
+<li>
+<p><strong>Retrieve-Rewrite-Answer: A KG-to-Text Enhanced LLMs Framework for Knowledge Graph Question Answering</strong>. <em>Zhongwei Wan, et al</em>. <strong><em>EMNLP 2024</em></strong> [<a href="https://arxiv.org/abs/2309.11206">pdf</a>]</p>
+</li>
+</ol></div><hr/>
+<div id="question_answering"><h1>Question Answering</h1>
+<ol>
+<li>
+<p><strong>BAG: Bi-directional Attention Entity Graph Convolutional Network for Multi-hop Reasoning Question Answering.</strong> <em>Yu Cao, Meng Fang and Dacheng Tao.</em> <strong><em>NAACL-HLT 2019</em></strong>. [<a href="https://www.aclweb.org/anthology/N19-1032.pdf">pdf</a>] [<a href="https://github.com/caoyu1991/BAG">code</a>]</p>
+</li>
+<li>
+<p><strong>Question Answering by Reasoning Across Documents with Graph Convolutional Networks</strong>. <em>Nicola De Cao, Wilker Aziz and Ivan Titov.</em> <strong><em>NAACL-HLT 2019</em></strong>. [<a href="https://www.aclweb.org/anthology/N19-1240.pdf">pdf</a>]</p>
+</li>
+<li>
+<p><strong>Cognitive Graph for Multi-Hop Reading Comprehension at Scale</strong>. <em>Ming Ding, Chang Zhou, Qibin Chen, Hongxia Yang and Jie Tang.</em> <strong><em>ACL 2019</em></strong> [<a href="https://arxiv.org/abs/1905.05460">pdf</a>] [<a href="https://github.com/THUDM/CogQA">code</a>]</p>
+</li>
+<li>
+<p><strong>Dynamically Fused Graph Network for Multi-hop Reasoning</strong>. <em>Yunxuan Xiao, Yanru Qu, Lin Qiu, Hao Zhou, Lei Li, Weinan Zhang and Yong Yu.</em> <strong><em>ACL 2019</em></strong> [<a href="https://arxiv.org/abs/1905.06933">pdf</a>]</p>
+</li>
+<li>
+<p><strong>Multi-hop Reading Comprehension across Multiple Documents by Reasoning over Heterogeneous Graphs</strong>. <em>Ming Tu, Guangtao Wang, Jing Huang, Yun Tang, Xiaodong He and Bowen Zhou.</em> <strong><em>ACL 2019</em></strong> [<a href="https://arxiv.org/abs/1905.07374">pdf</a>]</p>
+</li>
+<li>
+<p><strong>DialogueGCN A Graph Convolutional Neural Network for Emotion Recognition in Conversation</strong>. <em>Deepanway Ghosal, Navonil Majumder, Soujanya Poria, Niyati Chhaya and Alexander Gelbukh.</em> <strong><em>EMNLP 2019</em></strong> [<a href="https://arxiv.org/abs/1908.11540">pdf</a>]</p>
+</li>
+<li>
+<p><strong>GEAR: Graph-based Evidence Aggregating and Reasoning for Fact Verification.</strong> <em>Jie Zhou, Xu Han, Cheng Yang, Zhiyuan Liu, Lifeng Wang, Changcheng Li and Maosong Sun.</em>  <strong><em>ACL 2019</em></strong> [<a href="https://www.aclweb.org/anthology/P19-1085">pdf</a>] [<a href="https://github.com/thunlp/GEAR">code</a>]</p>
+</li>
+<li>
+<p><strong>Reasoning Over Semantic-Level Graph for Fact Checking.</strong> <em>Wanjun Zhong, Jingjing Xu, Duyu Tang, Zenan Xu, Nan Duan, Ming Zhou, Jiahai Wang and Jian Yin.</em>  <strong><em>Arxiv 2019</em></strong> [<a href="https://arxiv.org/abs/1909.03745">pdf</a>]</p>
+</li>
+<li>
+<p><strong>Message Passing for Complex Question Answering over Knowledge Graphs</strong>. <em>Svitlana Vakulenko, Javier David Fernandez Garcia, Axel Polleres, Maarten de Rijke, Michael Cochez.</em>  <strong><em>CIKM 2019</em></strong> [<a href="https://arxiv.org/abs/1908.06917?context=cs.CL">pdf</a>]</p>
+</li>
+<li>
+<p><strong>Knowledge-aware Textual Entailment with Graph Atention Network</strong>. <em>Daoyuan Chen , Yaliang Li , Min Yang , Hai-Tao Zheng , Ying Shen.</em>  <strong><em>CIKM 2019</em></strong> [<a href="https://dl.acm.org/doi/10.1145/3357384.3358071">pdf</a>]</p>
+</li>
+<li>
+<p><strong>Fine-grained Fact Verification with Kernel Graph Attention Network</strong>. <em>Zhenghao Liu, Chenyan Xiong, Maosong Sun, Zhiyuan Liu</em>. <strong><em>ACL 2020</em></strong> [<a href="https://arxiv.org/pdf/1910.09796.pdf">pdf</a>] [<a href="https://github.com/thunlp/KernelGAT">code</a>]</p>
+</li>
+<li>
+<p><strong>Sequence-to-Sequence Knowledge Graph Completion and Question Answering</strong>. <em>Apoorv Saxena, Adrian Kochsiek and Rainer Gemulla</em>. <strong><em>ACL 2022</em></strong> [<a href="https://www.aclweb.org/anthology/2022.acl-long.201.pdf">pdf</a>]</p>
+</li>
+<li>
+<p><strong>KG-FiD: Infusing Knowledge Graph in Fusion-in-Decoder for Open-Domain Question Answering</strong>. <em>Donghan Yu, Chenguang Zhu, Yuwei Fang, Wenhao Yu, Shuohang Wang, Yichong Xu, Xiang Ren, Yiming Yang and Michael Zeng</em>. <strong><em>ACL 2022</em></strong> [<a href="https://www.aclweb.org/anthology/2022.acl-long.340.pdf">pdf</a>]</p>
+</li>
+<li>
+<p><strong>AdaLoGN: Adaptive Logic Graph Network for Reasoning-Based Machine Reading Comprehension</strong>. <em>Xiao Li, Gong Cheng, Ziheng Chen, Yawei Sun and Yuzhong Qu</em>. <strong><em>ACL 2022</em></strong> [<a href="https://www.aclweb.org/anthology/2022.acl-long.494.pdf">pdf</a>]</p>
+</li>
+</ol></div><hr/>
+<div id="sentiment_analysis"><h1>Sentiment Analysis</h1>
+<ol>
+<li>
+<p><strong>Aspect-based Sentiment Classification with Aspect-specific Graph Convolutional Networks</strong>. <em>Chen Zhang, Qiuchi Li and Dawei Song.</em> <strong><em>EMNLP 2019</em></strong> [<a href="https://arxiv.org/abs/1909.03477">pdf</a>] [<a href="https://github.com/GeneZC/ASGCN">code</a>]</p>
+</li>
+<li>
+<p><strong>Effective Token Graph Modeling using a Novel Labeling Strategy for Structured Sentiment Analysis</strong>. <em>Wenxuan Shi, Fei Li, Jingye Li, Hao Fei and Donghong Ji</em>. <strong><em>ACL 2022</em></strong> [<a href="https://www.aclweb.org/anthology/2022.acl-long.291.pdf">pdf</a>]</p>
+</li>
+<li>
+<p><strong>Syntax-Aware Aspect Level Sentiment Classification with Graph Attention Networks</strong>. <em>Binxuan Huang and Kathleen M. Carley.</em> <strong><em>EMNLP 2019</em></strong> [<a href="https://arxiv.org/abs/1909.02606">pdf</a>]</p>
+</li>
+<li>
+<p><strong>Relational Graph Attention Network for Aspect-based Sentiment Analysis</strong>. <em>Kai Wang, Weizhou Shen, Yunyi Yang, Xiaojun Quan, Rui Wang</em>. <strong><em>ACL 2020</em></strong> [<a href="https://arxiv.org/pdf/2004.12362.pdf">pdf</a>] </p>
+</li>
+<li>
+<p><strong>Syntax-Aware Graph Attention Network for Aspect-Level Sentiment Classification</strong>. <em>Lianzhe Huang, Xin Sun, Sujian Li, Linhao Zhang and Houfeng Wang</em>. <strong><em>COLING 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.coling-main.69.pdf">pdf</a>]</p>
+</li>
+<li>
+<p><strong>Graph Ensemble Learning over Multiple Dependency Trees for Aspect-level Sentiment Classification</strong>. <em>Xiaochen Hou, Peng Qi, Guangtao Wang, Rex Ying, Jing Huang, Xiaodong He and Bowen Zhou</em>. <strong><em>NAACL 2021</em></strong> [<a href="https://www.aclweb.org/anthology/2021.naacl-main.229.pdf">pdf</a>]</p>
+</li>
+</ol></div><hr/>
+<div id="text_classification"><h1>Text Classification</h1>
+<ol>
+<li>
+<p><strong>Heterogeneous Graph Attention Networks for Semi-supervised Short Text Classification</strong>. <em>Linmei Hu, Tianchi Yang, Chuan Shi, Houye Ji, Xiaoli Li.</em> <strong><em>EMNLP 2019</em></strong> [<a href="http://shichuan.org/doc/74.pdf">pdf</a>]</p>
+</li>
+<li>
+<p><strong>Improving Out-of-Scope Detection in Intent Classification by Using Embeddings of the Word Graph Space of the Classes</strong>. <em>Paulo Cavalin, Victor Henrique Alves Ribeiro, Ana Appel and Claudio Pinhanez</em>. <strong><em>EMNLP 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.emnlp-main.324.pdf">pdf</a>]</p>
+</li>
+<li>
+<p><strong>Text Graph Transformer for Document Classification</strong>. <em>Haopeng Zhang and Jiawei Zhang</em>. <strong><em>EMNLP 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.emnlp-main.668.pdf">pdf</a>]</p>
+</li>
+<li>
+<p><strong>Few-Shot Text Classification with Edge-Labeling Graph Neural Network-Based Prototypical Network</strong>. <em>Chen Lyu, Weijie Liu and Ping Wang</em>. <strong><em>COLING 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.coling-main.485.pdf">pdf</a>]</p>
+</li>
+<li>
+<p><strong>Inductive Topic Variational Graph Auto-Encoder for Text Classification</strong>. <em>Qianqian Xie, Jimin Huang, Pan Du, Min Peng and Jian-Yun Nie</em>. <strong><em>NAACL 2021</em></strong> [<a href="https://www.aclweb.org/anthology/2021.naacl-main.333.pdf">pdf</a>]</p>
+</li>
+<li>
+<p><strong>Label-Specific Dual Graph Neural Network for Multi-Label Text Classification</strong>. <em>Qianwen Ma, Chunyuan Yuan, Wei Zhou and Songlin Hu</em>. <strong><em>ACL 2021</em></strong> [<a href="https://www.aclweb.org/anthology/2021.acl-long.298.pdf">pdf</a>]</p>
+</li>
+<li>
+<p><strong>Cross-lingual Text Classification with Heterogeneous Graph Neural Network</strong>. <em>Ziyun Wang, Xuan Liu, Peiji Yang, Shixing Liu and Zhisheng Wang</em>. <strong><em>ACL 2021</em></strong> [<a href="https://www.aclweb.org/anthology/2021.acl-short.78.pdf">pdf</a>]</p>
+</li>
+<li>
+<p><strong>Weakly-supervised Text Classification Based on Keyword Graph</strong>. <em>Lu Zhang, Jiandong Ding, Yi Xu, Yingyao Liu and Shuigeng Zhou</em>. <strong><em>EMNLP 2021</em></strong> [<a href="https://www.aclweb.org/anthology/2021.emnlp-main.222.pdf">pdf</a>]</p>
+</li>
+<li>
+<p><strong>Hierarchical Heterogeneous Graph Representation Learning for Short Text Classification</strong>. <em>Yaqing Wang, Song Wang, Quanming Yao and Dejing Dou</em>. <strong><em>EMNLP 2021</em></strong> [<a href="https://www.aclweb.org/anthology/2021.emnlp-main.247.pdf">pdf</a>]</p>
+</li>
+<li>
+<p><strong>Deep Attention Diffusion Graph Neural Networks for Text Classification</strong>. <em>Yonghao Liu, Renchu Guan, Fausto Giunchiglia, Yanchun Liang and Xiaoyue Feng</em>. <strong><em>EMNLP 2021</em></strong> [<a href="https://www.aclweb.org/anthology/2021.emnlp-main.642.pdf">pdf</a>]</p>
+</li>
+<li>
+<p><strong>Bag-of-Words vs. Graph vs. Sequence in Text Classification: Questioning the Necessity of Text-Graphs and the Surprising Strength of a Wide MLP</strong>. <em>Lukas Galke and Ansgar Scherp</em>. <strong><em>ACL 2022</em></strong> [<a href="https://www.aclweb.org/anthology/2022.acl-long.279.pdf">pdf</a>]</p>
+</li>
+<li>
+<p><strong>Entailment Graph Learning with Textual Entailment and Soft Transitivity</strong>. <em>Zhibin Chen, Yansong Feng and Dongyan Zhao</em>. <strong><em>ACL 2022</em></strong> [<a href="https://www.aclweb.org/anthology/2022.acl-long.406.pdf">pdf</a>]</p>
+</li>
+</ol></div><hr/>
+<div id="text_generation"><h1>Text Generation</h1>
+<ol>
+<li>
+<p><strong>Text Generation from Knowledge Graphs with Graph Transformers</strong>. <em>Rik Koncel-Kedziorski, Dhanush Bekal, Yi Luan, Mirella Lapata and Hannaneh Hajishirzi</em>. <strong><em>NAACL-HLT 2019</em></strong>. [<a href="https://www.aclweb.org/anthology/N19-1238.pdf">pdf</a>] [<a href="https://github.com/rikdz/GraphWriter">code</a>]</p>
+</li>
+<li>
+<p><strong>Coherent Comment Generation for Chinese Articles with a Graph-to-Sequence Model</strong>. <em>Wei Li, Jingjing Xu, Yancheng He, Shengli Yan, Yunfang Wu and Xu Sun.</em> <strong><em>ACL 2019</em></strong> [<a href="https://arxiv.org/abs/1906.01231">pdf</a>] [<a href="https://github.com/lancopku/Graph-to-seq-comment-generation">code</a>]</p>
+</li>
+<li>
+<p><strong>Enhancing AMR-to-Text Generation with Dual Graph Representations</strong>. <em>Leonardo F. R. Ribeiro, Claire Gardent and Iryna Gurevych.</em> <strong><em>EMNLP 2019</em></strong> [<a href="https://arxiv.org/abs/1909.00352">pdf</a>]</p>
+</li>
+<li>
+<p><strong>Heterogeneous Graph Neural Networks for Extractive Document Summarization</strong>. <em>Danqing Wang, Pengfei Liu, Yining Zheng, Xipeng Qiu, Xuanjing Huang</em>. <strong><em>ACL 2020</em></strong> [<a href="https://arxiv.org/pdf/2004.12393.pdf">pdf</a>] [<a href="https://github.com/brxx122/HeterSUMGraph">code</a>]</p>
+</li>
+<li>
+<p><strong>Explanation Graph Generation via Pre-trained Language Models: An Empirical Study with Contrastive Learning</strong>. <em>Swarnadeep Saha, Prateek Yadav and Mohit Bansal</em>. <strong><em>ACL 2022</em></strong> [<a href="https://www.aclweb.org/anthology/2022.acl-long.85.pdf">pdf</a>]</p>
+</li>
+<li>
+<p><strong>Graph Enhanced Contrastive Learning for Radiology Findings Summarization</strong>. <em>Jinpeng Hu, Zhuo Li, Zhihong Chen, Zhen Li, Xiang Wan and Tsung-Hui Chang</em>. <strong><em>ACL 2022</em></strong> [<a href="https://www.aclweb.org/anthology/2022.acl-long.320.pdf">pdf</a>]</p>
+</li>
+</ol></div><hr/>
+<div id="theory"><h1>Theory</h1>
+<ol>
+<li>
+<p><strong>HetGNN: Heterogeneous Graph Neural Network</strong>. <em>Chuxu Zhang, Dongjin Song, Chao Huang, Ananthram Swami and Nitesh V. Chawla.</em> <strong><em>KDD 2019</em></strong> [<a href="https://www.kdd.org/kdd2019/accepted-papers/view/hetgnn-heterogeneous-graph-neural-network">pdf</a>]</p>
+</li>
+<li>
+<p><strong>GMNN: Graph Markov Neural Networks</strong>. <em>Meng Qu, Yoshua Bengio and  Jian Tang.</em> <strong><em>ICML 2019</em></strong> [<a href="https://arxiv.org/pdf/1905.06214.pdf">pdf</a>] [<a href="https://github.com/DeepGraphLearning/GMNN">code</a>]</p>
+</li>
+<li>
+<p><strong>Unsupervised Dependency Graph Network</strong>. <em>Yikang Shen, Shawn Tan, Alessandro Sordoni, Peng Li, Jie Zhou and Aaron Courville</em>. <strong><em>ACL 2022</em></strong> [<a href="https://www.aclweb.org/anthology/2022.acl-long.327.pdf">pdf</a>]</p>
+</li>
+</ol></div><hr/>
+<div id="visual_question_answering"><h1>Visual Question Answering</h1>
+<ol>
+<li>
+<p><strong>Relation-Aware Graph Attention Network for Visual Question Answering</strong>. <em>Linjie Li, Zhe Gan, Yu Cheng and Jingjing Liu.</em> <strong><em>ICCV 2019</em></strong> [<a href="https://arxiv.org/abs/1903.12314">pdf</a>]</p>
+</li>
+<li>
+<p><strong>Language-Conditioned Graph Networks for Relational Reasoning</strong>. <em>Ronghang Hu, Anna Rohrbach, Trevor Darrell and Kate Saenko.</em> <strong><em>ICCV 2019</em></strong> [<a href="https://arxiv.org/abs/1905.04405">pdf</a>] [<a href="http://ronghanghu.com/lcgn">code</a>]</p>
+</li>
+<li>
+<p><strong>Textbook Question Answering with Multi-modal Context Graph Understanding and Self-supervised Open-set Comprehension</strong>. <em>Daesik Kim, Seonhoon Kim and Nojun Kwak.</em> <strong><em>ACL 2019</em></strong> [<a href="https://arxiv.org/abs/1811.00232">pdf</a>]</p>
+</li>
+<li>
+<p><strong>Aligned Dual Channel Graph Convolutional Network for Visual Question Answering</strong>. <em>Qingbao Huang, Jielong Wei, Yi Cai, Changmeng Zheng, Junying Chen, Ho-fung Leung, Qing Li</em>. <strong><em>ACL 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.acl-main.642.pdf">pdf</a>] </p>
+</li>
+<li>
+<p><strong>Multimodal Neural Graph Memory Networks for Visual Question Answering</strong>. <em>Mahmoud Khademi</em>. <strong><em>ACL 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.acl-main.643.pdf">pdf</a>] </p>
+</li>
+<li>
+<p><strong>Modeling Temporal-Modal Entity Graph for Procedural Multimodal Machine Comprehension</strong>. <em>Huibin Zhang, Zhengkun Zhang, Yao Zhang, Jun Wang, Yufan Li, Ning Jiang, Xin Wei and Zhenglu Yang</em>. <strong><em>ACL 2022</em></strong> [<a href="https://www.aclweb.org/anthology/2022.acl-long.84.pdf">pdf</a>]</p>
+</li>
+<li>
+<p><strong>Multi-Modal Sarcasm Detection via Cross-Modal Graph Convolutional Network</strong>. <em>Bin Liang, Chenwei Lou, Xiang Li, Min Yang, Lin Gui, Yulan He, Wenjie Pei and Ruifeng Xu</em>. <strong><em>ACL 2022</em></strong> [<a href="https://www.aclweb.org/anthology/2022.acl-long.124.pdf">pdf</a>]</p>
+</li>
+</ol></div><hr/>
+<div id="acl"><h1>ACL</h1>
+<h2>2024</h2>
+<ol>
+<li><strong>GraphWiz: An Instruction-Following Language Model for Graph Problems</strong>. <em>Zhiqiang Zhu, Weiqing Wang, Zhenhua Dong, Hao Tian, Yinan Wu, Haomian Li</em>. <strong><em>ACL 2024</em></strong> [<a href="https://arxiv.org/abs/2402.16029">pdf</a>]</li>
+</ol>
+<h2>2022</h2>
+<ol>
+<li><strong>Dynamic Schema Graph Fusion Network for Multi-Domain Dialogue State Tracking</strong>. <em>Yue Feng, Aldo Lipani, Fanghua Ye, Qiang Zhang and Emine Yilmaz</em>. <strong><em>ACL 2022</em></strong> [<a href="https://www.aclweb.org/anthology/2022.acl-long.10.pdf">pdf</a>]</li>
+<li><strong>Multilingual Knowledge Graph Completion with Self-Supervised Adaptive Graph Alignment</strong>. <em>Zijie Huang, Zheng Li, Haoming Jiang, Tianyu Cao, Hanqing Lu, Bing Yin, Karthik Subbian, Yizhou Sun and Wei Wang</em>. <strong><em>ACL 2022</em></strong> [<a href="https://www.aclweb.org/anthology/2022.acl-long.36.pdf">pdf</a>]</li>
+<li><strong>Modeling Temporal-Modal Entity Graph for Procedural Multimodal Machine Comprehension</strong>. <em>Huibin Zhang, Zhengkun Zhang, Yao Zhang, Jun Wang, Yufan Li, Ning Jiang, Xin Wei and Zhenglu Yang</em>. <strong><em>ACL 2022</em></strong> [<a href="https://www.aclweb.org/anthology/2022.acl-long.84.pdf">pdf</a>]</li>
+<li><strong>Explanation Graph Generation via Pre-trained Language Models: An Empirical Study with Contrastive Learning</strong>. <em>Swarnadeep Saha, Prateek Yadav and Mohit Bansal</em>. <strong><em>ACL 2022</em></strong> [<a href="https://www.aclweb.org/anthology/2022.acl-long.85.pdf">pdf</a>]</li>
+<li><strong>Tackling Fake News Detection by Continually Improving Social Context Representations using Graph Neural Networks</strong>. <em>Nikhil Mehta, Maria Pacheco and Dan Goldwasser</em>. <strong><em>ACL 2022</em></strong> [<a href="https://www.aclweb.org/anthology/2022.acl-long.97.pdf">pdf</a>]</li>
+<li><strong>Multi-Modal Sarcasm Detection via Cross-Modal Graph Convolutional Network</strong>. <em>Bin Liang, Chenwei Lou, Xiang Li, Min Yang, Lin Gui, Yulan He, Wenjie Pei and Ruifeng Xu</em>. <strong><em>ACL 2022</em></strong> [<a href="https://www.aclweb.org/anthology/2022.acl-long.124.pdf">pdf</a>]</li>
+<li><strong>Enhancing Chinese Pre-trained Language Model via Heterogeneous Linguistics Graph</strong>. <em>Yanzeng Li, Jiangxia Cao, Xin Cong, Zhenyu Zhang, Bowen Yu, Hongsong Zhu and Tingwen Liu</em>. <strong><em>ACL 2022</em></strong> [<a href="https://www.aclweb.org/anthology/2022.acl-long.140.pdf">pdf</a>]</li>
+<li><strong>Learning from Sibling Mentions with Scalable Graph Inference in Fine-Grained Entity Typing</strong>. <em>Yi Chen, Jiayang Cheng, Haiyun Jiang, Lemao Liu, Haisong Zhang, Shuming Shi and Ruifeng Xu</em>. <strong><em>ACL 2022</em></strong> [<a href="https://www.aclweb.org/anthology/2022.acl-long.147.pdf">pdf</a>]</li>
+<li><strong>Efficient Hyper-parameter Search for Knowledge Graph Embedding</strong>. <em>Yongqi Zhang, Zhanke Zhou, Quanming Yao and Yong Li</em>. <strong><em>ACL 2022</em></strong> [<a href="https://www.aclweb.org/anthology/2022.acl-long.194.pdf">pdf</a>]</li>
+<li><strong>Variational Graph Autoencoding as Cheap Supervision for AMR Coreference Resolution</strong>. <em>Irene Li, Linfeng Song, Kun Xu and Dong Yu</em>. <strong><em>ACL 2022</em></strong> [<a href="https://www.aclweb.org/anthology/2022.acl-long.199.pdf">pdf</a>]</li>
+<li><strong>Sequence-to-Sequence Knowledge Graph Completion and Question Answering</strong>. <em>Apoorv Saxena, Adrian Kochsiek and Rainer Gemulla</em>. <strong><em>ACL 2022</em></strong> [<a href="https://www.aclweb.org/anthology/2022.acl-long.201.pdf">pdf</a>]</li>
+<li><strong>CAKE: A Scalable Commonsense-Aware Framework For Multi-View Knowledge Graph Completion</strong>. <em>Guanglin Niu, Bo Li, Yongfei Zhang and Shiliang Pu</em>. <strong><em>ACL 2022</em></strong> [<a href="https://www.aclweb.org/anthology/2022.acl-long.205.pdf">pdf</a>]</li>
+<li><strong>Enhanced Multi-Channel Graph Convolutional Network for Aspect Sentiment Triplet Extraction</strong>. <em>Hao Chen, Zepeng Zhai, Fangxiang Feng, Ruifan Li and Xiaojie Wang</em>. <strong><em>ACL 2022</em></strong> [<a href="https://www.aclweb.org/anthology/2022.acl-long.212.pdf">pdf</a>]</li>
+<li><strong>Bag-of-Words vs. Graph vs. Sequence in Text Classification: Questioning the Necessity of Text-Graphs and the Surprising Strength of a Wide MLP</strong>. <em>Lukas Galke and Ansgar Scherp</em>. <strong><em>ACL 2022</em></strong> [<a href="https://www.aclweb.org/anthology/2022.acl-long.279.pdf">pdf</a>]</li>
+<li><strong>Effective Token Graph Modeling using a Novel Labeling Strategy for Structured Sentiment Analysis</strong>. <em>Wenxuan Shi, Fei Li, Jingye Li, Hao Fei and Donghong Ji</em>. <strong><em>ACL 2022</em></strong> [<a href="https://www.aclweb.org/anthology/2022.acl-long.291.pdf">pdf</a>]</li>
+<li><strong>SimKGC: Simple Contrastive Knowledge Graph Completion with Pre-trained Language Models</strong>. <em>Liang Wang, Wei Zhao, Zhuoyu Wei and Jingming Liu</em>. <strong><em>ACL 2022</em></strong> [<a href="https://www.aclweb.org/anthology/2022.acl-long.295.pdf">pdf</a>]</li>
+<li><strong>Graph Enhanced Contrastive Learning for Radiology Findings Summarization</strong>. <em>Jinpeng Hu, Zhuo Li, Zhihong Chen, Zhen Li, Xiang Wan and Tsung-Hui Chang</em>. <strong><em>ACL 2022</em></strong> [<a href="https://www.aclweb.org/anthology/2022.acl-long.320.pdf">pdf</a>]</li>
+<li><strong>Unsupervised Dependency Graph Network</strong>. <em>Yikang Shen, Shawn Tan, Alessandro Sordoni, Peng Li, Jie Zhou and Aaron Courville</em>. <strong><em>ACL 2022</em></strong> [<a href="https://www.aclweb.org/anthology/2022.acl-long.327.pdf">pdf</a>]</li>
+<li><strong>KG-FiD: Infusing Knowledge Graph in Fusion-in-Decoder for Open-Domain Question Answering</strong>. <em>Donghan Yu, Chenguang Zhu, Yuwei Fang, Wenhao Yu, Shuohang Wang, Yichong Xu, Xiang Ren, Yiming Yang and Michael Zeng</em>. <strong><em>ACL 2022</em></strong> [<a href="https://www.aclweb.org/anthology/2022.acl-long.340.pdf">pdf</a>]</li>
+<li><strong>HeterMPC: A Heterogeneous Graph Neural Network for Response Generation in Multi-Party Conversations</strong>. <em>Jia-Chen Gu, Chao-Hong Tan, Chongyang Tao, Zhen-Hua Ling, Huang Hu, Xiubo Geng and Daxin Jiang</em>. <strong><em>ACL 2022</em></strong> [<a href="https://www.aclweb.org/anthology/2022.acl-long.349.pdf">pdf</a>]</li>
+<li><strong>RotateQVS: Representing Temporal Information as Rotations in Quaternion Vector Space for Temporal Knowledge Graph Completion</strong>. <em>Kai Chen, Ye Wang, Yitong Li and Aiping Li</em>. <strong><em>ACL 2022</em></strong> [<a href="https://www.aclweb.org/anthology/2022.acl-long.402.pdf">pdf</a>]</li>
+<li><strong>Entailment Graph Learning with Textual Entailment and Soft Transitivity</strong>. <em>Zhibin Chen, Yansong Feng and Dongyan Zhao</em>. <strong><em>ACL 2022</em></strong> [<a href="https://www.aclweb.org/anthology/2022.acl-long.406.pdf">pdf</a>]</li>
+<li><strong>Graph Pre-training for AMR Parsing and Generation</strong>. <em>Xuefeng Bai, Yulong Chen and Yue Zhang</em>. <strong><em>ACL 2022</em></strong> [<a href="https://www.aclweb.org/anthology/2022.acl-long.415.pdf">pdf</a>]</li>
+<li><strong>AdaLoGN: Adaptive Logic Graph Network for Reasoning-Based Machine Reading Comprehension</strong>. <em>Xiao Li, Gong Cheng, Ziheng Chen, Yawei Sun and Yuzhong Qu</em>. <strong><em>ACL 2022</em></strong> [<a href="https://www.aclweb.org/anthology/2022.acl-long.494.pdf">pdf</a>]</li>
+<li><strong>Using Context-to-Vector with Graph Retrofitting to Improve Word Embeddings</strong>. <em>Jiangbin Zheng, Yile Wang, Ge Wang, Jun Xia, Yufei Huang, Guojiang Zhao, Yue Zhang and Stan Li</em>. <strong><em>ACL 2022</em></strong> [<a href="https://www.aclweb.org/anthology/2022.acl-long.561.pdf">pdf</a>]</li>
+<li><strong>Complex Evolutional Pattern Learning for Temporal Knowledge Graph Reasoning</strong>. <em>Zixuan Li, Saiping Guan, Xiaolong Jin, Weihua Peng, Yajuan Lyu, Yong Zhu, Long Bai, Wei Li, Jiafeng Guo and Xueqi Cheng</em>. <strong><em>ACL 2022</em></strong> [<a href="https://www.aclweb.org/anthology/2022.acl-short.32.pdf">pdf</a>]</li>
+<li><strong>CogKGE: A Knowledge Graph Embedding Toolkit and Benchmark for Representing Multi-source and Heterogeneous Knowledge</strong>. <em>Zhuoran Jin, Tianyi Men, Hongbang Yuan, Zhitao He, Dianbo Sui, Chenhao Wang, Zhipeng Xue, Yubo Chen and Jun Zhao</em>. <strong><em>ACL Demo 2022</em></strong> [<a href="https://www.aclweb.org/anthology/2022.acl-demo.16.pdf">pdf</a>]</li>
+<li><strong>MMEKG: Multi-modal Event Knowledge Graph towards Universal Representation across Modalities</strong>. <em>Yubo Ma, Zehao Wang, Mukai Li, Yixin Cao, Meiqi Chen, Xinze Li, Wenqi Sun, Kunquan Deng, Kun Wang, Aixin Sun and Jing Shao</em>. <strong><em>ACL Demo 2022</em></strong> [<a href="https://www.aclweb.org/anthology/2022.acl-demo.23.pdf">pdf</a>]</li>
+</ol>
+<h2>2021</h2>
+<ol>
+<li><strong>Multimodal Sentiment Detection Based on Multi-channel Graph Neural Networks</strong>. <em>Xiaocui Yang, Shi Feng, Yifei Zhang and Daling Wang</em>. <strong><em>ACL 2021</em></strong> [<a href="https://www.aclweb.org/anthology/2021.acl-long.28.pdf">pdf</a>]</li>
+<li><strong>SocAoG: Incremental Graph Parsing for Social Relation Inference in Dialogues</strong>. <em>Liang Qiu, Yuan Liang, Yizhou Zhao, Pan Lu, Baolin Peng, Zhou Yu, Ying Nian Wu and Song-Chun Zhu</em>. <strong><em>ACL 2021</em></strong> [<a href="https://www.aclweb.org/anthology/2021.acl-long.54.pdf">pdf</a>]</li>
+<li><strong>CitationIE: Leveraging the Citation Graph for Scientific Information Extraction</strong>. <em>Vijay Viswanathan, Graham Neubig and Pengfei Liu</em>. <strong><em>ACL 2021</em></strong> [<a href="https://www.aclweb.org/anthology/2021.acl-long.59.pdf">pdf</a>]</li>
+<li><strong>Compare to The Knowledge: Graph Neural Fake News Detection with External Knowledge</strong>. <em>Linmei Hu, Tianchi Yang, Luhao Zhang, Wanjun Zhong, Duyu Tang, Chuan Shi, Nan Duan and Ming Zhou</em>. <strong><em>ACL 2021</em></strong> [<a href="https://www.aclweb.org/anthology/2021.acl-long.62.pdf">pdf</a>]</li>
+<li><strong>Directed Acyclic Graph Network for Conversational Emotion Recognition</strong>. <em>Weizhou Shen, Siyue Wu, Yunyi Yang and Xiaojun Quan</em>. <strong><em>ACL 2021</em></strong> [<a href="https://www.aclweb.org/anthology/2021.acl-long.123.pdf">pdf</a>]</li>
+<li><strong>Discovering Dialog Structure Graph for Coherent Dialog Generation</strong>. <em>Jun Xu, Zeyang Lei, Haifeng Wang, Zheng-Yu Niu, Hua Wu and Wanxiang Che</em>. <strong><em>ACL 2021</em></strong> [<a href="https://www.aclweb.org/anthology/2021.acl-long.136.pdf">pdf</a>]</li>
+<li><strong>Bird’s Eye: Probing for Linguistic Graph Structures with a Simple Information-Theoretic Approach</strong>. <em>Yifan Hou and Mrinmaya Sachan</em>. <strong><em>ACL 2021</em></strong> [<a href="https://www.aclweb.org/anthology/2021.acl-long.145.pdf">pdf</a>]</li>
+<li><strong>Poisoning Knowledge Graph Embeddings via Relation Inference Patterns</strong>. <em>Peru Bhardwaj, John Kelleher, Luca Costabello and Declan O’Sullivan</em>. <strong><em>ACL 2021</em></strong> [<a href="https://www.aclweb.org/anthology/2021.acl-long.147.pdf">pdf</a>]</li>
+<li><strong>ExCAR: Event Graph Knowledge Enhanced Explainable Causal Reasoning</strong>. <em>Li Du, Xiao Ding, Kai Xiong, Ting Liu and Bing Qin</em>. <strong><em>ACL 2021</em></strong> [<a href="https://www.aclweb.org/anthology/2021.acl-long.183.pdf">pdf</a>]</li>
+<li><strong>LGESQL: Line Graph Enhanced Text-to-SQL Model with Mixed Local and Non-Local Relations</strong>. <em>Ruisheng Cao, Lu Chen, Zhi Chen, Yanbin Zhao, Su Zhu and Kai Yu</em>. <strong><em>ACL 2021</em></strong> [<a href="https://www.aclweb.org/anthology/2021.acl-long.198.pdf">pdf</a>]</li>
+<li><strong>Learning Syntactic Dense Embedding with Correlation Graph for Automatic Readability Assessment</strong>. <em>Xinying Qiu, Yuan Chen, Hanwu Chen, Jian-Yun Nie, Yuming Shen and Dawei Lu</em>. <strong><em>ACL 2021</em></strong> [<a href="https://www.aclweb.org/anthology/2021.acl-long.235.pdf">pdf</a>]</li>
+<li><strong>Position Bias Mitigation: A Knowledge-Aware Graph Model for Emotion Cause Extraction</strong>. <em>Hanqi Yan, Lin Gui, Gabriele Pergola and Yulan He</em>. <strong><em>ACL 2021</em></strong> [<a href="https://www.aclweb.org/anthology/2021.acl-long.261.pdf">pdf</a>]</li>
+<li><strong>Structured Sentiment Analysis as Dependency Graph Parsing</strong>. <em>Jeremy Barnes, Robin Kurtz, Stephan Oepen, Lilja Øvrelid and Erik Velldal</em>. <strong><em>ACL 2021</em></strong> [<a href="https://www.aclweb.org/anthology/2021.acl-long.263.pdf">pdf</a>]</li>
+<li><strong>Towards Propagation Uncertainty: Edge-enhanced Bayesian Graph Convolutional Networks for Rumor Detection</strong>. <em>Lingwei Wei, Dou Hu, Wei Zhou, Zhaojuan Yue and Songlin Hu</em>. <strong><em>ACL 2021</em></strong> [<a href="https://www.aclweb.org/anthology/2021.acl-long.297.pdf">pdf</a>]</li>
+<li><strong>Label-Specific Dual Graph Neural Network for Multi-Label Text Classification</strong>. <em>Qianwen Ma, Chunyuan Yuan, Wei Zhou and Songlin Hu</em>. <strong><em>ACL 2021</em></strong> [<a href="https://www.aclweb.org/anthology/2021.acl-long.298.pdf">pdf</a>]</li>
+<li><strong>ABCD: A Graph Framework to Convert Complex Sentences to a Covering Set of Simple Sentences</strong>. <em>Yanjun Gao, Ting-Hao Huang and Rebecca J. Passonneau</em>. <strong><em>ACL 2021</em></strong> [<a href="https://www.aclweb.org/anthology/2021.acl-long.303.pdf">pdf</a>]</li>
+<li><strong>Psycholinguistic Tripartite Graph Network for Personality Detection</strong>. <em>Tao Yang, Feifan Yang, Haolan Ouyang and Xiaojun Quan</em>. <strong><em>ACL 2021</em></strong> [<a href="https://www.aclweb.org/anthology/2021.acl-long.326.pdf">pdf</a>]</li>
+<li><strong>PairRE: Knowledge Graph Embeddings via Paired Relation Vectors</strong>. <em>Linlin Chao, Jianshan He, Taifeng Wang and Wei Chu</em>. <strong><em>ACL 2021</em></strong> [<a href="https://www.aclweb.org/anthology/2021.acl-long.336.pdf">pdf</a>]</li>
+<li><strong>Dependency-driven Relation Extraction with Attentive Graph Convolutional Networks</strong>. <em>Yuanhe Tian, Guimin Chen, Yan Song and Xiang Wan</em>. <strong><em>ACL 2021</em></strong> [<a href="https://www.aclweb.org/anthology/2021.acl-long.344.pdf">pdf</a>]</li>
+<li><strong>How Knowledge Graph and Attention Help? A Qualitative Analysis into Bag-level Relation Extraction</strong>. <em>Zikun Hu, Yixin Cao, Lifu Huang and Tat-Seng Chua</em>. <strong><em>ACL 2021</em></strong> [<a href="https://www.aclweb.org/anthology/2021.acl-long.359.pdf">pdf</a>]</li>
+<li><strong>Reasoning over Entity-Action-Location Graph for Procedural Text Understanding</strong>. <em>Hao Huang, Xiubo Geng, Jian Pei, Guodong Long and Daxin Jiang</em>. <strong><em>ACL 2021</em></strong> [<a href="https://www.aclweb.org/anthology/2021.acl-long.396.pdf">pdf</a>]</li>
+<li><strong>Learning Event Graph Knowledge for Abductive Reasoning</strong>. <em>Li Du, Xiao Ding, Ting Liu and Bing Qin</em>. <strong><em>ACL 2021</em></strong> [<a href="https://www.aclweb.org/anthology/2021.acl-long.403.pdf">pdf</a>]</li>
+<li><strong>Unified Interpretation of Softmax Cross-Entropy and Negative Sampling: With Case Study for Knowledge Graph Embedding</strong>. <em>Hidetaka Kamigaito and Katsuhiko Hayashi</em>. <strong><em>ACL 2021</em></strong> [<a href="https://www.aclweb.org/anthology/2021.acl-long.429.pdf">pdf</a>]</li>
+<li><strong>MMGCN: Multimodal Fusion via Deep Graph Convolution Network for Emotion Recognition in Conversation</strong>. <em>Jingwen Hu, Yuchen Liu, Jinming Zhao and Qin Jin</em>. <strong><em>ACL 2021</em></strong> [<a href="https://www.aclweb.org/anthology/2021.acl-long.440.pdf">pdf</a>]</li>
+<li><strong>BASS: Boosting Abstractive Summarization with Unified Semantic Graph</strong>. <em>Wenhao Wu, Wei Li, Xinyan Xiao, Jiachen Liu, Ziqiang Cao, Sujian Li, Hua Wu and Haifeng Wang</em>. <strong><em>ACL 2021</em></strong> [<a href="https://www.aclweb.org/anthology/2021.acl-long.472.pdf">pdf</a>]</li>
+<li><strong>Dual Graph Convolutional Networks for Aspect-based Sentiment Analysis</strong>. <em>Ruifan Li, Hao Chen, Fangxiang Feng, Zhanyu Ma, Xiaojie Wang and Eduard Hovy</em>. <strong><em>ACL 2021</em></strong> [<a href="https://www.aclweb.org/anthology/2021.acl-long.494.pdf">pdf</a>]</li>
+<li><strong>Multi-hop Graph Convolutional Network with High-order Chebyshev Approximation for Text Reasoning</strong>. <em>Shuoran Jiang, Qingcai Chen, Xin Liu, Baotian Hu and Lisai Zhang</em>. <strong><em>ACL 2021</em></strong> [<a href="https://www.aclweb.org/anthology/2021.acl-long.513.pdf">pdf</a>]</li>
+<li><strong>Space Efficient Context Encoding for Non-Task-Oriented Dialogue Generation with Graph Attention Transformer</strong>. <em>Fabian Galetzka, Jewgeni Rose, David Schlangen and Jens Lehmann</em>. <strong><em>ACL 2021</em></strong> [<a href="https://www.aclweb.org/anthology/2021.acl-long.546.pdf">pdf</a>]</li>
+<li><strong>Cross-lingual Text Classification with Heterogeneous Graph Neural Network</strong>. <em>Ziyun Wang, Xuan Liu, Peiji Yang, Shixing Liu and Zhisheng Wang</em>. <strong><em>ACL 2021</em></strong> [<a href="https://www.aclweb.org/anthology/2021.acl-short.78.pdf">pdf</a>]</li>
+<li><strong>Efficient Text-based Reinforcement Learning by Jointly Leveraging State and Commonsense Graph Representations</strong>. <em>Keerthiram Murugesan, Mattia Atzeni, Pavan Kapanipathi, Kartik Talamadupula, Mrinmaya Sachan and Murray Campbell</em>. <strong><em>ACL 2021</em></strong> [<a href="https://www.aclweb.org/anthology/2021.acl-short.91.pdf">pdf</a>]</li>
+<li><strong>Explicitly Capturing Relations between Entity Mentions via Graph Neural Networks for Domain-specific Named Entity Recognition</strong>. <em>Pei Chen, Haibo Ding, Jun Araki and Ruihong Huang</em>. <strong><em>ACL 2021</em></strong> [<a href="https://www.aclweb.org/anthology/2021.acl-short.93.pdf">pdf</a>]</li>
+<li><strong>Unsupervised Cross-Domain Prerequisite Chain Learning using Variational Graph Autoencoders</strong>. <em>Irene Li, Vanessa Yan, Tianxiao Li, Rihao Qu and Dragomir Radev</em>. <strong><em>ACL 2021</em></strong> [<a href="https://www.aclweb.org/anthology/2021.acl-short.127.pdf">pdf</a>]</li>
+</ol>
+<h2>2020</h2>
+<ol>
+<li><strong>Fine-grained Fact Verification with Kernel Graph Attention Network</strong>. <em>Zhenghao Liu, Chenyan Xiong, Maosong Sun, Zhiyuan Liu</em>. <strong><em>ACL 2020</em></strong> [<a href="https://arxiv.org/pdf/1910.09796.pdf">pdf</a>] [<a href="https://github.com/thunlp/KernelGAT">code</a>]</li>
+<li><strong>GCAN: Graph-aware Co-Attention Networks for Explainable Fake News Detection on Social Media</strong>. <em>Yi-Ju Lu, Cheng-Te Li</em>. <strong><em>ACL 2020</em></strong> [<a href="https://arxiv.org/pdf/2004.11648.pdf">pdf</a>]</li>
+<li><strong>Heterogeneous Graph Neural Networks for Extractive Document Summarization</strong>. <em>Danqing Wang, Pengfei Liu, Yining Zheng, Xipeng Qiu, Xuanjing Huang</em>. <strong><em>ACL 2020</em></strong> [<a href="https://arxiv.org/pdf/2004.12393.pdf">pdf</a>] [<a href="https://github.com/brxx122/HeterSUMGraph">code</a>] </li>
+<li><strong>Relational Graph Attention Network for Aspect-based Sentiment Analysis</strong>. <em>Kai Wang, Weizhou Shen, Yunyi Yang, Xiaojun Quan, Rui Wang</em>. <strong><em>ACL 2020</em></strong> [<a href="https://arxiv.org/pdf/2004.12362.pdf">pdf</a>] [<a href="https://github.com/shenwzh3/RGAT-ABSA">code</a>]</li>
+<li><strong>Every Document Owns Its Structure: Inductive Text Classification via Graph Neural Networks</strong>. <em>Yufeng Zhang∗ , Xueli Yu∗ , Zeyu Cui , Shu Wu, Zhongzhen Wen and Liang Wang</em>. <strong><em>ACL 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.acl-main.31.pdf">pdf</a>] [<a href="https://github.com/CRIPAC-DIG/TextING">code</a>]</li>
+<li><strong>Integrating Semantic and Structural Information with Graph Convolutional Network for Controversy Detection</strong>. <em>Lei Zhong, Juan Cao, Qiang Sheng, Junbo Guo, Ziang Wang</em>. <strong><em>ACL 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.acl-main.49.pdf">pdf</a>] [<a href="http://mcg.ict.ac.cn/controversy-detection-dataset.html">code</a>]</li>
+<li><strong>Line Graph Enhanced AMR-to-Text Generation with Mix-Order Graph Attention Networks</strong>. <em>Yanbin Zhao, Lu Chen, Zhi Chen, Ruisheng Cao, Su Zhu, Kai Yu</em>. <strong><em>ACL 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.acl-main.67.pdf">pdf</a>] [<a href="https://github.com/ybz79/AMR2text">code</a>]</li>
+<li><strong>Query Graph Generation for Answering Multi-hop Complex Questions from Knowledge Bases</strong>. <em>Yunshi Lan, Jing Jiang</em>. <strong><em>ACL 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.acl-main.91.pdf">pdf</a>] [<a href="https://github.com/lanyunshi/Multi-hopComplexKBQA">code</a>]</li>
+<li><strong>Semantic Graphs for Generating Deep Questions</strong>. <em>Liangming Pan, Yuxi Xie, Yansong Feng, Tat-Seng Chua, Min-Yen Kan</em>. <strong><em>ACL 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.acl-main.135.pdf">pdf</a>] [<a href="https://github.com/WING-NUS/SG-Deep-Question-Generation">code</a>]</li>
+<li><strong>Conversational Graph Grounded Policy Learning for Open-Domain Conversation Generation</strong>. <em>Jun Xu, Haifeng Wang, Zheng-Yu Niu, Hua Wu, Wanxiang Che , Ting Liu</em>. <strong><em>ACL 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.acl-main.166.pdf">pdf</a>] </li>
+<li><strong>Grounded Conversation Generation as Guided Traverses in Commonsense Knowledge Graphs</strong>. <em>Houyu Zhang, Zhenghao Liu, Chenyan Xiong, Zhiyuan Liu</em>. <strong><em>ACL 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.acl-main.184.pdf">pdf</a>] [<a href="https://github.com/thunlp/ConceptFlow">code</a>]</li>
+<li><strong>A Novel Graph-based Multi-modal Fusion Encoder for Neural Machine Translation</strong>. <em>Yongjing Yin, Fandong Meng, Jinsong Su, Chulun Zhou, Zhengyuan Yang, Jie Zhou, Jiebo Luo</em>. <strong><em>ACL 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.acl-main.273.pdf">pdf</a>] [<a href="https://github.com/DeepLearnXMU/GMNMT">code</a>]</li>
+<li><strong>Syntax-Aware Opinion Role Labeling with Dependency Graph Convolutional Networks</strong>. <em>Bo Zhang, Yue Zhang, Rui Wang, Zhenghua Li, Min Zhang</em>. <strong><em>ACL 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.acl-main.297.pdf">pdf</a>] </li>
+<li><strong>A Graph-based Coarse-to-fine Method for Unsupervised Bilingual Lexicon Induction</strong>. <em>Shuo Ren, Shujie Liu, Ming Zhou, Shuai Ma</em>. <strong><em>ACL 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.acl-main.318.pdf">pdf</a>] </li>
+<li><strong>Graph Neural News Recommendation with Unsupervised Preference Disentanglement</strong>. <em>Linmei Hu, Siyong Xu, Chen Li, Cheng Yang, Chuan Shi, Nan Duan, Xing Xie, Ming Zhou</em>. <strong><em>ACL 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.acl-main.392.pdf">pdf</a>] </li>
+<li><strong>Knowledge Graph-Augmented Abstractive Summarization with Semantic-Driven Cloze Reward</strong>. <em>Luyang Huang, Lingfei Wu and Lu Wang</em>. <strong><em>ACL 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.acl-main.457.pdf">pdf</a>] [<a href="https://github.com/luyang-huang96/GraphAugmentedSum">code</a>]</li>
+<li><strong>Entity-Aware Dependency-Based Deep Graph Attention Network for Comparative Preference Classification</strong>. <em>Nianzu Ma, Sahisnu Mazumder, Hao Wang, Bing Liu</em>. <strong><em>ACL 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.acl-main.512.pdf">pdf</a>]</li>
+<li><strong>LogicalFactChecker: Leveraging Logical Operations for Fact Checking with Graph Module Network</strong>. <em>Wanjun Zhong , Duyu Tang, Zhangyin Feng , Nan Duan, Ming Zhou, Ming Gong, Linjun Shou, Daxin Jiang, Jiahai Wang and Jian Yin</em>. <strong><em>ACL 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.acl-main.539.pdf">pdf</a>] [<a href="https://github.com/thunlp/KernelGAT">code</a>]</li>
+<li><strong>Reasoning Over Semantic-Level Graph for Fact Checking</strong>. <em>Wanjun Zhong, Jingjing Xu, Duyu Tang, Zenan Xu, Nan Duan, Ming Zhou, Jiahai Wang and Jian Yin</em>. <strong><em>ACL 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.acl-main.549.pdf">pdf</a>] </li>
+<li><strong>Document Modeling with Graph Attention Networks for Multi-grained Machine Reading Comprehension</strong>. <em>Bo Zheng, Haoyang Wen, Yaobo Liang, Nan Duan, Wanxiang Che, Daxin Jiang, Ming Zhou and Ting Liu</em>. <strong><em>ACL 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.acl-main.599.pdf">pdf</a>] [<a href="https://github.com/DancingSoul/NQ_BERT-DM">code</a>]</li>
+<li><strong>Heterogeneous Graph Transformer for Graph-to-Sequence Learning</strong>. <em>Shaowei Yao, Tianming Wang, Xiaojun Wan</em>. <strong><em>ACL 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.acl-main.640.pdf">pdf</a>] [<a href="https://github.com/QAQ-v/HetGT">code</a>]</li>
+<li><strong>Aligned Dual Channel Graph Convolutional Network for Visual Question Answering</strong>. <em>Qingbao Huang, Jielong Wei, Yi Cai, Changmeng Zheng, Junying Chen, Ho-fung Leung, Qing Li</em>. <strong><em>ACL 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.acl-main.642.pdf">pdf</a>] </li>
+<li><strong>Multimodal Neural Graph Memory Networks for Visual Question Answering</strong>. <em>Mahmoud Khademi</em>. <strong><em>ACL 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.acl-main.643.pdf">pdf</a>]</li>
+</ol>
+<h2>2019</h2>
+<ol>
+<li><strong>Attention Guided Graph Convolutional Networks for Relation Extraction</strong>. <em>Zhijiang Guo, Yan Zhang and Wei Lu.</em> <strong><em>ACL 2019</em></strong> [<a href="http://www.statnlp.org/paper/2019/attention-guided-graph-convolutional-networks-relation-extraction.html">pdf</a>] [<a href="https://github.com/Cartus/AGGCN_TACRED">code</a>]</li>
+<li><strong>GEAR: Graph-based Evidence Aggregating and Reasoning for Fact Verification.</strong> <em>Jie Zhou, Xu Han, Cheng Yang, Zhiyuan Liu, Lifeng Wang, Changcheng Li and Maosong Sun.</em> <strong><em>ACL 2019</em></strong> [<a href="https://www.aclweb.org/anthology/P19-1085">pdf</a>] [<a href="https://github.com/thunlp/GEAR">code</a>]</li>
+<li><strong>Cognitive Graph for Multi-Hop Reading Comprehension at Scale</strong>. <em>Ming Ding, Chang Zhou, Qibin Chen, Hongxia Yang and Jie Tang.</em> <strong><em>ACL 2019</em></strong> [<a href="https://arxiv.org/abs/1905.05460">pdf</a>] [<a href="https://github.com/THUDM/CogQA">code</a>]</li>
+<li><strong>Coherent Comment Generation for Chinese Articles with a Graph-to-Sequence Model</strong>. <em>Wei Li, Jingjing Xu, Yancheng He, Shengli Yan, Yunfang Wu and Xu Sun.</em> <strong><em>ACL 2019</em></strong> [<a href="https://arxiv.org/abs/1906.01231">pdf</a>] [<a href="https://github.com/lancopku/Graph-to-seq-comment-generation">code</a>]</li>
+<li><strong>Dynamically Fused Graph Network for Multi-hop Reasoning</strong>. <em>Yunxuan Xiao, Yanru Qu, Lin Qiu, Hao Zhou, Lei Li, Weinan Zhang and Yong Yu.</em> <strong><em>ACL 2019</em></strong> [<a href="https://arxiv.org/abs/1905.06933">pdf</a>]</li>
+<li><strong>Encoding Social Information with Graph Convolutional Networks for Political Perspective Detection in News Media</strong>. <em>Chang Li and Dan Goldwasser</em>. <strong><em>ACL 2019</em></strong> [<a href="https://www.cs.purdue.edu/homes/dgoldwas//downloads/papers/LiG_acl_2019.pdf">pdf</a>]</li>
+<li><strong>Graph Neural Networks with Generated Parameters for Relation Extraction</strong>. <em>Hao Zhu, Yankai Lin, Zhiyuan Liu, Jie Fu, Tat-seng Chua and Maosong Sun.</em> <strong><em>ACL 2019</em></strong> [<a href="https://arxiv.org/abs/1902.00756">pdf</a>]</li>
+<li><strong>Incorporating Syntactic and Semantic Information in Word Embeddings using Graph Convolutional Networks</strong>. <em>Shikhar Vashishth, Manik Bhandari, Prateek Yadav, Piyush Rai, Chiranjib Bhattacharyya and Partha Talukdar</em>. <strong><em>ACL 2019</em></strong> [<a href="https://arxiv.org/abs/1809.04283">pdf</a>] [<a href="http://github.com/malllabiisc/WordGCN">code</a>]</li>
+<li><strong>GraphRel: Modeling Text as Relational Graphs for Joint Entity and Relation Extraction</strong>. <em>Tsu-Jui Fu, Peng-Hsuan Li and Wei-Yun Ma</em>. <strong><em>ACL 2019</em></strong> [<a href="https://tsujuifu.github.io/projs/acl19_graph-rel.html">pdf</a>] [<a href="https://github.com/tsujuifu/pytorch_graph-rel">code</a>]</li>
+<li><strong>Multi-hop Reading Comprehension across Multiple Documents by Reasoning over Heterogeneous Graphs</strong>. <em>Ming Tu, Guangtao Wang, Jing Huang, Yun Tang, Xiaodong He and Bowen Zhou.</em> <strong><em>ACL 2019</em></strong> [<a href="https://arxiv.org/abs/1905.07374">pdf</a>]</li>
+<li><strong>Textbook Question Answering with Multi-modal Context Graph Understanding and Self-supervised Open-set Comprehension</strong>. <em>Daesik Kim, Seonhoon Kim and Nojun Kwak.</em> <strong><em>ACL 2019</em></strong> [<a href="https://arxiv.org/abs/1811.00232">pdf</a>]</li>
+<li><strong>Look Again at the Syntax: Relational Graph Convolutional Network for Gendered Ambiguous Pronoun Resolution</strong>. <em>Yinchuan Xu, Junlin Yang.</em> <strong><em>GBNLP@ACL 2019</em></strong> [<a href="https://www.aclweb.org/anthology/W19-3814.pdf">pdf</a>] [<a href="https://github.com/ianycxu/RGCN-with-BERT">code</a>]</li>
+</ol></div><hr/>
+<div id="cikm"><h1>CIKM</h1>
+<h2>2019</h2>
+<ol>
+<li><strong>Spam Review Detection with Graph Convolutional Networks</strong>. <em>Ao Li, Zhou Qin, Runshi Liu, Yiqun Yang, Dong Li.</em>  <strong><em>CIKM 2019</em></strong> [<a href="https://arxiv.org/abs/1908.10679v1">pdf</a>]</li>
+<li><strong>Fi-GNN: Modeling Feature Interactions via Graph Neural Networks for CTR Prediction</strong>. <em>Zekun Li, Zeyu Cui, Shu Wu, Xiaoyu Zhang, Liang Wang.</em>  <strong><em>CIKM 2019</em></strong> [<a href="https://arxiv.org/abs/1910.05552">pdf</a>] [<a href="https://github.com/CRIPAC-DIG/Fi_GNNs">code</a>]</li>
+<li><strong>Message Passing for Complex Question Answering over Knowledge Graphs</strong>. <em>Svitlana Vakulenko, Javier David Fernandez Garcia, Axel Polleres, Maarten de Rijke, Michael Cochez.</em>  <strong><em>CIKM 2019</em></strong> [<a href="https://arxiv.org/abs/1908.06917?context=cs.CL">pdf</a>]</li>
+<li><strong>Knowledge-aware Textual Entailment with Graph Atention Network</strong>. <em>Daoyuan Chen , Yaliang Li , Min Yang , Hai-Tao Zheng , Ying Shen.</em>  <strong><em>CIKM 2019</em></strong> [<a href="">pdf</a>]</li>
+<li><strong>Look before you Hop: Conversational Question Answering over Knowledge Graphs Using Judicious Context Expansion</strong>. <em>Philipp Christmann, Rishiraj Saha Roy, Abdalghani Abujabal, Jyotsna Singh, Gerhard Weikum.</em>  <strong><em>CIKM 2019</em></strong> [<a href="https://arxiv.org/abs/1910.03262v1">pdf</a>]</li>
+<li><strong>Cross-domain Aspect Category Transfer and Detection via Traceable Heterogeneous Graph Representation Learning</strong>. <em>Zhuoren Jiang, Jian Wang, Lujun Zhao, Changlong Sun, Yao Lu, Xiaozhong Liu.</em>  <strong><em>CIKM 2019</em></strong> [<a href="https://arxiv.org/abs/1908.11610">pdf</a>]</li>
+<li><strong>Relation-Aware Graph Convolutional Networks for Agent-Initiated Social E-Commerce Recommendation</strong>. <em>Fengli Xu , Jianxun Lian , Zhenyu Han , Yong Li , Yujian Xu , Xing Xie.</em>  <strong><em>CIKM 2019</em></strong> [<a href="https://www.microsoft.com/en-us/research/uploads/prod/2019/09/CIKM19-recogcn.pdf">pdf</a>]</li>
+<li><strong>Hashing Graph Convolution for Node Classification</strong>. <em>Wenting Zhao, Zhen Cui, Chunyan Xu, Chengzheng Li, Tong Zhang，Jian Yang.</em>  <strong><em>CIKM 2019</em></strong> [<a href="https://easychair.org/publications/preprint/lhT3">pdf</a>]</li>
+<li><strong>Gravity-Inspired Graph Autoencoders for Directed Link Prediction</strong>. <em>Guillaume Salha, Stratis Limnios, Romain Hennequin, Viet Anh Tran, Michalis Vazirgiannis.</em>  <strong><em>CIKM 2019</em></strong> [<a href="https://arxiv.org/abs/1905.09570">pdf</a>]</li>
+<li><strong>Multiple Rumor Source Detection with Graph Convolutional Networks</strong>. <em>Ming Dong, Bolong Zheng, Nguyen Quoc Viet Hung, Han Su, Guohui Li.</em>  <strong><em>CIKM 2019</em></strong> [<a href="">pdf</a>]</li>
+</ol></div><hr/>
+<div id="coling"><h1>COLING</h1>
+<h2>2022</h2>
+<ol>
+<li><strong>TopKG: Target-oriented Dialog via Global Planning on Knowledge Graph</strong>. <em>Zhitong Yang, Bo Wang, Jinfeng Zhou, Yue Tan, Dongming Zhao, Kun Huang, Ruifang He and Yuexian Hou</em>. <strong><em>COLING 2022</em></strong> [<a href="https://www.aclweb.org/anthology/2022.coling-1.62.pdf">pdf</a>]</li>
+<li><strong>Hierarchical Information Matters: Text Classification via Tree Based Graph Neural Network</strong>. <em>Chong Zhang, He Zhu, Xingyu Peng, Junran Wu and Ke Xu</em>. <strong><em>COLING 2022</em></strong> [<a href="https://www.aclweb.org/anthology/2022.coling-1.79.pdf">pdf</a>]</li>
+<li><strong>ConTextING: Granting Document-Wise Contextual Embeddings to Graph Neural Networks for Inductive Text Classification</strong>. <em>Yen-Hao Huang, Yi-Hsin Chen and Yi-Shin Chen</em>. <strong><em>COLING 2022</em></strong> [<a href="https://www.aclweb.org/anthology/2022.coling-1.100.pdf">pdf</a>]</li>
+<li><strong>Dynamic Relevance Graph Network for Knowledge-Aware Question Answering</strong>. <em>Chen Zheng and Parisa Kordjamshidi</em>. <strong><em>COLING 2022</em></strong> [<a href="https://www.aclweb.org/anthology/2022.coling-1.116.pdf">pdf</a>]</li>
+<li><strong>Semantic Structure Based Query Graph Prediction for Question Answering over Knowledge Graph</strong>. <em>Mingchen Li and Shihao Ji</em>. <strong><em>COLING 2022</em></strong> [<a href="https://www.aclweb.org/anthology/2022.coling-1.135.pdf">pdf</a>]</li>
+<li><strong>Event Detection with Dual Relational Graph Attention Networks</strong>. <em>Jiaxin Mi, Po Hu and Peng Li</em>. <strong><em>COLING 2022</em></strong> [<a href="https://www.aclweb.org/anthology/2022.coling-1.172.pdf">pdf</a>]</li>
+<li><strong>ERGO: Event Relational Graph Transformer for Document-level Event Causality Identification</strong>. <em>Meiqi Chen, Yixin Cao, Kunquan Deng, Mukai Li, Kun Wang, Jing Shao and Yan Zhang</em>. <strong><em>COLING 2022</em></strong> [<a href="https://www.aclweb.org/anthology/2022.coling-1.185.pdf">pdf</a>]</li>
+<li><strong>Doc-GCN: Heterogeneous Graph Convolutional Networks for Document Layout Analysis</strong>. <em>Siwen Luo, Yihao Ding, Siqu Long, Josiah Poon and Soyeon Caren Han</em>. <strong><em>COLING 2022</em></strong> [<a href="https://www.aclweb.org/anthology/2022.coling-1.256.pdf">pdf</a>]</li>
+<li><strong>Transparent Semantic Parsing with Universal Dependencies Using Graph Transformations</strong>. <em>Wessel Poelman, Rik van Noord and Johan Bos</em>. <strong><em>COLING 2022</em></strong> [<a href="https://www.aclweb.org/anthology/2022.coling-1.367.pdf">pdf</a>]</li>
+<li><strong>GraDA: Graph Generative Data Augmentation for Commonsense Reasoning</strong>. <em>Adyasha Maharana and Mohit Bansal</em>. <strong><em>COLING 2022</em></strong> [<a href="https://www.aclweb.org/anthology/2022.coling-1.397.pdf">pdf</a>]</li>
+<li><strong>Topology Imbalance and Relation Inauthenticity Aware Hierarchical Graph Attention Networks for Fake News Detection</strong>. <em>Li Gao, Lingyun Song, Jie Liu, Bolin Chen and Xuequn Shang</em>. <strong><em>COLING 2022</em></strong> [<a href="https://www.aclweb.org/anthology/2022.coling-1.415.pdf">pdf</a>]</li>
+<li><strong>Multi-level Community-awareness Graph Neural Networks for Neural Machine Translation</strong>. <em>Binh Nguyen, Long Nguyen and Dien Dinh</em>. <strong><em>COLING 2022</em></strong> [<a href="https://www.aclweb.org/anthology/2022.coling-1.444.pdf">pdf</a>]</li>
+<li><strong>Multi Graph Neural Network for Extractive Long Document Summarization</strong>. <em>Xuan-Dung Doan, Le-Minh Nguyen and Khac-Hoai Nam Bui</em>. <strong><em>COLING 2022</em></strong> [<a href="https://www.aclweb.org/anthology/2022.coling-1.512.pdf">pdf</a>]</li>
+<li><strong>A Survey of Automatic Text Summarization Using Graph Neural Networks</strong>. <em>Marco Ferdinand Salchner and Adam Jatowt</em>. <strong><em>COLING 2022</em></strong> [<a href="https://www.aclweb.org/anthology/2022.coling-1.536.pdf">pdf</a>]</li>
+<li><strong>HeterGraphLongSum: Heterogeneous Graph Neural Network with Passage Aggregation for Extractive Long Document Summarization</strong>. <em>Tuan-Anh Phan, Ngoc-Dung Ngoc Nguyen and Khac-Hoai Nam Bui</em>. <strong><em>COLING 2022</em></strong> [<a href="https://www.aclweb.org/anthology/2022.coling-1.545.pdf">pdf</a>]</li>
+<li><strong>GRETEL: Graph Contrastive Topic Enhanced Language Model for Long Document Extractive Summarization</strong>. <em>Qianqian Xie, Jimin Huang, Tulika Saha and Sophia Ananiadou</em>. <strong><em>COLING 2022</em></strong> [<a href="https://www.aclweb.org/anthology/2022.coling-1.546.pdf">pdf</a>]</li>
+<li><strong>Social Bot-Aware Graph Neural Network for Early Rumor Detection</strong>. <em>Zhen Huang, Zhilong Lv, Xiaoyun Han, Binyang Li, Menglong Lu and Dongsheng Li</em>. <strong><em>COLING 2022</em></strong> [<a href="https://www.aclweb.org/anthology/2022.coling-1.580.pdf">pdf</a>]</li>
+<li><strong>Composition-based Heterogeneous Graph Multi-channel Attention Network for Multi-aspect Multi-sentiment Classification</strong>. <em>Hao Niu, Yun Xiong, Jian Gao, Zhongchen Miao, Xiaosu Wang, Hongrun Ren, Yao Zhang and Yangyong Zhu</em>. <strong><em>COLING 2022</em></strong> [<a href="https://www.aclweb.org/anthology/2022.coling-1.594.pdf">pdf</a>]</li>
+<li><strong>Learnable Dependency-based Double Graph Structure for Aspect-based Sentiment Analysis</strong>. <em>Yinglong Ma and Yunhe Pang</em>. <strong><em>COLING 2022</em></strong> [<a href="https://www.aclweb.org/anthology/2022.coling-1.618.pdf">pdf</a>]</li>
+<li><strong>Modeling Intra- and Inter-Modal Relations: Hierarchical Graph Contrastive Learning for Multimodal Sentiment Analysis</strong>. <em>Zijie Lin, Bin Liang, Yunfei Long, Yixue Dang, Min Yang, Min Zhang and Ruifeng Xu</em>. <strong><em>COLING 2022</em></strong> [<a href="https://www.aclweb.org/anthology/2022.coling-1.622.pdf">pdf</a>]</li>
+</ol>
+<h2>2020</h2>
+<ol>
+<li><strong>A Graph Representation of Semi-structured Data for Web Question Answering</strong>. <em>Xingyao Zhang, Linjun Shou, Jian Pei, Ming Gong, Lijie Wen and Daxin Jiang</em>. <strong><em>COLING 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.coling-main.5.pdf">pdf</a>]</li>
+<li><strong>Jointly Learning Aspect-Focused and Inter-Aspect Relations with Graph Convolutional Networks for Aspect Sentiment Analysis</strong>. <em>Bin Liang, Rongdi Yin, Lin Gui, Jiachen Du and Ruifeng Xu</em>. <strong><em>COLING 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.coling-main.13.pdf">pdf</a>]</li>
+<li><strong>End-to-End Emotion-Cause Pair Extraction with Graph Convolutional Network</strong>. <em>Ying Chen, Wenjun Hou, Shoushan Li, Caicong Wu and Xiaoqiang Zhang</em>. <strong><em>COLING 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.coling-main.17.pdf">pdf</a>]</li>
+<li><strong>Joint Aspect Extraction and Sentiment Analysis with Directional Graph Convolutional Networks</strong>. <em>Guimin Chen, Yuanhe Tian and Yan Song</em>. <strong><em>COLING 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.coling-main.24.pdf">pdf</a>]</li>
+<li><strong>Heterogeneous Graph Neural Networks to Predict What Happen Next</strong>. <em>Jianming Zheng, Fei Cai, Yanxiang Ling and Honghui Chen</em>. <strong><em>COLING 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.coling-main.29.pdf">pdf</a>]</li>
+<li><strong>Improving Abstractive Dialogue Summarization with Graph Structures and Topic Words</strong>. <em>Lulu Zhao, Weiran Xu and Jun Guo</em>. <strong><em>COLING 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.coling-main.39.pdf">pdf</a>]</li>
+<li><strong>AprilE: Attention with Pseudo Residual Connection for Knowledge Graph Embedding</strong>. <em>Yuzhang Liu, Peng Wang, Yingtai Li, Yizhan Shao and Zhongkai Xu</em>. <strong><em>COLING 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.coling-main.44.pdf">pdf</a>]</li>
+<li><strong>Knowledge Graph Embeddings in Geometric Algebras</strong>. <em>Chengjin Xu, Mojtaba Nayyeri, Yung-Yu Chen and Jens Lehmann</em>. <strong><em>COLING 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.coling-main.46.pdf">pdf</a>]</li>
+<li><strong>Exploiting Node Content for Multiview Graph Convolutional Network and Adversarial Regularization</strong>. <em>Qiuhao Lu, Nisansa de Silva, Dejing Dou, Thien Huu Nguyen, Prithviraj Sen, Berthold Reinwald and Yunyao Li</em>. <strong><em>COLING 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.coling-main.47.pdf">pdf</a>]</li>
+<li><strong>RatE: Relation-Adaptive Translating Embedding for Knowledge Graph Completion</strong>. <em>Hao Huang, Guodong Long, Tao Shen, Jing Jiang and Chengqi Zhang</em>. <strong><em>COLING 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.coling-main.48.pdf">pdf</a>]</li>
+<li><strong>Syntax-Aware Graph Attention Network for Aspect-Level Sentiment Classification</strong>. <em>Lianzhe Huang, Xin Sun, Sujian Li, Linhao Zhang and Houfeng Wang</em>. <strong><em>COLING 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.coling-main.69.pdf">pdf</a>]</li>
+<li><strong>Aspect-Category based Sentiment Analysis with Hierarchical Graph Convolutional Network</strong>. <em>Hongjie Cai, Yaofeng Tu, Xiangsheng Zhou, Jianfei Yu and Rui Xia</em>. <strong><em>COLING 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.coling-main.72.pdf">pdf</a>]</li>
+<li><strong>A High Precision Pipeline for Financial Knowledge Graph Construction</strong>. <em>Sarah Elhammadi, Laks V.S. Lakshmanan, Raymond Ng, Michael Simpson, Baoxing Huai, Zhefeng Wang and Lanjun Wang</em>. <strong><em>COLING 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.coling-main.84.pdf">pdf</a>]</li>
+<li><strong>R-VGAE: Relational-variational Graph Autoencoder for Unsupervised Prerequisite Chain Learning</strong>. <em>Irene Li, Alexander Fabbri, Swapnil Hingmire and Dragomir Radev</em>. <strong><em>COLING 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.coling-main.99.pdf">pdf</a>]</li>
+<li><strong>Knowledge Graph Embedding with Atrous Convolution and Residual Learning</strong>. <em>Feiliang Ren, Juchen Li, Huihui Zhang, Shilei Liu, Bochao Li, Ruicheng Ming and Yujia Bai</em>. <strong><em>COLING 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.coling-main.134.pdf">pdf</a>]</li>
+<li><strong>Graph Enhanced Dual Attention Network for Document-Level Relation Extraction</strong>. <em>Bo Li, Wei Ye, Zhonghao Sheng, Rui Xie, Xiangyu Xi and Shikun Zhang</em>. <strong><em>COLING 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.coling-main.136.pdf">pdf</a>]</li>
+<li><strong>TeRo: A Time-aware Knowledge Graph Embedding via Temporal Rotation</strong>. <em>Chengjin Xu, Mojtaba Nayyeri, Fouad Alkhoury, Hamed Shariat Yazdi and Jens Lehmann</em>. <strong><em>COLING 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.coling-main.139.pdf">pdf</a>]</li>
+<li><strong>Document-level Relation Extraction with Dual-tier Heterogeneous Graph</strong>. <em>Zhenyu Zhang, Bowen Yu, Xiaobo Shu, Tingwen Liu, Hengzhu Tang, Wang Yubin and Li Guo</em>. <strong><em>COLING 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.coling-main.143.pdf">pdf</a>]</li>
+<li><strong>Unsupervised Fact Checking by Counter-Weighted Positive and Negative Evidential Paths in A Knowledge Graph</strong>. <em>Jiseong Kim and Key-sun Choi</em>. <strong><em>COLING 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.coling-main.147.pdf">pdf</a>]</li>
+<li><strong>Multi-Task Learning for Knowledge Graph Completion with Pre-trained Language Models</strong>. <em>Bosung Kim, Taesuk Hong, Youngjoong Ko and Jungyun Seo</em>. <strong><em>COLING 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.coling-main.153.pdf">pdf</a>]</li>
+<li><strong>Visual-Textual Alignment for Graph Inference in Visual Dialog</strong>. <em>Tianling Jiang, Yi Ji, Chunping Liu and Hailin Shao</em>. <strong><em>COLING 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.coling-main.170.pdf">pdf</a>]</li>
+<li><strong>I Know What You Asked: Graph Path Learning using AMR for Commonsense Reasoning</strong>. <em>Jungwoo Lim, Dongsuk Oh, Yoonna Jang, Kisu Yang and Heuiseok Lim</em>. <strong><em>COLING 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.coling-main.222.pdf">pdf</a>]</li>
+<li><strong>Modelling Long-distance Node Relations for KBQA with Global Dynamic Graph</strong>. <em>Xu Wang, Shuai Zhao, Jiale Han, Bo Cheng, Hao Yang, Jianchang Ao and Zhenzi Li</em>. <strong><em>COLING 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.coling-main.231.pdf">pdf</a>]</li>
+<li><strong>Automated Graph Generation at Sentence Level for Reading Comprehension Based on Conceptual Graphs</strong>. <em>Wan-Hsuan Lin and Chun-Shien Lu</em>. <strong><em>COLING 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.coling-main.240.pdf">pdf</a>]</li>
+<li><strong>Syntactic Graph Convolutional Network for Spoken Language Understanding</strong>. <em>Keqing He, Shuyu Lei, Yushu Yang, Huixing Jiang and Zhongyuan Wang</em>. <strong><em>COLING 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.coling-main.246.pdf">pdf</a>]</li>
+<li><strong>Summarize before Aggregate: A Global-to-local Heterogeneous Graph Inference Network for Conversational Emotion Recognition</strong>. <em>Dongming Sheng, Dong Wang, Ying Shen, Haitao Zheng and Haozhuang Liu</em>. <strong><em>COLING 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.coling-main.367.pdf">pdf</a>]</li>
+<li><strong>Integrating User History into Heterogeneous Graph for Dialogue Act Recognition</strong>. <em>Dong Wang, Ziran Li, Haitao Zheng and Ying Shen</em>. <strong><em>COLING 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.coling-main.372.pdf">pdf</a>]</li>
+<li><strong>Knowledge Graph Enhanced Neural Machine Translation via Multi-task Learning on Sub-entity Granularity</strong>. <em>Yang Zhao, Lu Xiang, Junnan Zhu, Jiajun Zhang, Yu Zhou and Chengqing Zong</em>. <strong><em>COLING 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.coling-main.397.pdf">pdf</a>]</li>
+<li><strong>Semi-supervised URL Segmentation with Recurrent Neural Networks Pre-trained on Knowledge Graph Entities</strong>. <em>Hao Zhang, Jae Ro and Richard Sproat</em>. <strong><em>COLING 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.coling-main.411.pdf">pdf</a>]</li>
+<li><strong>Global Context-enhanced Graph Convolutional Networks for Document-level Relation Extraction</strong>. <em>Huiwei Zhou, Yibin Xu, Weihong Yao, Zhe Liu, Chengkun Lang and Haibin Jiang</em>. <strong><em>COLING 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.coling-main.461.pdf">pdf</a>]</li>
+<li><strong>Enhancing Extractive Text Summarization with Topic-Aware Graph Neural Networks</strong>. <em>Peng Cui, Le Hu and Yuanchao Liu</em>. <strong><em>COLING 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.coling-main.468.pdf">pdf</a>]</li>
+<li><strong>Few-Shot Text Classification with Edge-Labeling Graph Neural Network-Based Prototypical Network</strong>. <em>Chen Lyu, Weijie Liu and Ping Wang</em>. <strong><em>COLING 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.coling-main.485.pdf">pdf</a>]</li>
+<li><strong>Fact-level Extractive Summarization with Hierarchical Graph Mask on BERT</strong>. <em>Ruifeng Yuan, Zili Wang and Wenjie Li</em>. <strong><em>COLING 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.coling-main.493.pdf">pdf</a>]</li>
+<li><strong>A Contextual Alignment Enhanced Cross Graph Attention Network for Cross-lingual Entity Alignment</strong>. <em>Zhiwen Xie, Runjie Zhu, Kunsong Zhao, Jin Liu, Guangyou Zhou and Jimmy Xiangji Huang</em>. <strong><em>COLING 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.coling-main.520.pdf">pdf</a>]</li>
+<li><strong>Graph Convolution over Multiple Dependency Sub-graphs for Relation Extraction</strong>. <em>Angrosh Mandya, Danushka Bollegala and Frans Coenen</em>. <strong><em>COLING 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.coling-main.565.pdf">pdf</a>]</li>
+</ol></div><hr/>
+<div id="emnlp"><h1>EMNLP</h1>
+<h2>2024</h2>
+<ol>
+<li><strong>Retrieve-Rewrite-Answer: A KG-to-Text Enhanced LLMs Framework for Knowledge Graph Question Answering</strong>. <em>Zhongwei Wan, et al</em>. <strong><em>EMNLP 2024</em></strong> [<a href="https://arxiv.org/abs/2309.11206">pdf</a>]</li>
+</ol>
+<h2>2021</h2>
+<ol>
+<li><strong>Multiplex Graph Neural Network for Extractive Text Summarization</strong>. <em>Baoyu Jing, Zeyu You, Tao Yang, Wei Fan and Hanghang Tong</em>. <strong><em>EMNLP 2021</em></strong> [<a href="https://www.aclweb.org/anthology/2021.emnlp-main.11.pdf">pdf</a>]</li>
+<li><strong>Beta Distribution Guided Aspect-aware Graph for Aspect Category Sentiment Analysis with Affective Knowledge</strong>. <em>Bin Liang, Hang Su, Rongdi Yin, Lin Gui, Min Yang, Qin Zhao, Xiaoqi Yu and Ruifeng Xu</em>. <strong><em>EMNLP 2021</em></strong> [<a href="https://www.aclweb.org/anthology/2021.emnlp-main.19.pdf">pdf</a>]</li>
+<li><strong>Graph Based Network with Contextualized Representations of Turns in Dialogue</strong>. <em>Bongseok Lee and Yong Suk Choi</em>. <strong><em>EMNLP 2021</em></strong> [<a href="https://www.aclweb.org/anthology/2021.emnlp-main.36.pdf">pdf</a>]</li>
+<li><strong>Extend, don’t rebuild: Phrasing conditional graph modification as autoregressive sequence labelling</strong>. <em>Leon Weber, Jannes Münchmeyer, Samuele Garda and Ulf Leser</em>. <strong><em>EMNLP 2021</em></strong> [<a href="https://www.aclweb.org/anthology/2021.emnlp-main.93.pdf">pdf</a>]</li>
+<li><strong>CR-Walker: Tree-Structured Graph Reasoning and Dialog Acts for Conversational Recommendation</strong>. <em>Wenchang Ma, Ryuichi Takanobu and Minlie Huang</em>. <strong><em>EMNLP 2021</em></strong> [<a href="https://www.aclweb.org/anthology/2021.emnlp-main.139.pdf">pdf</a>]</li>
+<li><strong>CSAGN: Conversational Structure Aware Graph Network for Conversational Semantic Role Labeling</strong>. <em>Han Wu, Kun Xu and Linqi Song</em>. <strong><em>EMNLP 2021</em></strong> [<a href="https://www.aclweb.org/anthology/2021.emnlp-main.177.pdf">pdf</a>]</li>
+<li><strong>Building the Directed Semantic Graph for Coherent Long Text Generation</strong>. <em>Ziao Wang, Xiaofeng Zhang and Hongwei Du</em>. <strong><em>EMNLP 2021</em></strong> [<a href="https://www.aclweb.org/anthology/2021.emnlp-main.200.pdf">pdf</a>]</li>
+<li><strong>Heterogeneous Graph Neural Networks for Keyphrase Generation</strong>. <em>Jiacheng Ye, Ruijian Cai, Tao Gui and Qi Zhang</em>. <strong><em>EMNLP 2021</em></strong> [<a href="https://www.aclweb.org/anthology/2021.emnlp-main.213.pdf">pdf</a>]</li>
+<li><strong>Weakly-supervised Text Classification Based on Keyword Graph</strong>. <em>Lu Zhang, Jiandong Ding, Yi Xu, Yingyao Liu and Shuigeng Zhou</em>. <strong><em>EMNLP 2021</em></strong> [<a href="https://www.aclweb.org/anthology/2021.emnlp-main.222.pdf">pdf</a>]</li>
+<li><strong>Hierarchical Heterogeneous Graph Representation Learning for Short Text Classification</strong>. <em>Yaqing Wang, Song Wang, Quanming Yao and Dejing Dou</em>. <strong><em>EMNLP 2021</em></strong> [<a href="https://www.aclweb.org/anthology/2021.emnlp-main.247.pdf">pdf</a>]</li>
+<li><strong>GraphMR: Graph Neural Network for Mathematical Reasoning</strong>. <em>Weijie Feng, Binbin Liu, Dongpeng Xu, Qilong Zheng and Yun Xu</em>. <strong><em>EMNLP 2021</em></strong> [<a href="https://www.aclweb.org/anthology/2021.emnlp-main.273.pdf">pdf</a>]</li>
+<li><strong>Argument Pair Extraction with Mutual Guidance and Inter-sentence Relation Graph</strong>. <em>Jianzhu Bao, Bin Liang, Jingyi Sun, Yice Zhang, Min Yang and Ruifeng Xu</em>. <strong><em>EMNLP 2021</em></strong> [<a href="https://www.aclweb.org/anthology/2021.emnlp-main.319.pdf">pdf</a>]</li>
+<li><strong>Event Graph based Sentence Fusion</strong>. <em>Ruifeng Yuan, Zili Wang and Wenjie Li</em>. <strong><em>EMNLP 2021</em></strong> [<a href="https://www.aclweb.org/anthology/2021.emnlp-main.334.pdf">pdf</a>]</li>
+<li><strong>TransferNet: An Effective and Transparent Framework for Multi-hop Question Answering over Relation Graph</strong>. <em>Jiaxin Shi, Shulin Cao, Lei Hou, Juanzi Li and Hanwang Zhang</em>. <strong><em>EMNLP 2021</em></strong> [<a href="https://www.aclweb.org/anthology/2021.emnlp-main.341.pdf">pdf</a>]</li>
+<li><strong>The Future is not One-dimensional: Complex Event Schema Induction by Graph Modeling for Event Prediction</strong>. <em>Manling Li, Sha Li, Zhenhailong Wang, Lifu Huang, Kyunghyun Cho, Heng Ji, Jiawei Han and Clare Voss</em>. <strong><em>EMNLP 2021</em></strong> [<a href="https://www.aclweb.org/anthology/2021.emnlp-main.422.pdf">pdf</a>]</li>
+<li><strong>Timeline Summarization based on Event Graph Compression via Time-Aware Optimal Transport</strong>. <em>Manling Li, Tengfei Ma, Mo Yu, Lingfei Wu, Tian Gao, Heng Ji and Kathleen McKeown</em>. <strong><em>EMNLP 2021</em></strong> [<a href="https://www.aclweb.org/anthology/2021.emnlp-main.519.pdf">pdf</a>]</li>
+<li><strong>ExplaGraphs: An Explanation Graph Generation Task for Structured Commonsense Reasoning</strong>. <em>Swarnadeep Saha, Prateek Yadav, Lisa Bauer and Mohit Bansal</em>. <strong><em>EMNLP 2021</em></strong> [<a href="https://www.aclweb.org/anthology/2021.emnlp-main.609.pdf">pdf</a>]</li>
+<li><strong>Efficient Mind-Map Generation via Sequence-to-Graph and Reinforced Graph Refinement</strong>. <em>Mengting Hu, Honglei Guo, Shiwan Zhao, Hang Gao and Zhong Su</em>. <strong><em>EMNLP 2021</em></strong> [<a href="https://www.aclweb.org/anthology/2021.emnlp-main.641.pdf">pdf</a>]</li>
+<li><strong>Deep Attention Diffusion Graph Neural Networks for Text Classification</strong>. <em>Yonghao Liu, Renchu Guan, Fausto Giunchiglia, Yanchun Liang and Xiaoyue Feng</em>. <strong><em>EMNLP 2021</em></strong> [<a href="https://www.aclweb.org/anthology/2021.emnlp-main.642.pdf">pdf</a>]</li>
+<li><strong>Document Graph for Neural Machine Translation</strong>. <em>Mingzhou Xu, Liangyou Li, Derek F. Wong, Qun Liu and Lidia S. Chao</em>. <strong><em>EMNLP 2021</em></strong> [<a href="https://www.aclweb.org/anthology/2021.emnlp-main.663.pdf">pdf</a>]</li>
+<li><strong>Graph Algorithms for Multiparallel Word Alignment</strong>. <em>Ayyoob ImaniGooghari, Masoud Jalili Sabet, Lutfi Kerem Senel, Philipp Dufter, François Yvon and Hinrich Schütze</em>. <strong><em>EMNLP 2021</em></strong> [<a href="https://www.aclweb.org/anthology/2021.emnlp-main.665.pdf">pdf</a>]</li>
+<li><strong>A Differentiable Relaxation of Graph Segmentation and Alignment for AMR Parsing</strong>. <em>Chunchuan Lyu, Shay B. Cohen and Ivan Titov</em>. <strong><em>EMNLP 2021</em></strong> [<a href="https://www.aclweb.org/anthology/2021.emnlp-main.714.pdf">pdf</a>]</li>
+<li><strong>Rumor Detection on Twitter with Claim-Guided Hierarchical Graph Attention Networks</strong>. <em>Hongzhan Lin, Jing Ma, Mingfei Cheng, Zhiwei Yang, Liangliang Chen and Guang Chen</em>. <strong><em>EMNLP 2021</em></strong> [<a href="https://www.aclweb.org/anthology/2021.emnlp-main.786.pdf">pdf</a>]</li>
+</ol>
+<h2>2020</h2>
+<ol>
+<li><strong>Connecting the Dots: Event Graph Schema Induction with Path Language Modeling</strong>. <em>Manling Li, Qi Zeng, Ying Lin, Kyunghyun Cho, Heng Ji, Jonathan May, Nathanael Chambers and Clare Voss</em>. <strong><em>EMNLP 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.emnlp-main.50.pdf">pdf</a>]</li>
+<li><strong>Language Generation with Multi-Hop Reasoning on Commonsense Knowledge Graph</strong>. <em>Haozhe Ji, Pei Ke, Shaohan Huang, Furu Wei, Xiaoyan Zhu and Minlie Huang</em>. <strong><em>EMNLP 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.emnlp-main.54.pdf">pdf</a>]</li>
+<li><strong>Learning to Represent Image and Text with Denotation Graph</strong>. <em>Bowen Zhang, Hexiang Hu, Vihan Jain, Eugene Ie and Fei Sha</em>. <strong><em>EMNLP 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.emnlp-main.60.pdf">pdf</a>]</li>
+<li><strong>ENT-DESC: Entity Description Generation by Exploring Knowledge Graph</strong>. <em>Liying Cheng, Dekun Wu, Lidong Bing, Yan Zhang, Zhanming Jie, Wei Lu and Luo Si</em>. <strong><em>EMNLP 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.emnlp-main.90.pdf">pdf</a>]</li>
+<li><strong>Double Graph Based Reasoning for Document-level Relation Extraction</strong>. <em>Shuang Zeng, Runxin Xu, Baobao Chang and Lei Li</em>. <strong><em>EMNLP 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.emnlp-main.127.pdf">pdf</a>]</li>
+<li><strong>Knowledge Graph Alignment with Entity-Pair Embedding</strong>. <em>Zhichun Wang, Jinjian Yang and Xiaoju Ye</em>. <strong><em>EMNLP 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.emnlp-main.130.pdf">pdf</a>]</li>
+<li><strong>Adaptive Attentional Network for Few-Shot Knowledge Graph Completion</strong>. <em>Jiawei Sheng, Shu Guo, Zhenyu Chen, Juwei Yue, Lihong Wang, Tingwen Liu and Hongbo Xu</em>. <strong><em>EMNLP 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.emnlp-main.131.pdf">pdf</a>]</li>
+<li><strong>GraphDialog: Integrating Graph Knowledge into End-to-End Task-Oriented Dialogue Systems</strong>. <em>Shiquan Yang, Rui Zhang and Sarah Erfani</em>. <strong><em>EMNLP 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.emnlp-main.147.pdf">pdf</a>]</li>
+<li><strong>Lightweight, Dynamic Graph Convolutional Networks for AMR-to-Text Generation</strong>. <em>Yan Zhang, Zhijiang Guo, Zhiyang Teng, Wei Lu, Shay B. Cohen, Zuozhu Liu and Lidong Bing</em>. <strong><em>EMNLP 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.emnlp-main.169.pdf">pdf</a>]</li>
+<li><strong>Learn to Cross-lingual Transfer with Meta Graph Learning Across Heterogeneous Languages</strong>. <em>Zheng Li, Mukul Kumar, William Headden, Bing Yin, Ying Wei, Yu Zhang and Qiang Yang</em>. <strong><em>EMNLP 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.emnlp-main.179.pdf">pdf</a>]</li>
+<li><strong>Disentangle-based Continual Graph Representation Learning</strong>. <em>Xiaoyu Kou, Yankai Lin, Shaobo Liu, Peng Li, Jie Zhou and Yan Zhang</em>. <strong><em>EMNLP 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.emnlp-main.237.pdf">pdf</a>]</li>
+<li><strong>Learning Physical Common Sense as Knowledge Graph Completion via BERT Data Augmentation and Constrained Tucker Factorization</strong>. <em>Zhenjie Zhao, Evangelos Papalexakis and Xiaojuan Ma</em>. <strong><em>EMNLP 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.emnlp-main.266.pdf">pdf</a>]</li>
+<li><strong>AttnIO: Knowledge Graph Exploration with In-and-Out Attention Flow for Knowledge-Grounded Dialogue</strong>. <em>Jaehun Jung, Bokyung Son and Sungwon Lyu</em>. <strong><em>EMNLP 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.emnlp-main.280.pdf">pdf</a>]</li>
+<li><strong>Neural Extractive Summarization with Hierarchical Attentive Heterogeneous Graph Network</strong>. <em>Ruipeng Jia, Yanan Cao, Hengzhu Tang, Fang Fang, Cong Cao and Shi Wang</em>. <strong><em>EMNLP 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.emnlp-main.295.pdf">pdf</a>]</li>
+<li><strong>Neural Topic Modeling by Incorporating Document Relationship Graph</strong>. <em>Deyu Zhou, Xuemeng Hu and Rui Wang</em>. <strong><em>EMNLP 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.emnlp-main.310.pdf">pdf</a>]</li>
+<li><strong>Graph Convolutions over Constituent Trees for Syntax-Aware Semantic Role Labeling</strong>. <em>Diego Marcheggiani and Ivan Titov</em>. <strong><em>EMNLP 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.emnlp-main.322.pdf">pdf</a>]</li>
+<li><strong>Improving Out-of-Scope Detection in Intent Classification by Using Embeddings of the Word Graph Space of the Classes</strong>. <em>Paulo Cavalin, Victor Henrique Alves Ribeiro, Ana Appel and Claudio Pinhanez</em>. <strong><em>EMNLP 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.emnlp-main.324.pdf">pdf</a>]</li>
+<li><strong>Keep it Surprisingly Simple: A Simple First Order Graph Based Parsing Model for Joint Morphosyntactic Parsing in Sanskrit</strong>. <em>Amrith Krishna, Ashim Gupta, Deepak Garasangi, Pavankumar Satuluri and Pawan Goyal</em>. <strong><em>EMNLP 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.emnlp-main.388.pdf">pdf</a>]</li>
+<li><strong>Event Detection: Gate Diversity and Syntactic Importance Scores for Graph Convolution Neural Networks</strong>. <em>Viet Dac Lai, Tuan Ngo Nguyen and Thien Huu Nguyen</em>. <strong><em>EMNLP 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.emnlp-main.435.pdf">pdf</a>]</li>
+<li><strong>Dynamic Anticipation and Completion for Multi-Hop Reasoning over Sparse Knowledge Graph</strong>. <em>Xin Lv, Xu Han, Lei Hou, Juanzi Li, Zhiyuan Liu, Wei Zhang, Yichi Zhang, Hao Kong and Suhui Wu</em>. <strong><em>EMNLP 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.emnlp-main.459.pdf">pdf</a>]</li>
+<li><strong>Knowledge Association with Hyperbolic Knowledge Graph Embeddings</strong>. <em>Zequn Sun, Muhao Chen, Wei Hu, Chengming Wang, Jian Dai and Wei Zhang</em>. <strong><em>EMNLP 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.emnlp-main.460.pdf">pdf</a>]</li>
+<li><strong>TeMP: Temporal Message Passing for Temporal Knowledge Graph Completion</strong>. <em>Jiapeng Wu, Meng Cao, Jackie Chi Kit Cheung and William L. Hamilton</em>. <strong><em>EMNLP 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.emnlp-main.462.pdf">pdf</a>]</li>
+<li><strong>Supertagging Combinatory Categorial Grammar with Attentive Graph Convolutional Networks</strong>. <em>Yuanhe Tian, Yan Song and Fei Xia</em>. <strong><em>EMNLP 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.emnlp-main.487.pdf">pdf</a>]</li>
+<li><strong>Question Directed Graph Attention Network for Numerical Reasoning over Text</strong>. <em>Kunlong Chen, Weidi Xu, Xingyi Cheng, Zou Xiaochuan, Yuyu Zhang, Le Song, Taifeng Wang, Yuan Qi and Wei Chu</em>. <strong><em>EMNLP 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.emnlp-main.549.pdf">pdf</a>]</li>
+<li><strong>IGSQL: Database Schema Interaction Graph Based Neural Model for Context-Dependent Text-to-SQL Generation</strong>. <em>Yitao Cai and Xiaojun Wan</em>. <strong><em>EMNLP 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.emnlp-main.560.pdf">pdf</a>]</li>
+<li><strong>Is Graph Structure Necessary for Multi-hop Question Answering?</strong>. <em>Nan Shao, Yiming Cui, Ting Liu, Shijin Wang and Guoping Hu</em>. <strong><em>EMNLP 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.emnlp-main.583.pdf">pdf</a>]</li>
+<li><strong>DyERNIE: Dynamic Evolution of Riemannian Manifold Embeddings for Temporal Knowledge Graph Completion</strong>. <em>Zhen Han, Peng Chen, Yunpu Ma and Volker Tresp</em>. <strong><em>EMNLP 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.emnlp-main.593.pdf">pdf</a>]</li>
+<li><strong>Embedding Words in Non-Vector Space with Unsupervised Graph Learning</strong>. <em>Max Ryabinin, Sergei Popov, Liudmila Prokhorenkova and Elena Voita</em>. <strong><em>EMNLP 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.emnlp-main.594.pdf">pdf</a>]</li>
+<li><strong>Debiasing knowledge graph embeddings</strong>. <em>Joseph Fisher, Arpit Mittal, Dave Palfrey and Christos Christodoulopoulos</em>. <strong><em>EMNLP 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.emnlp-main.595.pdf">pdf</a>]</li>
+<li><strong>Relation-aware Graph Attention Networks with Relational Position Encodings for Emotion Recognition in Conversations</strong>. <em>Taichi Ishiwatari, Yuki Yasuda, Taro Miyazaki and Jun Goto</em>. <strong><em>EMNLP 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.emnlp-main.597.pdf">pdf</a>]</li>
+<li><strong>Program Enhanced Fact Verification with Verbalization and Graph Attention Network</strong>. <em>Xiaoyu Yang, Feng Nie, Yufei Feng, Quan Liu, Zhigang Chen and Xiaodan Zhu</em>. <strong><em>EMNLP 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.emnlp-main.628.pdf">pdf</a>]</li>
+<li><strong>VolTAGE: Volatility Forecasting via Text Audio Fusion with Graph Convolution Networks for Earnings Calls</strong>. <em>Ramit Sawhney, Piyush Khanna, Arshiya Aggarwal, Taru Jain, Puneet Mathur and Rajiv Ratn Shah</em>. <strong><em>EMNLP 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.emnlp-main.643.pdf">pdf</a>]</li>
+<li><strong>Evaluating the Calibration of Knowledge Graph Embeddings for Trustworthy Link Prediction</strong>. <em>Tara Safavi, Danai Koutra and Edgar Meij</em>. <strong><em>EMNLP 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.emnlp-main.667.pdf">pdf</a>]</li>
+<li><strong>Text Graph Transformer for Document Classification</strong>. <em>Haopeng Zhang and Jiawei Zhang</em>. <strong><em>EMNLP 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.emnlp-main.668.pdf">pdf</a>]</li>
+<li><strong>CoDEx: A Comprehensive Knowledge Graph Completion Benchmark</strong>. <em>Tara Safavi and Danai Koutra</em>. <strong><em>EMNLP 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.emnlp-main.669.pdf">pdf</a>]</li>
+<li><strong>Learning Collaborative Agents with Rule Guidance for Knowledge Graph Reasoning</strong>. <em>Deren Lei, Gangrong Jiang, Xiaotao Gu, Kexuan Sun, Yuning Mao and Xiang Ren</em>. <strong><em>EMNLP 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.emnlp-main.688.pdf">pdf</a>]</li>
+<li><strong>Hierarchical Graph Network for Multi-hop Question Answering</strong>. <em>Yuwei Fang, Siqi Sun, Zhe Gan, Rohit Pillai, Shuohang Wang and Jingjing Liu</em>. <strong><em>EMNLP 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.emnlp-main.710.pdf">pdf</a>]</li>
+<li><strong>SRLGRN: Semantic Role Labeling Graph Reasoning Network</strong>. <em>Chen Zheng and Parisa Kordjamshidi</em>. <strong><em>EMNLP 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.emnlp-main.714.pdf">pdf</a>]</li>
+<li><strong>LibKGE - A knowledge graph embedding library for reproducible research</strong>. <em>Samuel Broscheit, Daniel Ruffinelli, Adrian Kochsiek, Patrick Betz and Rainer Gemulla</em>. <strong><em>EMNLP 2020</em></strong> [<a href="https://www.aclweb.org/anthology/2020.emnlp-demos.22.pdf">pdf</a>]</li>
+</ol>
+<h2>2019</h2>
+<ol>
+<li><strong>A Lexicon-Based Graph Neural Network for Chinese NER</strong>. <em>Tao Gui, Yicheng Zou and Qi Zhang.</em> <strong><em>EMNLP 2019</em></strong> [<a href="http://qizhang.info/paper/emnlp-2019.ner.pdf">pdf</a>]</li>
+<li><strong>Aspect-based Sentiment Classification with Aspect-specific Graph Convolutional Networks</strong>. <em>Chen Zhang, Qiuchi Li and Dawei Song.</em> <strong><em>EMNLP 2019</em></strong> [<a href="https://arxiv.org/abs/1909.03477">pdf</a>]</li>
+<li><strong>DialogueGCN A Graph Convolutional Neural Network for Emotion Recognition in Conversation</strong>. <em>Deepanway Ghosal, Navonil Majumder, Soujanya Poria, Niyati Chhaya and Alexander Gelbukh.</em> <strong><em>EMNLP 2019</em></strong> [<a href="https://arxiv.org/abs/1908.11540">pdf</a>]</li>
+<li><strong>Enhancing AMR-to-Text Generation with Dual Graph Representations</strong>. <em>Leonardo F. R. Ribeiro, Claire Gardent and Iryna Gurevych.</em> <strong><em>EMNLP 2019</em></strong> [<a href="https://arxiv.org/abs/1909.00352">pdf</a>]</li>
+<li><strong>Heterogeneous Graph Attention Networks for Semi-supervised Short Text Classification</strong>. <em>Linmei Hu, Tianchi Yang, Chuan Shi, Houye Ji, Xiaoli Li.</em> <strong><em>EMNLP 2019</em></strong> [<a href="http://shichuan.org/doc/74.pdf">pdf</a>]</li>
+<li><strong>Syntax-Aware Aspect Level Sentiment Classification with Graph Attention Networks</strong>. <em>Binxuan Huang and Kathleen M. Carley.</em> <strong><em>EMNLP 2019</em></strong> [<a href="https://arxiv.org/abs/1909.02606">pdf</a>]</li>
+</ol></div><hr/>
+<div id="iccv"><h1>ICCV</h1>
+<h2>2019</h2>
+<ol>
+<li><strong>Relation-Aware Graph Attention Network for Visual Question Answering</strong>. <em>Linjie Li, Zhe Gan, Yu Cheng and Jingjing Liu.</em> <strong><em>ICCV 2019</em></strong> [<a href="https://arxiv.org/abs/1903.12314">pdf</a>]</li>
+<li><strong>Language-Conditioned Graph Networks for Relational Reasoning</strong>. <em>Ronghang Hu, Anna Rohrbach, Trevor Darrell and Kate Saenko.</em> <strong><em>ICCV 2019</em></strong> [<a href="https://arxiv.org/abs/1905.04405">pdf</a>] [<a href="http://ronghanghu.com/lcgn">code</a>]</li>
+</ol></div><hr/>
+<div id="iclr"><h1>ICLR</h1>
+<h2>2020</h2>
+<ol>
+<li><strong>Memory-based Graph Networks</strong>. <em>Amir hosein Khasahmadi, Kaveh Hassani, Parsa Moradi, Leo Lee, Quaid Morris</em>. <strong><em>ICLR 2020</em></strong> [<a href="https://openreview.net/pdf?id=r1laNeBYPB">pdf</a>]</li>
+<li><strong>InfoGraph: Unsupervised and Semi-supervised Graph-Level Representation Learning via Mutual Information Maximization</strong>. <em>Fan-Yun Sun, Jordan Hoffman, Vikas Verma, Jian Tang</em>. <strong><em>ICLR 2020</em></strong> [<a href="https://openreview.net/forum?id=r1lfF2NYvH&amp;noteId=r1lfF2NYvH">pdf</a>]</li>
+<li><strong>The Logical Expressiveness of Graph Neural Networks</strong>. <em>Pablo Barceló, Egor V. Kostylev, Mikael Monet, Jorge Pérez, Juan Reutter, Juan Pablo Silva</em>. <strong><em>ICLR 2020</em></strong> [<a href="https://openreview.net/forum?id=r1lZ7AEKvB&amp;noteId=r1lZ7AEKvB">pdf</a>]</li>
+<li><strong>Contrastive Learning of Structured World Models</strong>. <em>Thomas Kipf, Elise van der Pol, Max Welling</em>. <strong><em>ICLR 2020</em></strong> [<a href="https://arxiv.org/abs/1911.12247">pdf</a>] [<a href="https://github.com/tkipf/c-swm">code</a>]</li>
+<li><strong>Geom-GCN: Geometric Graph Convolutional Networks</strong>. <em>Hongbin Pei, Bingzhe Wei, Kevin Chen-Chuan Chang, Yu Lei, Bo Yang</em>. <strong><em>ICLR 2020</em></strong> [<a href="https://openreview.net/forum?id=S1e2agrFvS">pdf</a>]</li>
+<li><strong>Strategies for Pre-training Graph Neural Networks</strong>. <em>Weihua Hu, Bowen Liu, Joseph Gomes, Marinka Zitnik, Percy Liang, Vijay Pande, Jure Leskovec</em>. <strong><em>ICLR 2020</em></strong> [<a href="https://openreview.net/forum?id=HJlWWJSFDH">pdf</a>]</li>
+<li><strong>Dynamically Pruned Message Passing Networks for Large-scale Knowledge Graph Reasoning</strong>. <em>Xiaoran Xu, Wei Feng, Yunsheng Jiang, Xiaohui Xie, Zhiqing Sun, Zhi-Hong Deng</em>. <strong><em>ICLR 2020</em></strong> [<a href="https://openreview.net/forum?id=rkeuAhVKvB">pdf</a>]</li>
+<li><strong>What graph neural networks cannot learn: depth vs width</strong>. <em>Andreas Loukas</em>. <strong><em>ICLR 2020</em></strong> [<a href="https://openreview.net/forum?id=B1l2bp4YwS">pdf</a>]</li>
+<li><strong>LambdaNet: Probabilistic Type Inference using Graph Neural Networks</strong>. <em>Jiayi Wei, Maruth Goyal, Greg Durrett, Isil Dillig</em>. <strong><em>ICLR 2020</em></strong> [<a href="https://openreview.net/forum?id=Hkx6hANtwH">pdf</a>]</li>
+<li><strong>Graph Convolutional Reinforcement Learning</strong>. <em>Jiechuan Jiang, Chen Dun, Tiejun Huang, Zongqing Lu</em>. <strong><em>ICLR 2020</em></strong> [<a href="https://openreview.net/forum?id=HkxdQkSYDB">pdf</a>]</li>
+<li><strong>DropEdge: Towards Deep Graph Convolutional Networks on Node Classification</strong>. <em>Yu Rong, Wenbing Huang, Tingyang Xu, Junzhou Huang</em>. <strong><em>ICLR 2020</em></strong> [<a href="https://openreview.net/forum?id=Hkx1qkrKPr">pdf</a>]</li>
+<li><strong>Efficient Probabilistic Logic Reasoning with Graph Neural Networks</strong>. <em>Yuyu Zhang, Xinshi Chen, Yuan Yang, Arun Ramamurthy, Bo Li, Yuan Qi, Le Song</em>. <strong><em>ICLR 2020</em></strong> [<a href="https://openreview.net/forum?id=rJg76kStwH">pdf</a>]</li>
+</ol></div><hr/>
+<div id="icml"><h1>ICML</h1>
+<h2>2019</h2>
+<ol>
+<li><strong>GMNN: Graph Markov Neural Networks</strong>. <em>Meng Qu, Yoshua Bengio and  Jian Tang.</em> <strong><em>ICML 2019</em></strong> [<a href="https://arxiv.org/pdf/1905.06214.pdf">pdf</a>] [<a href="https://github.com/DeepGraphLearning/GMNN">code</a>]</li>
+</ol></div><hr/>
+<div id="kdd"><h1>KDD</h1>
+<h2>2019</h2>
+<ol>
+<li><strong>Estimating Node Importance in Knowledge Graphs Using Graph Neural Networks</strong>. <em>Namyong Park, Andrey Kan, Xin Luna Dong, Tong Zhao and Christos Faloutsos.</em> <strong><em>KDD 2019</em></strong> [<a href="https://www.kdd.org/kdd2019/accepted-papers/view/estimating-node-importance-in-knowledge-graphs-using-graph-neural-networks">pdf</a>]</li>
+<li><strong>HetGNN: Heterogeneous Graph Neural Network</strong>. <em>Chuxu Zhang, Dongjin Song, Chao Huang, Ananthram Swami and Nitesh V. Chawla.</em> <strong><em>KDD 2019</em></strong> [<a href="https://www.kdd.org/kdd2019/accepted-papers/view/hetgnn-heterogeneous-graph-neural-network">pdf</a>]</li>
+</ol></div><hr/>
+<div id="naacl"><h1>NAACL</h1>
+<h2>2024</h2>
+<ol>
+<li><strong>Mitigating Large Language Model Hallucinations via Autonomous Knowledge Graph-based Retrofitting</strong>. <em>Hao Peng, Xinyan Xiao, et al</em>. <strong><em>NAACL 2024</em></strong> [<a href="https://arxiv.org/abs/2311.13314">pdf</a>]</li>
+</ol>
+<h2>2022</h2>
+<ol>
+<li><strong>Cross-document Misinformation Detection based on Event Graph Reasoning</strong>. <em>Xueqing Wu, Kung-Hsiang Huang, Yi Fung and Heng Ji</em>. <strong><em>NAACL 2022</em></strong> [<a href="https://www.aclweb.org/anthology/2022.naacl-main.40.pdf">pdf</a>]</li>
+<li><strong>DocTime: A Document-level Temporal Dependency Graph Parser</strong>. <em>Puneet Mathur, Vlad Morariu, Verena Kaynig-Fittkau, Jiuxiang Gu, Franck Dernoncourt, Quan Tran, Ani Nenkova, Dinesh Manocha and Rajiv Jain</em>. <strong><em>NAACL 2022</em></strong> [<a href="https://www.aclweb.org/anthology/2022.naacl-main.73.pdf">pdf</a>]</li>
+<li><strong>Multi-Relational Graph Transformer for Automatic Short Answer Grading</strong>. <em>Rajat Agarwal, Varun Khurana, Karish Grover, Mukesh Mohania and Vikram Goyal</em>. <strong><em>NAACL 2022</em></strong> [<a href="https://www.aclweb.org/anthology/2022.naacl-main.146.pdf">pdf</a>]</li>
+<li><strong>Event Schema Induction with Double Graph Autoencoders</strong>. <em>Xiaomeng Jin, Manling Li and Heng Ji</em>. <strong><em>NAACL 2022</em></strong> [<a href="https://www.aclweb.org/anthology/2022.naacl-main.147.pdf">pdf</a>]</li>
+<li><strong>Learning to Borrow– Relation Representation for Without-Mention Entity-Pairs for Knowledge Graph Completion</strong>. <em>Huda Hakami, Mona Hakami, Angrosh Mandya and Danushka Bollegala</em>. <strong><em>NAACL 2022</em></strong> [<a href="https://www.aclweb.org/anthology/2022.naacl-main.209.pdf">pdf</a>]</li>
+<li><strong>FactGraph: Evaluating Factuality in Summarization with Semantic Graph Representations</strong>. <em>Leonardo Ribeiro, Mengwen Liu, Iryna Gurevych, Markus Dreyer and Mohit Bansal</em>. <strong><em>NAACL 2022</em></strong> [<a href="https://www.aclweb.org/anthology/2022.naacl-main.236.pdf">pdf</a>]</li>
+<li><strong>Dynamic Multistep Reasoning based on Video Scene Graph for Video Question Answering</strong>. <em>Jianguo Mao, Wenbin Jiang, Xiangdong Wang, Zhifan Feng, Yajuan Lyu, Hong Liu and Yong Zhu</em>. <strong><em>NAACL 2022</em></strong> [<a href="https://www.aclweb.org/anthology/2022.naacl-main.286.pdf">pdf</a>]</li>
+<li><strong>Joint Learning-based Heterogeneous Graph Attention Network for Timeline Summarization</strong>. <em>Jingyi You, Dongyuan Li, Hidetaka Kamigaito, Kotaro Funakoshi and Manabu Okumura</em>. <strong><em>NAACL 2022</em></strong> [<a href="https://www.aclweb.org/anthology/2022.naacl-main.301.pdf">pdf</a>]</li>
+<li><strong>SSEGCN: Syntactic and Semantic Enhanced Graph Convolutional Network for Aspect-based Sentiment Analysis</strong>. <em>Zheng Zhang, Zili Zhou and Yanna Wang</em>. <strong><em>NAACL 2022</em></strong> [<a href="https://www.aclweb.org/anthology/2022.naacl-main.362.pdf">pdf</a>]</li>
+</ol>
+<h2>2021</h2>
+<ol>
+<li><strong>Cross-Task Instance Representation Interactions and Label Dependencies for Joint Information Extraction with Graph Convolutional Networks</strong>. <em>Minh Van Nguyen, Viet Lai and Thien Huu Nguyen</em>. <strong><em>NAACL 2021</em></strong> [<a href="https://www.aclweb.org/anthology/2021.naacl-main.3.pdf">pdf</a>]</li>
+<li><strong>Abstract Meaning Representation Guided Graph Encoding and Decoding for Joint Information Extraction</strong>. <em>Zixuan Zhang and Heng Ji</em>. <strong><em>NAACL 2021</em></strong> [<a href="https://www.aclweb.org/anthology/2021.naacl-main.4.pdf">pdf</a>]</li>
+<li><strong>Event Time Extraction and Propagation via Graph Attention Networks</strong>. <em>Haoyang Wen, Yanru Qu, Heng Ji, Qiang Ning, Jiawei Han, Avi Sil, Hanghang Tong and Dan Roth</em>. <strong><em>NAACL 2021</em></strong> [<a href="https://www.aclweb.org/anthology/2021.naacl-main.6.pdf">pdf</a>]</li>
+<li><strong>SGL: Speaking the Graph Languages of Semantic Parsing via Multilingual Translation</strong>. <em>Luigi Procopio, Rocco Tripodi and Roberto Navigli</em>. <strong><em>NAACL 2021</em></strong> [<a href="https://www.aclweb.org/anthology/2021.naacl-main.30.pdf">pdf</a>]</li>
+<li><strong>Neural Language Modeling for Contextualized Temporal Graph Generation</strong>. <em>Aman Madaan and Yiming Yang</em>. <strong><em>NAACL 2021</em></strong> [<a href="https://www.aclweb.org/anthology/2021.naacl-main.67.pdf">pdf</a>]</li>
+<li><strong>Probabilistic Box Embeddings for Uncertain Knowledge Graph Reasoning</strong>. <em>Xuelu Chen, Michael Boratko, Muhao Chen, Shib Sankar Dasgupta, Xiang Lorraine Li and Andrew McCallum</em>. <strong><em>NAACL 2021</em></strong> [<a href="https://www.aclweb.org/anthology/2021.naacl-main.68.pdf">pdf</a>]</li>
+<li><strong>MTAG: Modal-Temporal Attention Graph for Unaligned Human Multimodal Language Sequences</strong>. <em>Jianing Yang, Yongxin Wang, Ruitao Yi, Yuying Zhu, Azaan Rehman, Amir Zadeh, Soujanya Poria and Louis-Philippe Morency</em>. <strong><em>NAACL 2021</em></strong> [<a href="https://www.aclweb.org/anthology/2021.naacl-main.79.pdf">pdf</a>]</li>
+<li><strong>Incorporating Syntax and Semantics in Coreference Resolution with Heterogeneous Graph Attention Network</strong>. <em>Fan Jiang and Trevor Cohn</em>. <strong><em>NAACL 2021</em></strong> [<a href="https://www.aclweb.org/anthology/2021.naacl-main.125.pdf">pdf</a>]</li>
+<li><strong>Counterfactual Supporting Facts Extraction for Explainable Medical Record Based Diagnosis with Graph Network</strong>. <em>Haoran Wu, Wei Chen, Shuang Xu and Bo Xu</em>. <strong><em>NAACL 2021</em></strong> [<a href="https://www.aclweb.org/anthology/2021.naacl-main.156.pdf">pdf</a>]</li>
+<li><strong>Generating An Optimal Interview Question Plan Using A Knowledge Graph And Integer Linear Programming</strong>. <em>Soham Datta, Prabir Mallick, Sangameshwar Patil, Indrajit Bhattacharya and Girish Palshikar</em>. <strong><em>NAACL 2021</em></strong> [<a href="https://www.aclweb.org/anthology/2021.naacl-main.160.pdf">pdf</a>]</li>
+<li><strong>Heterogeneous Graph Neural Networks for Concept Prerequisite Relation Learning in Educational Data</strong>. <em>Chenghao Jia, Yongliang Shen, Yechun Tang, Lu Sun and Weiming Lu</em>. <strong><em>NAACL 2021</em></strong> [<a href="https://www.aclweb.org/anthology/2021.naacl-main.164.pdf">pdf</a>]</li>
+<li><strong>Highly Efficient Knowledge Graph Embedding Learning with Orthogonal Procrustes Analysis</strong>. <em>Xutan Peng, Guanyi Chen, Chenghua Lin and Mark Stevenson</em>. <strong><em>NAACL 2021</em></strong> [<a href="https://www.aclweb.org/anthology/2021.naacl-main.187.pdf">pdf</a>]</li>
+<li><strong>Temporal Knowledge Graph Completion using a Linear Temporal Regularizer and Multivector Embeddings</strong>. <em>Chengjin Xu, Yung-Yu Chen, Mojtaba Nayyeri and Jens Lehmann</em>. <strong><em>NAACL 2021</em></strong> [<a href="https://www.aclweb.org/anthology/2021.naacl-main.202.pdf">pdf</a>]</li>
+<li><strong>Edge: Enriching Knowledge Graph Embeddings with External Text</strong>. <em>Saed Rezayi, Handong Zhao, Sungchul Kim, Ryan Rossi, Nedim Lipka and Sheng Li</em>. <strong><em>NAACL 2021</em></strong> [<a href="https://www.aclweb.org/anthology/2021.naacl-main.221.pdf">pdf</a>]</li>
+<li><strong>Graph Ensemble Learning over Multiple Dependency Trees for Aspect-level Sentiment Classification</strong>. <em>Xiaochen Hou, Peng Qi, Guangtao Wang, Rex Ying, Jing Huang, Xiaodong He and Bowen Zhou</em>. <strong><em>NAACL 2021</em></strong> [<a href="https://www.aclweb.org/anthology/2021.naacl-main.229.pdf">pdf</a>]</li>
+<li><strong>Aspect-based Sentiment Analysis with Type-aware Graph Convolutional Networks and Layer Ensemble</strong>. <em>Yuanhe Tian, Guimin Chen and Yan Song</em>. <strong><em>NAACL 2021</em></strong> [<a href="https://www.aclweb.org/anthology/2021.naacl-main.231.pdf">pdf</a>]</li>
+<li><strong>Graph Convolutional Networks for Event Causality Identification with Rich Document-level Structures</strong>. <em>Minh Tran Phu and Thien Huu Nguyen</em>. <strong><em>NAACL 2021</em></strong> [<a href="https://www.aclweb.org/anthology/2021.naacl-main.273.pdf">pdf</a>]</li>
+<li><strong>Knowledge Graph Based Synthetic Corpus Generation for Knowledge-Enhanced Language Model Pre-training</strong>. <em>Oshin Agarwal, Heming Ge, Siamak Shakeri and Rami Al-Rfou</em>. <strong><em>NAACL 2021</em></strong> [<a href="https://www.aclweb.org/anthology/2021.naacl-main.278.pdf">pdf</a>]</li>
+<li><strong>Inductive Topic Variational Graph Auto-Encoder for Text Classification</strong>. <em>Qianqian Xie, Jimin Huang, Pan Du, Min Peng and Jian-Yun Nie</em>. <strong><em>NAACL 2021</em></strong> [<a href="https://www.aclweb.org/anthology/2021.naacl-main.333.pdf">pdf</a>]</li>
+<li><strong>Efficiently Summarizing Text and Graph Encodings of Multi-Document Clusters</strong>. <em>Ramakanth Pasunuru, Mengwen Liu, Mohit Bansal, Sujith Ravi and Markus Dreyer</em>. <strong><em>NAACL 2021</em></strong> [<a href="https://www.aclweb.org/anthology/2021.naacl-main.380.pdf">pdf</a>]</li>
+<li><strong>Modeling Human Mental States with an Entity-based Narrative Graph</strong>. <em>I-Ta Lee, Maria Leonor Pacheco and Dan Goldwasser</em>. <strong><em>NAACL 2021</em></strong> [<a href="https://www.aclweb.org/anthology/2021.naacl-main.391.pdf">pdf</a>]</li>
+<li><strong>ShadowGNN: Graph Projection Neural Network for Text-to-SQL Parser</strong>. <em>Zhi Chen, Lu Chen, Yanbin Zhao, Ruisheng Cao, Zihan Xu, Su Zhu and Kai Yu</em>. <strong><em>NAACL 2021</em></strong> [<a href="https://www.aclweb.org/anthology/https://github.com/WowCZ/shadowgnn.pdf">pdf</a>]</li>
+<li><strong>RTFE: A Recursive Temporal Fact Embedding Framework for Temporal Knowledge Graph Completion</strong>. <em>Youri Xu, Haihong E, Meina Song, Wenyu Song, Xiaodong Lv, Wang Haotian and Yang Jinrui</em>. <strong><em>NAACL 2021</em></strong> [<a href="https://www.aclweb.org/anthology/2021.naacl-main.451.pdf">pdf</a>]</li>
+<li><strong>Breadth First Reasoning Graph for Multi-hop Question Answering</strong>. <em>Yongjie Huang and Meng Yang</em>. <strong><em>NAACL 2021</em></strong> [<a href="https://www.aclweb.org/anthology/2021.naacl-main.464.pdf">pdf</a>]</li>
+<li><strong>Improving Zero-Shot Cross-lingual Transfer for Multilingual Question Answering over Knowledge Graph</strong>. <em>Yucheng Zhou, Xiubo Geng, Tao Shen, Wenqiang Zhang and Daxin Jiang</em>. <strong><em>NAACL 2021</em></strong> [<a href="https://www.aclweb.org/anthology/2021.naacl-main.465.pdf">pdf</a>]</li>
+<li><strong>DAGN: Discourse-Aware Graph Network for Logical Reasoning</strong>. <em>Yinya Huang, Meng Fang, Yu Cao, Liwei Wang and Xiaodan Liang</em>. <strong><em>NAACL 2021</em></strong> [<a href="https://www.aclweb.org/anthology/2021.naacl-main.467.pdf">pdf</a>]</li>
+</ol>
+<h2>2019</h2>
+<ol>
+<li><strong>BAG: Bi-directional Attention Entity Graph Convolutional Network for Multi-hop Reasoning Question Answering.</strong> <em>Yu Cao, Meng Fang and Dacheng Tao.</em> <strong><em>NAACL-HLT 2019</em></strong>. [<a href="https://www.aclweb.org/anthology/N19-1032.pdf">pdf</a>] [<a href="https://github.com/caoyu1991/BAG">code</a>]</li>
+<li><strong>Abusive Language Detection with Graph Convolutional Networks</strong>. <em>Pushkar Mishra, Marco Del Tredici, Helen Yannakoudakis and Ekaterina Shutova</em>. <strong><em>NAACL-HLT 2019</em></strong>. [<a href="https://www.aclweb.org/anthology/N19-1221.pdf">pdf</a>]</li>
+<li><strong>Text Generation from Knowledge Graphs with Graph Transformers</strong>. <em>Rik Koncel-Kedziorski, Dhanush Bekal, Yi Luan, Mirella Lapata and Hannaneh Hajishirzi</em>. <strong><em>NAACL-HLT 2019</em></strong>. [<a href="https://www.aclweb.org/anthology/N19-1238.pdf">pdf</a>] [<a href="https://github.com/rikdz/GraphWriter">code</a>]</li>
+<li><strong>Question Answering by Reasoning Across Documents with Graph Convolutional Networks</strong>. <em>Nicola De Cao, Wilker Aziz and Ivan Titov.</em> <strong><em>NAACL-HLT 2019</em></strong>. [<a href="https://www.aclweb.org/anthology/N19-1240.pdf">pdf</a>]</li>
+<li><strong>Long-tail Relation Extraction via Knowledge Graph Embeddings and Graph Convolution Networks</strong>. <em>Ningyu Zhang, Shumin Deng, Zhanlin Sun, Guanying Wang, Xi Chen, Wei Zhang and Huajun Chen</em>. <strong><em>NAACL-HLT 2019</em></strong>. [<a href="https://www.aclweb.org/anthology/N19-1306.pdf">pdf</a>]</li>
+</ol></div><hr/>
+<div id="www"><h1>WWW</h1>
+<h2>2020</h2>
+<ol>
+<li><strong>TaxoExpan: Self-supervised Taxonomy Expansion with Position-Enhanced Graph Neural Network</strong>. <em>Jiaming Shen, Zhihong Shen, Chenyan Xiong, Chi Wang, Kuansan Wang, Jiawei Han</em>. <strong><em>WWW 2020</em></strong> [<a href="https://arxiv.org/abs/2001.09522">pdf</a>]</li>
+<li><strong>Collective Multi-type Entity Alignment Between Knowledge Graphs</strong>. <em>Qi Zhu, Hao Wei, Bunyamin Sisman, Da Zheng, Christos Faloutsos, Xin Luna Dong and Jiawei Han</em>. <strong><em>WWW 2020</em></strong> [<a href="https://dl.acm.org/doi/abs/10.1145/3366423.3380289">pdf</a>]</li>
+<li><strong>Complex Factoid Question Answering with a Free-Text Knowledge Graph</strong>. <em>Chen Zhao, Chenyan Xiong, Xin Qian and Jordan Boyd-Graber</em>. <strong><em>WWW 2020</em></strong> [<a href="https://dl.acm.org/doi/abs/10.1145/3366423.3380197">pdf</a>]</li>
+</ol></div><hr/>
+
+    </div>
+</body>
+</html>
